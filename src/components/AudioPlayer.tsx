@@ -6,6 +6,8 @@ import type { AudioAsset } from "@/types/audio";
 type AudioPlayerProps = {
   accentColor: string;
   asset: AudioAsset;
+  isMinimized?: boolean;
+  onToggleMinimized?: () => void;
 };
 
 type PreviewLoadState = "loading" | "ready" | "error";
@@ -23,7 +25,12 @@ function formatSeconds(seconds: number) {
   return `${minutes}:${remainingSeconds}`;
 }
 
-export function AudioPlayer({ asset, accentColor }: AudioPlayerProps) {
+export function AudioPlayer({
+  asset,
+  accentColor,
+  isMinimized = false,
+  onToggleMinimized,
+}: AudioPlayerProps) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [progress, setProgress] = useState(0);
@@ -85,40 +92,136 @@ export function AudioPlayer({ asset, accentColor }: AudioPlayerProps) {
   const playerLabel =
     asset.selectionType === "curated" ? "Curated soundtrack" : "Country soundtrack";
 
+  const audioElement = (
+    <audio
+      key={asset.sourceId}
+      ref={audioRef}
+      src={asset.audioUrl}
+      preload="auto"
+      onCanPlay={() => setPreviewLoadState("ready")}
+      onCanPlayThrough={() => setPreviewLoadState("ready")}
+      onLoadedMetadata={(event) => {
+        const audioDuration = event.currentTarget.duration;
+        setDuration(Number.isFinite(audioDuration) ? audioDuration : asset.duration);
+      }}
+      onTimeUpdate={(event) => {
+        const audio = event.currentTarget;
+        const audioDuration = Number.isFinite(audio.duration)
+          ? audio.duration
+          : asset.duration;
+
+        setCurrentTime(audio.currentTime);
+        setProgress(
+          audioDuration > 0 ? (audio.currentTime / audioDuration) * 100 : 0,
+        );
+      }}
+      onEnded={() => setIsPlaying(false)}
+      onError={() => {
+        setIsPlaying(false);
+        setPreviewLoadState("error");
+      }}
+    />
+  );
+
+  if (isMinimized) {
+    return (
+      <section className="relative overflow-hidden rounded-[1.35rem] border border-white/14 bg-atlas-ink/58 px-4 py-3 text-white shadow-soft-xl backdrop-blur-2xl transition-all duration-300">
+        {audioElement}
+        <div
+          className="pointer-events-none absolute inset-x-0 bottom-0 h-px bg-white/10"
+          aria-hidden="true"
+        />
+        <div className="flex items-center gap-3">
+          <div
+            className="h-12 w-12 shrink-0 rounded-xl bg-white/10 bg-cover bg-center opacity-85"
+            style={{
+              backgroundImage: asset.artworkUrl
+                ? `url(${asset.artworkUrl})`
+                : undefined,
+            }}
+            aria-hidden="true"
+          />
+          <div className="min-w-0 flex-1">
+            <p className="truncate text-sm font-semibold">{asset.title}</p>
+            <p className="mt-0.5 truncate text-xs text-white/55">{asset.creator}</p>
+            <div
+              className="mt-2 h-1 overflow-hidden rounded-full bg-white/12"
+              role="progressbar"
+              aria-label={`${asset.title} playback progress`}
+              aria-valuemin={0}
+              aria-valuemax={100}
+              aria-valuenow={Math.round(progress)}
+            >
+              <div
+                className="h-full rounded-full transition-all duration-300"
+                style={{
+                  width: `${Math.min(progress, 100)}%`,
+                  backgroundColor: accentColor,
+                }}
+              />
+            </div>
+          </div>
+          <button
+            className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full text-atlas-ink shadow-lg transition hover:scale-105 disabled:cursor-not-allowed disabled:opacity-45 disabled:hover:scale-100 focus:outline-none focus:ring-2 focus:ring-white/70"
+            style={{ backgroundColor: accentColor }}
+            type="button"
+            onClick={togglePlayback}
+            disabled={!isReady}
+            aria-label={isPlaying ? "Pause preview" : "Play preview"}
+          >
+            {isPlaying ? (
+              <svg
+                aria-hidden="true"
+                className="h-4 w-4"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path d="M7 5h4v14H7zM13 5h4v14h-4z" />
+              </svg>
+            ) : (
+              <svg
+                aria-hidden="true"
+                className="ml-0.5 h-4 w-4"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            )}
+          </button>
+          {onToggleMinimized ? (
+            <button
+              className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/8 text-white/74 transition hover:bg-white/14 hover:text-white focus:outline-none focus:ring-2 focus:ring-white/40"
+              type="button"
+              onClick={onToggleMinimized}
+              aria-label="Expand player"
+            >
+              <svg
+                aria-hidden="true"
+                className="h-4 w-4"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="m6 15 6-6 6 6" />
+              </svg>
+            </button>
+          ) : null}
+        </div>
+      </section>
+    );
+  }
+
   return (
     <section
-      className={`rounded-3xl border border-atlas-ink/10 bg-atlas-ink p-5 text-white shadow-2xl shadow-atlas-ink/20 transition-shadow duration-500 ${
+      className={`rounded-[1.55rem] border border-white/12 bg-atlas-ink/58 p-5 text-white shadow-2xl shadow-atlas-ink/20 backdrop-blur-2xl transition-shadow duration-500 ${
         isPlaying ? "shadow-atlas-gold/25" : ""
       }`}
     >
-      <audio
-        key={asset.sourceId}
-        ref={audioRef}
-        src={asset.audioUrl}
-        preload="auto"
-        onCanPlay={() => setPreviewLoadState("ready")}
-        onCanPlayThrough={() => setPreviewLoadState("ready")}
-        onLoadedMetadata={(event) => {
-          const audioDuration = event.currentTarget.duration;
-          setDuration(Number.isFinite(audioDuration) ? audioDuration : asset.duration);
-        }}
-        onTimeUpdate={(event) => {
-          const audio = event.currentTarget;
-          const audioDuration = Number.isFinite(audio.duration)
-            ? audio.duration
-            : asset.duration;
-
-          setCurrentTime(audio.currentTime);
-          setProgress(
-            audioDuration > 0 ? (audio.currentTime / audioDuration) * 100 : 0,
-          );
-        }}
-        onEnded={() => setIsPlaying(false)}
-        onError={() => {
-          setIsPlaying(false);
-          setPreviewLoadState("error");
-        }}
-      />
+      {audioElement}
 
       <div className="flex items-start justify-between gap-4">
         <div>

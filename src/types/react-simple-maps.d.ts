@@ -44,4 +44,32 @@ declare module "react-simple-maps" {
       onKeyDown?: KeyboardEventHandler<SVGPathElement>;
     }
   >;
+
+  export const ZoomableGroup: ComponentType<
+    SVGProps<SVGGElement> & {
+      center?: [number, number];
+      zoom?: number;
+      minZoom?: number;
+      maxZoom?: number;
+      translateExtent?: [[number, number], [number, number]];
+      filterZoomEvent?: (event: unknown) => boolean;
+      onMoveStart?: (
+        position: { coordinates: [number, number]; zoom: number },
+        event: unknown,
+      ) => void;
+      onMove?: (
+        position: {
+          x: number;
+          y: number;
+          zoom: number;
+          dragging?: unknown;
+        },
+        event: unknown,
+      ) => void;
+      onMoveEnd?: (
+        position: { coordinates: [number, number]; zoom: number },
+        event: unknown,
+      ) => void;
+    }
+  >;
 }

@@ -109,36 +109,37 @@ export default function Home() {
   }, [selectedMetadata]);
 
   return (
-    <main className="min-h-screen px-4 py-5 sm:px-6 lg:px-8">
-      <div className="mx-auto flex w-full max-w-7xl flex-col gap-5">
-        <header className="px-1 py-3 sm:px-2 sm:py-5">
-          <div className="max-w-2xl">
-            <p className="text-sm font-semibold uppercase tracking-[0.22em] text-atlas-pine">
-              SoundAtlas
-            </p>
-            <h1 className="mt-2 text-3xl font-semibold tracking-normal text-atlas-ink sm:text-5xl">
-              Click a country and hear its sound.
-            </h1>
-            <p className="mt-3 max-w-xl text-sm leading-6 text-atlas-ocean/70 sm:text-base">
-              A quiet atlas of country soundtracks, one preview at a time.
-            </p>
-          </div>
-        </header>
+    <main className="relative min-h-screen overflow-hidden bg-atlas-ink">
+      <WorldMap
+        selectedCountryId={selectedCountryId}
+        onCountrySelect={(countryId) => {
+          setSelectedCountryId(countryId);
+        }}
+      />
 
-        <section className="grid min-h-[38rem] gap-5 lg:grid-cols-[minmax(0,1fr)_25rem]">
-          <WorldMap
-            selectedCountryId={selectedCountryId}
-            onCountrySelect={(countryId) => {
-              setSelectedCountryId(countryId);
-            }}
-          />
+      <div
+        className="pointer-events-none absolute inset-0 bg-[linear-gradient(90deg,rgba(4,14,20,0.3),transparent_42%,rgba(4,14,20,0.16))]"
+        aria-hidden="true"
+      />
 
-          <CountryPanel
-            metadata={selectedMetadata}
-            audioAssets={audioAssets}
-            audioStatus={audioStatus}
-          />
-        </section>
+      <header className="pointer-events-none absolute left-5 top-6 z-10 max-w-[calc(100vw-2.5rem)] text-white sm:left-8 sm:top-8">
+        <p className="text-xs font-semibold uppercase tracking-[0.32em] text-atlas-gold">
+          SoundAtlas
+        </p>
+        <h1 className="mt-4 whitespace-nowrap text-base font-medium tracking-normal text-white/92 sm:text-2xl lg:text-3xl">
+          Click a country to hear its music.
+        </h1>
+        <p className="mt-3 max-w-md text-sm leading-6 text-white/54">
+          Drag the map. Scroll or use the controls to zoom.
+        </p>
+      </header>
+
+      <div className="absolute inset-x-4 bottom-4 z-20 sm:inset-x-6 sm:bottom-6 lg:inset-x-auto lg:right-7 lg:w-[28rem]">
+        <CountryPanel
+          metadata={selectedMetadata}
+          audioAssets={audioAssets}
+          audioStatus={audioStatus}
+        />
       </div>
     </main>
   );

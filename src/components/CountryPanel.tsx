@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { AudioPlayer } from "@/components/AudioPlayer";
 import type { CountryMetadata } from "@/data/countryMetadata";
 import type { AudioAsset } from "@/types/audio";
@@ -12,14 +13,14 @@ type CountryPanelProps = {
 
 function SoundtrackLoadingCard() {
   return (
-    <div className="mt-6">
-      <p className="text-sm font-semibold text-atlas-ink">
+    <div className="mt-5">
+      <p className="text-sm font-semibold text-white/78">
         Loading soundtrack...
       </p>
       <div className="mt-4 space-y-3">
-        <div className="h-3 w-4/5 animate-pulse rounded-full bg-atlas-ocean/15" />
-        <div className="h-3 w-2/3 animate-pulse rounded-full bg-atlas-ocean/15" />
-        <div className="h-20 animate-pulse rounded-3xl bg-atlas-ocean/10" />
+        <div className="h-3 w-4/5 animate-pulse rounded-full bg-white/12" />
+        <div className="h-3 w-2/3 animate-pulse rounded-full bg-white/10" />
+        <div className="h-16 animate-pulse rounded-3xl bg-white/8" />
       </div>
     </div>
   );
@@ -37,18 +38,23 @@ export function CountryPanel({
   audioStatus,
 }: CountryPanelProps) {
   const bestAudioAsset = audioAssets[0] ?? null;
+  const [isMinimized, setIsMinimized] = useState(false);
+
+  useEffect(() => {
+    setIsMinimized(false);
+  }, [metadata?.isoCode]);
 
   if (!metadata) {
     return (
-      <aside className="flex min-h-[28rem] flex-col justify-between rounded-[2rem] border border-white/60 bg-white/55 p-6 shadow-soft-xl backdrop-blur-xl">
+      <aside className="rounded-[1.5rem] border border-white/14 bg-atlas-ink/34 p-5 text-white shadow-soft-xl backdrop-blur-2xl transition-all duration-300 sm:p-6">
         <div>
-          <p className="text-sm font-semibold uppercase tracking-[0.22em] text-atlas-pine">
+          <p className="text-xs font-semibold uppercase tracking-[0.24em] text-atlas-gold/88">
             Choose a country
           </p>
-          <h2 className="mt-4 text-3xl font-semibold tracking-normal text-atlas-ink">
+          <h2 className="mt-3 text-2xl font-semibold tracking-normal text-white/90 sm:text-3xl">
             The atlas is ready.
           </h2>
-          <p className="mt-4 text-sm leading-6 text-atlas-ocean/75">
+          <p className="mt-3 text-sm leading-6 text-white/58">
             Select a place on the map and let its soundtrack settle in.
           </p>
         </div>
@@ -57,46 +63,84 @@ export function CountryPanel({
   }
 
   return (
-    <aside className="rounded-[2rem] border border-white/60 bg-white/64 p-5 shadow-soft-xl backdrop-blur-xl sm:p-6">
-      <div className="flex items-start justify-between gap-4">
-        <div>
-          <h2 className="text-4xl font-semibold tracking-normal text-atlas-ink">
-            {metadata.name}
-          </h2>
-          <p className="mt-2 text-sm font-medium text-atlas-ocean/62">
-            {getPlaceLine(metadata)}
-          </p>
+    <aside
+      className={`transition-all duration-300 ${
+        isMinimized && bestAudioAsset
+          ? ""
+          : "max-h-[62vh] overflow-y-auto rounded-[1.65rem] border border-white/14 bg-atlas-ink/44 p-5 text-white shadow-soft-xl backdrop-blur-2xl sm:p-6 lg:max-h-[calc(100vh-3rem)]"
+      }`}
+    >
+      <div className={isMinimized && bestAudioAsset ? "hidden" : ""}>
+        <div className="flex items-start justify-between gap-4">
+          <div>
+            <h2 className="text-3xl font-semibold tracking-normal text-white/92 sm:text-4xl">
+              {metadata.name}
+            </h2>
+            <p className="mt-2 text-sm font-medium text-atlas-gold/88">
+              {getPlaceLine(metadata)}
+            </p>
+          </div>
+          {bestAudioAsset ? (
+            <button
+              className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/14 bg-white/6 text-white/70 transition hover:bg-white/12 hover:text-white focus:outline-none focus:ring-2 focus:ring-atlas-gold/50"
+              type="button"
+              onClick={() => setIsMinimized(true)}
+              aria-label="Minimize player"
+            >
+              <svg
+                aria-hidden="true"
+                className="h-4 w-4"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+              >
+                <path d="M6 12h12" />
+              </svg>
+            </button>
+          ) : (
+            <span
+              className="mt-1 h-3 w-3 shrink-0 rounded-full bg-atlas-gold shadow-lg shadow-atlas-gold/25"
+              aria-hidden="true"
+            />
+          )}
         </div>
-        <span
-          className="mt-1 h-4 w-4 rounded-full bg-atlas-gold shadow-lg"
-          aria-hidden="true"
-        />
+
+        <p className="mt-5 text-base font-medium leading-7 text-white/72">
+          A small window into the music of {metadata.name}, tuned for a first
+          listen.
+        </p>
       </div>
 
-      <p className="mt-5 text-base font-medium leading-7 text-atlas-ocean/78">
-        A small window into the music of {metadata.name}, tuned for a first
-        listen.
-      </p>
-
-      {audioStatus === "loading" ? <SoundtrackLoadingCard /> : null}
+      <div className={isMinimized && bestAudioAsset ? "hidden" : ""}>
+        {audioStatus === "loading" ? <SoundtrackLoadingCard /> : null}
+      </div>
 
       {bestAudioAsset ? (
-        <div className="mt-5">
-          <AudioPlayer asset={bestAudioAsset} accentColor="#f3c75f" />
+        <div className={isMinimized ? "" : "mt-5"}>
+          <AudioPlayer
+            asset={bestAudioAsset}
+            accentColor="#f3c75f"
+            isMinimized={isMinimized}
+            onToggleMinimized={() => setIsMinimized((current) => !current)}
+          />
         </div>
       ) : null}
 
-      {audioStatus === "empty" || audioStatus === "error" ? (
-        <div className="mt-6">
-          <p className="text-sm font-semibold text-atlas-ink">
-            Soundtrack not available yet
-          </p>
-          <p className="mt-2 text-sm leading-6 text-atlas-ocean/70">
-            This place is waiting for the right preview. Better silence than the
-            wrong song.
-          </p>
-        </div>
-      ) : null}
+      <div className={isMinimized && bestAudioAsset ? "hidden" : ""}>
+        {audioStatus === "empty" || audioStatus === "error" ? (
+          <div className="mt-5 rounded-3xl border border-white/10 bg-white/6 p-4">
+            <p className="text-sm font-semibold text-white/86">
+              Soundtrack not available yet
+            </p>
+            <p className="mt-2 text-sm leading-6 text-white/56">
+              This place is waiting for the right preview. Better silence than the
+              wrong song.
+            </p>
+          </div>
+        ) : null}
+      </div>
     </aside>
   );
 }
