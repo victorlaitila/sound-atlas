@@ -123,24 +123,39 @@ export default function Home() {
       />
 
       <header className="pointer-events-none absolute left-5 top-6 z-10 max-w-[calc(100vw-2.5rem)] text-white sm:left-8 sm:top-8">
-        <p className="text-xs font-semibold uppercase tracking-[0.32em] text-atlas-gold">
+        <p className="text-xs font-semibold uppercase tracking-[0.34em] text-atlas-gold">
           SoundAtlas
         </p>
-        <h1 className="mt-4 whitespace-nowrap text-base font-medium tracking-normal text-white/92 sm:text-2xl lg:text-3xl">
+        <h1 className="mt-3 whitespace-nowrap text-base font-medium tracking-normal text-white/88 sm:text-xl lg:text-2xl">
           Click a country to hear its music.
         </h1>
-        <p className="mt-3 max-w-md text-sm leading-6 text-white/54">
-          Drag the map. Scroll or use the controls to zoom.
-        </p>
+        <div className="mt-3 flex items-center gap-2 text-sm leading-6 text-white/48">
+          <svg
+            aria-hidden="true"
+            className="h-4 w-4 shrink-0 text-white/42"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="M20 10c0 5-8 11-8 11s-8-6-8-11a8 8 0 1 1 16 0Z" />
+            <circle cx="12" cy="10" r="3" />
+          </svg>
+          <p>Drag the map. Scroll or use the controls to zoom.</p>
+        </div>
       </header>
 
-      <div className="absolute inset-x-4 bottom-4 z-20 sm:inset-x-6 sm:bottom-6 lg:inset-x-auto lg:right-7 lg:w-[28rem]">
-        <CountryPanel
-          metadata={selectedMetadata}
-          audioAssets={audioAssets}
-          audioStatus={audioStatus}
-        />
-      </div>
+      {selectedMetadata ? (
+        <div className="absolute inset-x-4 bottom-4 z-20 sm:inset-x-6 sm:bottom-6 lg:inset-x-auto lg:right-7 lg:w-[28rem]">
+          <CountryPanel
+            metadata={selectedMetadata}
+            audioAssets={audioAssets}
+            audioStatus={audioStatus}
+          />
+        </div>
+      ) : null}
     </main>
   );
 }

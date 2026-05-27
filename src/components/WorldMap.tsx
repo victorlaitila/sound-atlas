@@ -64,7 +64,7 @@ export function WorldMap({ selectedCountryId, onCountrySelect }: WorldMapProps) 
       aria-label="Choose a country"
     >
       <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(4,14,20,0.22),rgba(4,14,20,0.06)_42%,rgba(4,14,20,0.42))]" />
-      <div className="relative flex h-full min-h-screen items-center justify-center px-2 pb-36 pt-24 sm:px-8 sm:pb-32 sm:pt-28 lg:pb-8 lg:pr-[25rem] lg:pt-8">
+      <div className="relative flex h-full min-h-screen items-center justify-center px-4 pb-36 pt-24 sm:px-8 sm:pb-32 sm:pt-28 lg:pb-8 lg:pt-8">
         <ComposableMap
           projection="geoEqualEarth"
           projectionConfig={{ scale: 190, center: [12, 10] }}
@@ -144,9 +144,9 @@ export function WorldMap({ selectedCountryId, onCountrySelect }: WorldMapProps) 
           </ZoomableGroup>
         </ComposableMap>
       </div>
-      <div className="absolute bottom-6 left-4 z-10 flex flex-col overflow-hidden rounded-2xl border border-white/14 bg-atlas-ink/32 text-white shadow-soft-xl backdrop-blur-2xl sm:bottom-8 sm:left-6">
+      <div className="absolute left-4 top-1/2 z-10 flex -translate-y-1/2 flex-col overflow-hidden rounded-2xl border border-white/12 bg-atlas-ink/28 text-white shadow-soft-xl backdrop-blur-2xl sm:left-6">
         <button
-          className="flex h-11 w-11 items-center justify-center border-b border-white/10 text-2xl font-light text-white/82 transition hover:bg-white/10 hover:text-white focus:outline-none focus:ring-2 focus:ring-atlas-gold/50"
+          className="flex h-10 w-10 items-center justify-center border-b border-white/10 text-xl font-light text-white/78 transition hover:bg-white/10 hover:text-white focus:outline-none focus:ring-2 focus:ring-atlas-gold/50 sm:h-11 sm:w-11"
           type="button"
           onClick={() => updateZoom(mapPosition.zoom + 0.42)}
           aria-label="Zoom in"
@@ -154,7 +154,7 @@ export function WorldMap({ selectedCountryId, onCountrySelect }: WorldMapProps) 
           +
         </button>
         <button
-          className="flex h-11 w-11 items-center justify-center border-b border-white/10 text-2xl font-light text-white/82 transition hover:bg-white/10 hover:text-white focus:outline-none focus:ring-2 focus:ring-atlas-gold/50"
+          className="flex h-10 w-10 items-center justify-center border-b border-white/10 text-xl font-light text-white/78 transition hover:bg-white/10 hover:text-white focus:outline-none focus:ring-2 focus:ring-atlas-gold/50 sm:h-11 sm:w-11"
           type="button"
           onClick={() => updateZoom(mapPosition.zoom - 0.42)}
           aria-label="Zoom out"
@@ -162,7 +162,7 @@ export function WorldMap({ selectedCountryId, onCountrySelect }: WorldMapProps) 
           -
         </button>
         <button
-          className="flex h-11 w-11 items-center justify-center text-white/78 transition hover:bg-white/10 hover:text-white focus:outline-none focus:ring-2 focus:ring-atlas-gold/50"
+          className="flex h-10 w-10 items-center justify-center text-white/72 transition hover:bg-white/10 hover:text-white focus:outline-none focus:ring-2 focus:ring-atlas-gold/50 sm:h-11 sm:w-11"
           type="button"
           onClick={resetMapPosition}
           aria-label="Reset map view"

@@ -125,7 +125,7 @@ export function AudioPlayer({
 
   if (isMinimized) {
     return (
-      <section className="relative overflow-hidden rounded-[1.35rem] border border-white/14 bg-atlas-ink/58 px-4 py-3 text-white shadow-soft-xl backdrop-blur-2xl transition-all duration-300">
+      <section className="relative overflow-hidden rounded-[1.35rem] border border-white/12 bg-[#061017]/72 px-4 py-3 text-white shadow-soft-xl backdrop-blur-2xl transition-[background-color,box-shadow,opacity,transform] duration-300">
         {audioElement}
         <div
           className="pointer-events-none absolute inset-x-0 bottom-0 h-px bg-white/10"
@@ -217,7 +217,7 @@ export function AudioPlayer({
 
   return (
     <section
-      className={`rounded-[1.55rem] border border-white/12 bg-atlas-ink/58 p-5 text-white shadow-2xl shadow-atlas-ink/20 backdrop-blur-2xl transition-shadow duration-500 ${
+      className={`rounded-[1.45rem] border border-white/10 bg-[#061017]/76 p-5 text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.04),0_24px_70px_rgba(0,0,0,0.18)] backdrop-blur-2xl transition-shadow duration-500 ${
         isPlaying ? "shadow-atlas-gold/25" : ""
       }`}
     >
@@ -225,19 +225,19 @@ export function AudioPlayer({
 
       <div className="flex items-start justify-between gap-4">
         <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-white/50">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-white/42">
             {playerLabel}
           </p>
-          <h3 className="mt-2 text-xl font-semibold tracking-normal">
+          <h3 className="mt-2 text-xl font-semibold tracking-normal text-white/90">
             {asset.title}
           </h3>
-          <p className="mt-1 text-sm text-white/65">{asset.creator}</p>
+          <p className="mt-1 text-sm text-white/54">{asset.creator}</p>
         </div>
       </div>
 
       <div className="mt-5">
         <div
-          className="h-2 overflow-hidden rounded-full bg-white/15"
+          className="h-2 overflow-hidden rounded-full bg-white/12"
           role="progressbar"
           aria-label={`${asset.title} playback progress`}
           aria-valuemin={0}
@@ -253,7 +253,7 @@ export function AudioPlayer({
             }}
           />
         </div>
-        <div className="mt-2 flex justify-between text-xs text-white/45">
+        <div className="mt-2 flex justify-between text-xs text-white/38">
           <span>{formatSeconds(currentTime)}</span>
           <span>{formatSeconds(duration)}</span>
         </div>
@@ -309,15 +309,15 @@ export function AudioPlayer({
             <path d="M3 4v6h6" />
           </svg>
         </button>
-        <p className="ml-auto text-right text-xs font-medium text-white/40">
+        <p className="ml-auto text-right text-xs font-medium text-white/36">
           {statusText}
         </p>
       </div>
 
-      <div className="mt-5 border-t border-white/10 pt-3">
+      <div className="mt-5 border-t border-white/8 pt-3">
         <button
           type="button"
-          className="flex w-full items-center justify-between text-xs font-medium text-white/45 transition hover:text-white/70 focus:outline-none focus:ring-2 focus:ring-white/30"
+          className="flex w-full items-center justify-between text-xs font-medium text-white/38 transition hover:text-white/62 focus:outline-none focus:ring-2 focus:ring-white/30"
           onClick={() => setDetailsOpen((current) => !current)}
           aria-expanded={detailsOpen}
         >

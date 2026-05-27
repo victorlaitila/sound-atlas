@@ -45,29 +45,15 @@ export function CountryPanel({
   }, [metadata?.isoCode]);
 
   if (!metadata) {
-    return (
-      <aside className="rounded-[1.5rem] border border-white/14 bg-atlas-ink/34 p-5 text-white shadow-soft-xl backdrop-blur-2xl transition-all duration-300 sm:p-6">
-        <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.24em] text-atlas-gold/88">
-            Choose a country
-          </p>
-          <h2 className="mt-3 text-2xl font-semibold tracking-normal text-white/90 sm:text-3xl">
-            The atlas is ready.
-          </h2>
-          <p className="mt-3 text-sm leading-6 text-white/58">
-            Select a place on the map and let its soundtrack settle in.
-          </p>
-        </div>
-      </aside>
-    );
+    return null;
   }
 
   return (
     <aside
-      className={`transition-all duration-300 ${
+      className={`origin-bottom-right ${
         isMinimized && bestAudioAsset
-          ? ""
-          : "max-h-[62vh] overflow-y-auto rounded-[1.65rem] border border-white/14 bg-atlas-ink/44 p-5 text-white shadow-soft-xl backdrop-blur-2xl sm:p-6 lg:max-h-[calc(100vh-3rem)]"
+          ? "soundatlas-mini-in"
+          : "soundatlas-panel-in max-h-[62vh] overflow-y-auto rounded-[1.65rem] border border-white/12 bg-atlas-ink/36 p-5 text-white shadow-soft-xl backdrop-blur-2xl sm:p-6 lg:max-h-[calc(100vh-3rem)]"
       }`}
     >
       <div className={isMinimized && bestAudioAsset ? "hidden" : ""}>
@@ -76,7 +62,7 @@ export function CountryPanel({
             <h2 className="text-3xl font-semibold tracking-normal text-white/92 sm:text-4xl">
               {metadata.name}
             </h2>
-            <p className="mt-2 text-sm font-medium text-atlas-gold/88">
+            <p className="mt-2 text-sm font-medium text-atlas-gold/90">
               {getPlaceLine(metadata)}
             </p>
           </div>
@@ -108,8 +94,7 @@ export function CountryPanel({
         </div>
 
         <p className="mt-5 text-base font-medium leading-7 text-white/72">
-          A small window into the music of {metadata.name}, tuned for a first
-          listen.
+          A small window into the music of {metadata.name}.
         </p>
       </div>
 
