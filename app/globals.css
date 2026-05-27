@@ -10,16 +10,28 @@
   box-sizing: border-box;
 }
 
+html,
 body {
-  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
   margin: 0;
-  background:
-    radial-gradient(circle at 18% 14%, rgba(243, 199, 95, 0.18), transparent 24rem),
-    linear-gradient(135deg, #f7f2e8 0%, #dbe7e4 42%, #b7d3d0 100%);
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: #051016;
   color: #101820;
   font-family:
     Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
+}
+
+body > main {
+  width: 100vw;
+  min-height: 100vh;
 }
 
 button,

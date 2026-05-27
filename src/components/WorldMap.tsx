@@ -8,7 +8,7 @@ import {
   ZoomableGroup,
   type GeographyDatum,
 } from "react-simple-maps";
-import worldAtlas from "world-atlas/countries-110m.json";
+import worldAtlas from "world-atlas/countries-50m.json";
 import {
   countryMetadataByMapId,
   getCountryMetadataByMapName,
@@ -23,10 +23,39 @@ type WorldMapProps = {
 const mapData = worldAtlas as unknown;
 const defaultMapPosition = {
   coordinates: [12, 10] as [number, number],
-  zoom: 1.18,
+  zoom: 1.16,
 };
 const minZoom = 1;
-const maxZoom = 4.2;
+const maxZoom = 5;
+const mapWidth = 980;
+const mapHeight = 560;
+const mapBounds = {
+  west: -172,
+  east: 178,
+  south: -58,
+  north: 82,
+};
+const translateExtent: [[number, number], [number, number]] = [
+  [0, 0],
+  [mapWidth, mapHeight],
+];
+
+function clamp(value: number, min: number, max: number) {
+  return Math.min(max, Math.max(min, value));
+}
+
+function normalizeMapPosition(position: {
+  coordinates: [number, number];
+  zoom: number;
+}) {
+  return {
+    coordinates: [
+      clamp(position.coordinates[0], mapBounds.west, mapBounds.east),
+      clamp(position.coordinates[1], mapBounds.south, mapBounds.north),
+    ] as [number, number],
+    zoom: clamp(position.zoom, minZoom, maxZoom),
+  };
+}
 
 function getCountryName(geography: GeographyDatum, countryId: string) {
   const properties = geography.properties as
@@ -46,12 +75,15 @@ function getCountryName(geography: GeographyDatum, countryId: string) {
 
 export function WorldMap({ selectedCountryId, onCountrySelect }: WorldMapProps) {
   const [mapPosition, setMapPosition] = useState(defaultMapPosition);
+  const [isMoving, setIsMoving] = useState(false);
 
   function updateZoom(nextZoom: number) {
-    setMapPosition((current) => ({
-      ...current,
-      zoom: Math.min(maxZoom, Math.max(minZoom, nextZoom)),
-    }));
+    setMapPosition((current) =>
+      normalizeMapPosition({
+        ...current,
+        zoom: nextZoom,
+      }),
+    );
   }
 
   function resetMapPosition() {
@@ -60,28 +92,36 @@ export function WorldMap({ selectedCountryId, onCountrySelect }: WorldMapProps) 
 
   return (
     <section
-      className="absolute inset-0 overflow-hidden bg-[radial-gradient(circle_at_52%_38%,rgba(73,107,110,0.58),transparent_38rem),linear-gradient(150deg,rgba(6,20,27,0.98),rgba(11,47,54,0.96)_48%,rgba(19,72,67,0.88))]"
+      className="absolute inset-0 h-screen w-screen touch-none overflow-hidden bg-[radial-gradient(circle_at_52%_38%,rgba(73,107,110,0.58),transparent_38rem),linear-gradient(150deg,rgba(6,20,27,0.98),rgba(11,47,54,0.96)_48%,rgba(19,72,67,0.88))]"
       aria-label="Choose a country"
     >
       <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(4,14,20,0.22),rgba(4,14,20,0.06)_42%,rgba(4,14,20,0.42))]" />
-      <div className="relative flex h-full min-h-screen items-center justify-center px-4 pb-36 pt-24 sm:px-8 sm:pb-32 sm:pt-28 lg:pb-8 lg:pt-8">
+      <div className="absolute inset-0">
         <ComposableMap
           projection="geoEqualEarth"
-          projectionConfig={{ scale: 190, center: [12, 10] }}
-          className="h-full max-h-[52rem] w-full cursor-grab drop-shadow-2xl active:cursor-grabbing"
-          width={980}
-          height={560}
+          projectionConfig={{ scale: 194, center: [12, 8] }}
+          preserveAspectRatio="xMidYMid slice"
+          className="h-full w-full cursor-grab select-none drop-shadow-2xl active:cursor-grabbing"
+          width={mapWidth}
+          height={mapHeight}
         >
           <ZoomableGroup
             center={mapPosition.coordinates}
             zoom={mapPosition.zoom}
             minZoom={minZoom}
             maxZoom={maxZoom}
+            translateExtent={translateExtent}
+            className={
+              isMoving
+                ? ""
+                : "transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]"
+            }
+            onMoveStart={() => {
+              setIsMoving(true);
+            }}
             onMoveEnd={(position) => {
-              setMapPosition({
-                coordinates: position.coordinates,
-                zoom: position.zoom,
-              });
+              setMapPosition(normalizeMapPosition(position));
+              window.setTimeout(() => setIsMoving(false), 80);
             }}
           >
             <Geographies geography={mapData}>
@@ -116,11 +156,12 @@ export function WorldMap({ selectedCountryId, onCountrySelect }: WorldMapProps) 
                         default: {
                           fill: isSelected
                             ? "#f3c75f"
-                            : "rgba(184, 204, 203, 0.42)",
+                            : "rgba(184, 204, 203, 0.46)",
                           stroke: isSelected
                             ? "#fff5d1"
-                            : "rgba(255,255,255,0.18)",
-                          strokeWidth: isSelected ? 1.5 : 0.52,
+                            : "rgba(255,255,255,0.24)",
+                          strokeWidth: isSelected ? 1.4 : 0.46,
+                          vectorEffect: "non-scaling-stroke",
                           filter: isSelected
                             ? "drop-shadow(0 0 8px rgba(243,199,95,0.42))"
                             : "none",
@@ -129,11 +170,13 @@ export function WorldMap({ selectedCountryId, onCountrySelect }: WorldMapProps) 
                           fill: "#f3c75f",
                           stroke: "#fff5d1",
                           strokeWidth: 1.05,
+                          vectorEffect: "non-scaling-stroke",
                         },
                         pressed: {
                           fill: "#df6d5d",
                           stroke: "#ffffff",
                           strokeWidth: 1.2,
+                          vectorEffect: "non-scaling-stroke",
                         },
                       }}
                     />

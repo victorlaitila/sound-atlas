@@ -25,6 +25,7 @@ declare module "react-simple-maps" {
     width?: number;
     height?: number;
     className?: string;
+    preserveAspectRatio?: string;
     children?: ReactNode;
   }>;
 

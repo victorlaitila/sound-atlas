@@ -109,7 +109,7 @@ export default function Home() {
   }, [selectedMetadata]);
 
   return (
-    <main className="relative min-h-screen overflow-hidden bg-atlas-ink">
+    <main className="relative h-screen w-screen overflow-hidden bg-atlas-ink">
       <WorldMap
         selectedCountryId={selectedCountryId}
         onCountrySelect={(countryId) => {
