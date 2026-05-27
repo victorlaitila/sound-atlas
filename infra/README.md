@@ -16,7 +16,7 @@ route at `/api/audio?countryCode=FI`.
 
 ## Resources
 
-- `SoundAtlasHttpApi`: HTTP API with `GET /soundtrack` and `POST /soundtrack`
+- `SoundAtlasHttpApi`: HTTP API with `GET /soundtrack`
 - `soundtrackLookup`: Node.js 20 Lambda that reuses the shared soundtrack lookup logic from `src/server/audio`
 - `SoundtrackCache`: on-demand DynamoDB table keyed by `countryCode`
 
@@ -57,6 +57,16 @@ aws configure sso
 export AWS_PROFILE=your-profile
 export AWS_REGION=eu-north-1
 ```
+
+Configure the frontend origins that may call the API. Use a comma-separated
+list for deployed environments:
+
+```bash
+export SOUNDATLAS_ALLOWED_ORIGINS=https://your-frontend.example.com,http://localhost:3000
+```
+
+If this is not set, the stack defaults to local development origins:
+`http://localhost:3000` and `http://localhost:3001`.
 
 Bootstrap CDK once per account/region:
 

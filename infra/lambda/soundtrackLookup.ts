@@ -11,8 +11,6 @@ const CACHE_TABLE_NAME = process.env.CACHE_TABLE_NAME;
 const dynamoDb = new DynamoDBClient({});
 
 type HttpApiEvent = {
-  body?: string | null;
-  isBase64Encoded?: boolean;
   queryStringParameters?: Record<string, string | undefined> | null;
 };
 
@@ -24,7 +22,6 @@ type CachedSoundtrack = {
 
 const jsonHeaders = {
   "content-type": "application/json",
-  "access-control-allow-origin": "*",
 };
 
 function jsonResponse(statusCode: number, body: unknown) {
@@ -35,27 +32,10 @@ function jsonResponse(statusCode: number, body: unknown) {
   };
 }
 
-function parseBodyCountryCode(event: HttpApiEvent) {
-  if (!event.body) {
-    return null;
-  }
-
-  try {
-    const bodyText = event.isBase64Encoded
-      ? Buffer.from(event.body, "base64").toString("utf8")
-      : event.body;
-    const body = JSON.parse(bodyText) as { countryCode?: unknown };
-    return typeof body.countryCode === "string" ? body.countryCode : null;
-  } catch {
-    return null;
-  }
-}
-
 function getRequestedCountryCode(event: HttpApiEvent) {
   return (
     event.queryStringParameters?.countryCode ??
-    event.queryStringParameters?.country ??
-    parseBodyCountryCode(event)
+    event.queryStringParameters?.country
   )?.toUpperCase();
 }
 

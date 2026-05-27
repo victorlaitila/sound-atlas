@@ -21,9 +21,33 @@ import { NodejsFunction } from "aws-cdk-lib/aws-lambda-nodejs";
 import { LogGroup, RetentionDays } from "aws-cdk-lib/aws-logs";
 import type { Construct } from "constructs";
 
+const defaultAllowedOrigins = ["http://localhost:3000", "http://localhost:3001"];
+
+function parseAllowedOrigins(value: unknown) {
+  if (Array.isArray(value)) {
+    return value
+      .filter((origin): origin is string => typeof origin === "string")
+      .map((origin) => origin.trim())
+      .filter(Boolean);
+  }
+
+  if (typeof value === "string") {
+    return value
+      .split(",")
+      .map((origin) => origin.trim())
+      .filter(Boolean);
+  }
+
+  return defaultAllowedOrigins;
+}
+
 export class SoundAtlasStack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
+    const allowedOrigins = parseAllowedOrigins(
+      this.node.tryGetContext("allowedOrigins") ??
+        process.env.SOUNDATLAS_ALLOWED_ORIGINS,
+    );
 
     const cacheTable = new Table(this, "SoundtrackCache", {
       tableName: "SoundtrackCache",
@@ -69,14 +93,14 @@ export class SoundAtlasStack extends Stack {
       apiName: "sound-atlas-api",
       corsPreflight: {
         allowHeaders: ["content-type"],
-        allowMethods: [CorsHttpMethod.GET, CorsHttpMethod.POST, CorsHttpMethod.OPTIONS],
-        allowOrigins: ["*"],
+        allowMethods: [CorsHttpMethod.GET, CorsHttpMethod.OPTIONS],
+        allowOrigins: allowedOrigins,
       },
     });
 
     api.addRoutes({
       path: "/soundtrack",
-      methods: [HttpMethod.GET, HttpMethod.POST],
+      methods: [HttpMethod.GET],
       integration: new HttpLambdaIntegration(
         "SoundtrackLookupIntegration",
         soundtrackLookup,
