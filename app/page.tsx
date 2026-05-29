@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { CountryPanel } from "@/components/CountryPanel";
 import { WorldMap } from "@/components/WorldMap";
 import { countryMetadataByMapId } from "@/data/countryMetadata";
 import type { AudioAsset } from "@/types/audio";
+import { MapPin } from "lucide-react";
 
 type AudioStatus = "idle" | "loading" | "ready" | "empty" | "error";
 
@@ -72,6 +73,10 @@ export default function Home() {
     ? countryMetadataByMapId[selectedCountryId] ?? null
     : null;
 
+  const handleCountrySelect = useCallback((countryId: string) => {
+    setSelectedCountryId(countryId);
+  }, []);
+
   useEffect(() => {
     if (!selectedMetadata?.isoCode) {
       setAudioAssets([]);
@@ -112,9 +117,7 @@ export default function Home() {
     <main className="relative h-screen w-screen overflow-hidden bg-atlas-ink">
       <WorldMap
         selectedCountryId={selectedCountryId}
-        onCountrySelect={(countryId) => {
-          setSelectedCountryId(countryId);
-        }}
+        onCountrySelect={handleCountrySelect}
       />
 
       <div
@@ -130,25 +133,13 @@ export default function Home() {
           Click a country to hear its music.
         </h1>
         <div className="mt-3 flex items-center gap-2 text-sm leading-6 text-white/48">
-          <svg
-            aria-hidden="true"
-            className="h-4 w-4 shrink-0 text-white/42"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path d="M20 10c0 5-8 11-8 11s-8-6-8-11a8 8 0 1 1 16 0Z" />
-            <circle cx="12" cy="10" r="3" />
-          </svg>
-          <p>Drag the map. Scroll or use the controls to zoom.</p>
+          <MapPin className="h-4 w-4" />
+          <p>Drag the globe. Scroll or use the controls to zoom.</p>
         </div>
       </header>
 
       {selectedMetadata ? (
-        <div className="absolute inset-x-4 bottom-4 z-20 sm:inset-x-6 sm:bottom-6 lg:inset-x-auto lg:right-7 lg:w-[28rem]">
+        <div className="absolute inset-x-4 bottom-4 z-20 sm:inset-x-6 sm:bottom-6 lg:inset-x-auto lg:right-7 lg:w-[32rem] xl:w-[34rem]">
           <CountryPanel
             metadata={selectedMetadata}
             audioAssets={audioAssets}

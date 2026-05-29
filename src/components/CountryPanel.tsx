@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { AudioPlayer } from "@/components/AudioPlayer";
 import type { CountryMetadata } from "@/data/countryMetadata";
 import type { AudioAsset } from "@/types/audio";
+import { Minus } from "lucide-react";
 
 type CountryPanelProps = {
   metadata: CountryMetadata | null;
@@ -52,38 +53,28 @@ export function CountryPanel({
     <aside
       className={`origin-bottom-right ${
         isMinimized && bestAudioAsset
-          ? "soundatlas-mini-in"
-          : "soundatlas-panel-in max-h-[62vh] overflow-y-auto rounded-[1.65rem] border border-white/12 bg-atlas-ink/36 p-5 text-white shadow-soft-xl backdrop-blur-2xl sm:p-6 lg:max-h-[calc(100vh-3rem)]"
+          ? "soundatlas-mini-in ml-auto w-full max-w-[28rem]"
+          : "soundatlas-panel-in max-h-[62vh] overflow-y-auto rounded-[1.45rem] border border-white/12 bg-atlas-ink/36 p-4 text-white shadow-soft-xl backdrop-blur-2xl sm:p-5 lg:max-h-[calc(100vh-3rem)]"
       }`}
     >
       <div className={isMinimized && bestAudioAsset ? "hidden" : ""}>
         <div className="flex items-start justify-between gap-4">
           <div>
-            <h2 className="text-3xl font-semibold tracking-normal text-white/92 sm:text-4xl">
+            <h2 className="text-2xl font-semibold tracking-normal text-white/92 sm:text-3xl">
               {metadata.name}
             </h2>
-            <p className="mt-2 text-sm font-medium text-atlas-gold/90">
+            <p className="mt-1.5 text-xs font-medium text-atlas-gold/90 sm:text-sm">
               {getPlaceLine(metadata)}
             </p>
           </div>
           {bestAudioAsset ? (
             <button
-              className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/14 bg-white/6 text-white/70 transition hover:bg-white/12 hover:text-white focus:outline-none focus:ring-2 focus:ring-atlas-gold/50"
+              className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-white/14 bg-white/6 text-white/70 transition hover:bg-white/12 hover:text-white focus:outline-none focus:ring-2 focus:ring-atlas-gold/50"
               type="button"
               onClick={() => setIsMinimized(true)}
               aria-label="Minimize player"
             >
-              <svg
-                aria-hidden="true"
-                className="h-4 w-4"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-              >
-                <path d="M6 12h12" />
-              </svg>
+              <Minus className="h-4 w-4" />
             </button>
           ) : (
             <span
@@ -93,7 +84,7 @@ export function CountryPanel({
           )}
         </div>
 
-        <p className="mt-5 text-base font-medium leading-7 text-white/72">
+        <p className="mt-4 text-sm font-medium leading-6 text-white/72">
           A small window into the music of {metadata.name}.
         </p>
       </div>
@@ -103,7 +94,7 @@ export function CountryPanel({
       </div>
 
       {bestAudioAsset ? (
-        <div className={isMinimized ? "" : "mt-5"}>
+        <div className={isMinimized ? "" : "mt-4"}>
           <AudioPlayer
             asset={bestAudioAsset}
             accentColor="#f3c75f"

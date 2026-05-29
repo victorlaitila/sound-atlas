@@ -17,8 +17,6 @@ export type CuratedSoundtrackEntry = {
   primaryTrack: CuratedTrack;
   fallbackSearchTerms: string[];
   blockedTerms: string[];
-  reviewStatus: "ok" | "needs_review" | string;
-  notes: string;
 };
 
 type SoundtrackSeed = {
