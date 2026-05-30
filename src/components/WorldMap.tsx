@@ -48,7 +48,6 @@ const zoomStep = 0.46;
 const countryFillColor = "#789291";
 const selectedCountryColor = "#f3c75f";
 const borderColor = "#000000";
-const borderHaloColor = "#041419";
 const oceanColor = "#061820";
 const zoomControlButtonClass =
   "flex h-10 w-10 items-center justify-center border-b border-white/10 text-xl font-light text-white/78 transition hover:bg-white/10 hover:text-white active:bg-white/5 focus:outline-none focus-visible:ring-2 focus-visible:ring-atlas-gold/45 sm:h-11 sm:w-11 [-webkit-tap-highlight-color:transparent]";
@@ -144,28 +143,6 @@ function buildMapStyle(selectedCountryId: string | null): StyleSpecification {
             0.98,
             0.78,
           ],
-          "fill-antialias": false,
-        },
-      },
-      {
-        id: "country-border-halo",
-        type: "line",
-        source: "countries",
-        paint: {
-          "line-color": borderHaloColor,
-          "line-opacity": 0.48,
-          "line-width": [
-            "interpolate",
-            ["linear"],
-            ["zoom"],
-            0,
-            1.05,
-            2,
-            1.25,
-            5,
-            1.7,
-          ],
-          "line-blur": 0.25,
         },
       },
       {
@@ -313,13 +290,6 @@ function WorldMapComponent({ selectedCountryId, onCountrySelect }: WorldMapProps
     });
 
     map.on("load", () => {
-      map.setSky({
-        "sky-color": "transparent",
-        "horizon-color": "transparent",
-        "fog-color": "transparent",
-        "fog-ground-blend": 1,
-        "atmosphere-blend": 0,
-      });
       updateSelectedCountry(map, selectedCountryIdRef.current);
     });
 

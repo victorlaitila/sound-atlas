@@ -14,6 +14,7 @@ const CURATED_STRONG_SCORE = 118;
 const CURATED_MINIMUM_SCORE = 92;
 const DYNAMIC_STRONG_SCORE = 98;
 const DYNAMIC_MINIMUM_SCORE = 84;
+const FALLBACK_ITUNES_STOREFRONTS = ["US"];
 
 type SearchMode = "curated-primary" | "curated-fallback" | "dynamic";
 
@@ -317,17 +318,17 @@ function toAudioAsset(
 }
 
 async function searchItunes(
-  metadata: CountryMetadata,
+  storefrontCode: string,
   term: string,
 ): Promise<ItunesSongResult[]> {
-  if (!metadata.isoCode) {
+  if (!storefrontCode) {
     return [];
   }
 
   const url = new URL(ITUNES_SEARCH_URL);
   url.searchParams.set("media", "music");
   url.searchParams.set("entity", "song");
-  url.searchParams.set("country", metadata.isoCode);
+  url.searchParams.set("country", storefrontCode);
   url.searchParams.set("limit", "10");
   url.searchParams.set("term", term);
 
@@ -345,16 +346,32 @@ async function searchItunes(
   return data.results ?? [];
 }
 
+function getItunesStorefronts(metadata: CountryMetadata) {
+  return uniqueTerms([
+    metadata.isoCode ?? "",
+    ...FALLBACK_ITUNES_STOREFRONTS,
+  ]);
+}
+
 async function findBestForContext(
   metadata: CountryMetadata,
   context: SearchContext,
 ) {
-  const rankedResults = (await searchItunes(metadata, context.query))
-    .map((result) => rankResult(result, metadata, context))
-    .filter((result): result is RankedItunesResult => result !== null)
-    .sort((a, b) => b.relationScore - a.relationScore);
+  const rankedResults: RankedItunesResult[] = [];
 
-  return rankedResults[0] ?? null;
+  for (const storefrontCode of getItunesStorefronts(metadata)) {
+    const storefrontResults = (await searchItunes(storefrontCode, context.query))
+      .map((result) => rankResult(result, metadata, context))
+      .filter((result): result is RankedItunesResult => result !== null);
+
+    rankedResults.push(...storefrontResults);
+
+    if (storefrontResults.length > 0) {
+      break;
+    }
+  }
+
+  return rankedResults.sort((a, b) => b.relationScore - a.relationScore)[0] ?? null;
 }
 
 function getCuratedContexts(

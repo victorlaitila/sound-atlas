@@ -1,11 +1,8 @@
 {
   "version": 1,
-  "name": "SoundAtlas curated country soundtrack seed",
-  "selectionPolicy": "Use primaryTrack.searchTerm first with iTunes Search API. If no playable preview is found, try fallbackSearchTerms. If still no playable preview is found, use the existing dynamic search behavior as fallback.",
   "countries": [
     {
       "countryCode": "AF",
-      "countryName": "Afghanistan",
       "primaryTrack": {
         "artist": "Ghazal Sadat",
         "title": "Jaaneman",
@@ -15,12 +12,10 @@
         "Afghanistan traditional music",
         "Afghanistan folk music",
         "Afghanistan instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "AL",
-      "countryName": "Albania",
       "primaryTrack": {
         "artist": "Elvana Gjata, Capital T, 2po2",
         "title": "Lejla",
@@ -30,12 +25,10 @@
         "Albania traditional music",
         "Albania folk music",
         "Albania instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "DZ",
-      "countryName": "Algeria",
       "primaryTrack": {
         "artist": "Khaled",
         "title": "C'est La Vie",
@@ -45,12 +38,10 @@
         "Algeria traditional music",
         "Algeria folk music",
         "Algeria instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "AS",
-      "countryName": "American Samoa",
       "primaryTrack": {
         "artist": "The Katinas",
         "title": "Carry the Cross",
@@ -60,12 +51,10 @@
         "American Samoa traditional music",
         "American Samoa folk music",
         "American Samoa instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "AD",
-      "countryName": "Andorra",
       "primaryTrack": {
         "artist": "Anonymous",
         "title": "Salvem el Món",
@@ -75,12 +64,10 @@
         "Andorra traditional music",
         "Andorra folk music",
         "Andorra instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "AO",
-      "countryName": "Angola",
       "primaryTrack": {
         "artist": "Pérola, C4 Pedro",
         "title": "Fica Parado",
@@ -90,12 +77,10 @@
         "Angola traditional music",
         "Angola folk music",
         "Angola instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "AI",
-      "countryName": "Anguilla",
       "primaryTrack": {
         "artist": "Amalia Watty",
         "title": "Some One To Know Me",
@@ -105,12 +90,10 @@
         "Anguilla traditional music",
         "Anguilla folk music",
         "Anguilla instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "AG",
-      "countryName": "Antigua and Barbuda",
       "primaryTrack": {
         "artist": "Burning Flames",
         "title": "Workey Workey",
@@ -120,12 +103,10 @@
         "Antigua and Barbuda traditional music",
         "Antigua and Barbuda folk music",
         "Antigua and Barbuda instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "AR",
-      "countryName": "Argentina",
       "primaryTrack": {
         "artist": "Diego Torres",
         "title": "La Vida Es un Vals",
@@ -135,12 +116,10 @@
         "Argentina traditional music",
         "Argentina folk music",
         "Argentina instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "AM",
-      "countryName": "Armenia",
       "primaryTrack": {
         "artist": "Lilit Hovhannisyan",
         "title": "Tu Tu Tu",
@@ -150,12 +129,10 @@
         "Armenia traditional music",
         "Armenia folk music",
         "Armenia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "AW",
-      "countryName": "Aruba",
       "primaryTrack": {
         "artist": "Wally Warning",
         "title": "No Monkey",
@@ -165,12 +142,10 @@
         "Aruba traditional music",
         "Aruba folk music",
         "Aruba instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "AU",
-      "countryName": "Australia",
       "primaryTrack": {
         "artist": "Delta Goodrem",
         "title": "Wings",
@@ -180,12 +155,10 @@
         "Australia traditional music",
         "Australia folk music",
         "Australia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "AT",
-      "countryName": "Austria",
       "primaryTrack": {
         "artist": "Soap&Skin",
         "title": "Safe With Me",
@@ -195,12 +168,10 @@
         "Austria traditional music",
         "Austria folk music",
         "Austria instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "AZ",
-      "countryName": "Azerbaijan",
       "primaryTrack": {
         "artist": "Rauf",
         "title": "-40",
@@ -210,12 +181,10 @@
         "Azerbaijan traditional music",
         "Azerbaijan folk music",
         "Azerbaijan instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "BS",
-      "countryName": "Bahamas",
       "primaryTrack": {
         "artist": "Bodine",
         "title": "Rocka My Cherry",
@@ -225,12 +194,10 @@
         "Bahamas traditional music",
         "Bahamas folk music",
         "Bahamas instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "BH",
-      "countryName": "Bahrain",
       "primaryTrack": {
         "artist": "Hind",
         "title": "Hamati",
@@ -240,12 +207,10 @@
         "Bahrain traditional music",
         "Bahrain folk music",
         "Bahrain instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "BD",
-      "countryName": "Bangladesh",
       "primaryTrack": {
         "artist": "Minar Rahman",
         "title": "Ta Jani Na",
@@ -255,12 +220,10 @@
         "Bangladesh traditional music",
         "Bangladesh folk music",
         "Bangladesh instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "BB",
-      "countryName": "Barbados",
       "primaryTrack": {
         "artist": "Gabby",
         "title": "Hit It",
@@ -270,12 +233,10 @@
         "Barbados traditional music",
         "Barbados folk music",
         "Barbados instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "BY",
-      "countryName": "Belarus",
       "primaryTrack": {
         "artist": "Nizkiz",
         "title": "Небяспечна (Nebyaspechna)",
@@ -285,12 +246,10 @@
         "Belarus traditional music",
         "Belarus folk music",
         "Belarus instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "BE",
-      "countryName": "Belgium",
       "primaryTrack": {
         "artist": "Loïc Nottet",
         "title": "Mud Blood",
@@ -300,12 +259,10 @@
         "Belgium traditional music",
         "Belgium folk music",
         "Belgium instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "BZ",
-      "countryName": "Belize",
       "primaryTrack": {
         "artist": "Andy Palacio, the Garifuna Collective",
         "title": "Wátina",
@@ -315,12 +272,10 @@
         "Belize traditional music",
         "Belize folk music",
         "Belize instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "BJ",
-      "countryName": "Benin",
       "primaryTrack": {
         "artist": "Les Amazones d'Afrique, Angelique Kidjo",
         "title": "Dombolo",
@@ -330,12 +285,10 @@
         "Benin traditional music",
         "Benin folk music",
         "Benin instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "BM",
-      "countryName": "Bermuda",
       "primaryTrack": {
         "artist": "Twanée",
         "title": "You Killin Me",
@@ -345,12 +298,10 @@
         "Bermuda traditional music",
         "Bermuda folk music",
         "Bermuda instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "BT",
-      "countryName": "Bhutan",
       "primaryTrack": {
         "artist": "Lama Gyurme, Jean-Philippe Rykiel",
         "title": "Offering Chant",
@@ -360,12 +311,10 @@
         "Bhutan traditional music",
         "Bhutan folk music",
         "Bhutan instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "BO",
-      "countryName": "Bolivia",
       "primaryTrack": {
         "artist": "Awatiñas",
         "title": "En los Cocales",
@@ -375,12 +324,10 @@
         "Bolivia traditional music",
         "Bolivia folk music",
         "Bolivia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "BQ",
-      "countryName": "Bonaire, Sint Eustatius, and Saba",
       "primaryTrack": {
         "artist": "Rincon Boyz",
         "title": "Porfin Tin Un Homber",
@@ -390,12 +337,10 @@
         "Bonaire, Sint Eustatius, and Saba traditional music",
         "Bonaire, Sint Eustatius, and Saba folk music",
         "Bonaire, Sint Eustatius, and Saba instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "BA",
-      "countryName": "Bosnia and Herzegovina",
       "primaryTrack": {
         "artist": "Serif Konjevic",
         "title": "Put do bola",
@@ -405,12 +350,10 @@
         "Bosnia and Herzegovina traditional music",
         "Bosnia and Herzegovina folk music",
         "Bosnia and Herzegovina instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "BW",
-      "countryName": "Botswana",
       "primaryTrack": {
         "artist": "Lorraine Lionheart",
         "title": "Qoma",
@@ -420,12 +363,10 @@
         "Botswana traditional music",
         "Botswana folk music",
         "Botswana instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "BR",
-      "countryName": "Brazil",
       "primaryTrack": {
         "artist": "Elaine Martins",
         "title": "Santificação",
@@ -435,12 +376,10 @@
         "Brazil traditional music",
         "Brazil folk music",
         "Brazil instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "VG",
-      "countryName": "British Virgin Islands",
       "primaryTrack": {
         "artist": "Melanie Amaro",
         "title": "The One",
@@ -450,12 +389,10 @@
         "British Virgin Islands traditional music",
         "British Virgin Islands folk music",
         "British Virgin Islands instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "BN",
-      "countryName": "Brunei",
       "primaryTrack": {
         "artist": "Aziz Harun",
         "title": "Beautiful",
@@ -465,12 +402,10 @@
         "Brunei traditional music",
         "Brunei folk music",
         "Brunei instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "BG",
-      "countryName": "Bulgaria",
       "primaryTrack": {
         "artist": "Zhana Bergendorff",
         "title": "Dokrai",
@@ -480,12 +415,10 @@
         "Bulgaria traditional music",
         "Bulgaria folk music",
         "Bulgaria instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "BF",
-      "countryName": "Burkina Faso",
       "primaryTrack": {
         "artist": "Dicko fils",
         "title": "Laawol",
@@ -495,12 +428,10 @@
         "Burkina Faso traditional music",
         "Burkina Faso folk music",
         "Burkina Faso instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "BI",
-      "countryName": "Burundi",
       "primaryTrack": {
         "artist": "Khadja Nin",
         "title": "Kuji Fondeya",
@@ -510,12 +441,10 @@
         "Burundi traditional music",
         "Burundi folk music",
         "Burundi instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "KH",
-      "countryName": "Cambodia",
       "primaryTrack": {
         "artist": "Laura Mam",
         "title": "Yosop Yulsong",
@@ -525,12 +454,10 @@
         "Cambodia traditional music",
         "Cambodia folk music",
         "Cambodia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "CM",
-      "countryName": "Cameroon",
       "primaryTrack": {
         "artist": "Charlotte Dipanda",
         "title": "Elle n'a pas vu",
@@ -540,12 +467,10 @@
         "Cameroon traditional music",
         "Cameroon folk music",
         "Cameroon instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "CA",
-      "countryName": "Canada",
       "primaryTrack": {
         "artist": "Buffy Sainte-Marie, Tanya Tagaq",
         "title": "You Got To Run (Spirit of the Wind)",
@@ -555,12 +480,10 @@
         "Canada traditional music",
         "Canada folk music",
         "Canada instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "CV",
-      "countryName": "Cape Verde",
       "primaryTrack": {
         "artist": "Mayra Andrade",
         "title": "Afeto",
@@ -570,12 +493,10 @@
         "Cape Verde traditional music",
         "Cape Verde folk music",
         "Cape Verde instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "KY",
-      "countryName": "Cayman Islands",
       "primaryTrack": {
         "artist": "Natasha Kozaily",
         "title": "A Song About A Tree",
@@ -585,12 +506,10 @@
         "Cayman Islands traditional music",
         "Cayman Islands folk music",
         "Cayman Islands instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "CF",
-      "countryName": "Central African Republic",
       "primaryTrack": {
         "artist": "Laetitia Zonzambé",
         "title": "Sanza",
@@ -600,12 +519,10 @@
         "Central African Republic traditional music",
         "Central African Republic folk music",
         "Central African Republic instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "TD",
-      "countryName": "Chad",
       "primaryTrack": {
         "artist": "Mounira Mitchala",
         "title": "Tourapna",
@@ -615,12 +532,10 @@
         "Chad traditional music",
         "Chad folk music",
         "Chad instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "CL",
-      "countryName": "Chile",
       "primaryTrack": {
         "artist": "Mon Laferte, Juanes",
         "title": "Amárrame",
@@ -630,12 +545,10 @@
         "Chile traditional music",
         "Chile folk music",
         "Chile instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "CN",
-      "countryName": "China",
       "primaryTrack": {
         "artist": "Wang Feng",
         "title": "存在 (Cúnzài)",
@@ -645,12 +558,10 @@
         "China traditional music",
         "China folk music",
         "China instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "CO",
-      "countryName": "Colombia",
       "primaryTrack": {
         "artist": "Bomba Estéreo",
         "title": "Soy Yo",
@@ -660,12 +571,10 @@
         "Colombia traditional music",
         "Colombia folk music",
         "Colombia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "KM",
-      "countryName": "Comoros",
       "primaryTrack": {
         "artist": "Nawal",
         "title": "Hima",
@@ -675,12 +584,10 @@
         "Comoros traditional music",
         "Comoros folk music",
         "Comoros instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "CK",
-      "countryName": "Cook Islands",
       "primaryTrack": {
         "artist": "Mata Tahiri",
         "title": "Portofino",
@@ -690,12 +597,10 @@
         "Cook Islands traditional music",
         "Cook Islands folk music",
         "Cook Islands instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "CR",
-      "countryName": "Costa Rica",
       "primaryTrack": {
         "artist": "Percance, Los Auténticos Decadentes",
         "title": "La Banda Mas Fiestera",
@@ -705,12 +610,10 @@
         "Costa Rica traditional music",
         "Costa Rica folk music",
         "Costa Rica instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "HR",
-      "countryName": "Croatia",
       "primaryTrack": {
         "artist": "Neda Ukraden",
         "title": "Na Balkanu",
@@ -720,12 +623,10 @@
         "Croatia traditional music",
         "Croatia folk music",
         "Croatia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "CU",
-      "countryName": "Cuba",
       "primaryTrack": {
         "artist": "Raul Paz",
         "title": "Carnaval",
@@ -735,12 +636,10 @@
         "Cuba traditional music",
         "Cuba folk music",
         "Cuba instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "CW",
-      "countryName": "Curacao",
       "primaryTrack": {
         "artist": "Los BK-Clan, Kenny B",
         "title": "Sorry for You",
@@ -750,12 +649,10 @@
         "Curacao traditional music",
         "Curacao folk music",
         "Curacao instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "CY",
-      "countryName": "Cyprus",
       "primaryTrack": {
         "artist": "Giorgos Papadopoulos",
         "title": "Spasta",
@@ -765,12 +662,10 @@
         "Cyprus traditional music",
         "Cyprus folk music",
         "Cyprus instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "CZ",
-      "countryName": "Czech Republic",
       "primaryTrack": {
         "artist": "Lenny",
         "title": "Lover",
@@ -780,12 +675,10 @@
         "Czech Republic traditional music",
         "Czech Republic folk music",
         "Czech Republic instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "CD",
-      "countryName": "Democratic Republic of the Congo",
       "primaryTrack": {
         "artist": "Awilo Longomba, Jocelyne Beroard",
         "title": "Coupé bibamba",
@@ -795,12 +688,10 @@
         "Democratic Republic of the Congo traditional music",
         "Democratic Republic of the Congo folk music",
         "Democratic Republic of the Congo instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "DK",
-      "countryName": "Denmark",
       "primaryTrack": {
         "artist": "Nephew",
         "title": "Amsterdam",
@@ -810,12 +701,10 @@
         "Denmark traditional music",
         "Denmark folk music",
         "Denmark instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "DJ",
-      "countryName": "Djibouti",
       "primaryTrack": {
         "artist": "Awale Adan",
         "title": "OH Yeah",
@@ -825,12 +714,10 @@
         "Djibouti traditional music",
         "Djibouti folk music",
         "Djibouti instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "DM",
-      "countryName": "Dominica",
       "primaryTrack": {
         "artist": "Signal Band",
         "title": "Ani Ba Yo Love",
@@ -840,12 +727,10 @@
         "Dominica traditional music",
         "Dominica folk music",
         "Dominica instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "DO",
-      "countryName": "Dominican Republic",
       "primaryTrack": {
         "artist": "Juan Luis Guerra 4.40",
         "title": "Tus Besos",
@@ -855,12 +740,10 @@
         "Dominican Republic traditional music",
         "Dominican Republic folk music",
         "Dominican Republic instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "XX",
-      "countryName": "East Timor",
       "primaryTrack": {
         "artist": "The Dili Allstars",
         "title": "O Hele Le",
@@ -870,12 +753,10 @@
         "East Timor traditional music",
         "East Timor folk music",
         "East Timor instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "EC",
-      "countryName": "Ecuador",
       "primaryTrack": {
         "artist": "Jorge Luis Del Hierro, Vica",
         "title": "Te Amo Para Siempre",
@@ -885,12 +766,10 @@
         "Ecuador traditional music",
         "Ecuador folk music",
         "Ecuador instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "EG",
-      "countryName": "Egypt",
       "primaryTrack": {
         "artist": "Cairokee feat. Umm Kulthum",
         "title": "Kan Lak Ma'aya",
@@ -900,12 +779,10 @@
         "Egypt traditional music",
         "Egypt folk music",
         "Egypt instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "SV",
-      "countryName": "El Salvador",
       "primaryTrack": {
         "artist": "Lucia Parker",
         "title": "Rey Vencedor",
@@ -915,12 +792,10 @@
         "El Salvador traditional music",
         "El Salvador folk music",
         "El Salvador instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "GQ",
-      "countryName": "Equatorial Guinea",
       "primaryTrack": {
         "artist": "Ngal Madunga",
         "title": "Sipopo",
@@ -930,12 +805,10 @@
         "Equatorial Guinea traditional music",
         "Equatorial Guinea folk music",
         "Equatorial Guinea instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "ER",
-      "countryName": "Eritrea",
       "primaryTrack": {
         "artist": "Temesghen Yared",
         "title": "Lilo",
@@ -945,12 +818,10 @@
         "Eritrea traditional music",
         "Eritrea folk music",
         "Eritrea instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "EE",
-      "countryName": "Estonia",
       "primaryTrack": {
         "artist": "Karl-Erik Taukar",
         "title": "Segased lood",
@@ -960,12 +831,10 @@
         "Estonia traditional music",
         "Estonia folk music",
         "Estonia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "SZ",
-      "countryName": "Eswatini",
       "primaryTrack": {
         "artist": "Nothando",
         "title": "Impilo Yami",
@@ -975,12 +844,10 @@
         "Eswatini traditional music",
         "Eswatini folk music",
         "Eswatini instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "ET",
-      "countryName": "Ethiopia",
       "primaryTrack": {
         "artist": "Helen Berhe",
         "title": "Eski Leyew",
@@ -990,12 +857,10 @@
         "Ethiopia traditional music",
         "Ethiopia folk music",
         "Ethiopia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "FK",
-      "countryName": "Falkland Islands",
       "primaryTrack": {
         "artist": "Ellaline Terris",
         "title": "Honeysuckle & The Bee",
@@ -1005,12 +870,10 @@
         "Falkland Islands traditional music",
         "Falkland Islands folk music",
         "Falkland Islands instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "FO",
-      "countryName": "Faroe Islands",
       "primaryTrack": {
         "artist": "Eivør",
         "title": "Í Tokuni",
@@ -1020,12 +883,10 @@
         "Faroe Islands traditional music",
         "Faroe Islands folk music",
         "Faroe Islands instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "FJ",
-      "countryName": "Fiji",
       "primaryTrack": {
         "artist": "Blackrose",
         "title": "Sa Vura",
@@ -1035,12 +896,10 @@
         "Fiji traditional music",
         "Fiji folk music",
         "Fiji instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "FI",
-      "countryName": "Finland",
       "primaryTrack": {
         "artist": "Beast In Black",
         "title": "Blind and Frozen",
@@ -1050,12 +909,10 @@
         "Finland traditional music",
         "Finland folk music",
         "Finland instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "FR",
-      "countryName": "France",
       "primaryTrack": {
         "artist": "Zaz",
         "title": "Je veux",
@@ -1065,12 +922,10 @@
         "France traditional music",
         "France folk music",
         "France instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "GF",
-      "countryName": "French Guiana",
       "primaryTrack": {
         "artist": "Fanny J",
         "title": "Il était une fois",
@@ -1080,12 +935,10 @@
         "French Guiana traditional music",
         "French Guiana folk music",
         "French Guiana instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "PF",
-      "countryName": "French Polynesia",
       "primaryTrack": {
         "artist": "Vaiteani",
         "title": "Ua Roa Te Tau",
@@ -1095,12 +948,10 @@
         "French Polynesia traditional music",
         "French Polynesia folk music",
         "French Polynesia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "GA",
-      "countryName": "Gabon",
       "primaryTrack": {
         "artist": "Patience Dabany",
         "title": "On vous connait",
@@ -1110,12 +961,10 @@
         "Gabon traditional music",
         "Gabon folk music",
         "Gabon instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "GM",
-      "countryName": "Gambia",
       "primaryTrack": {
         "artist": "Sona Jobarteh",
         "title": "Gambia",
@@ -1125,12 +974,10 @@
         "Gambia traditional music",
         "Gambia folk music",
         "Gambia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "GE",
-      "countryName": "Georgia",
       "primaryTrack": {
         "artist": "Mgzavrebi",
         "title": "Damiskhi, Damalevine",
@@ -1140,12 +987,10 @@
         "Georgia traditional music",
         "Georgia folk music",
         "Georgia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "DE",
-      "countryName": "Germany",
       "primaryTrack": {
         "artist": "Faun",
         "title": "Federkleid",
@@ -1155,12 +1000,10 @@
         "Germany traditional music",
         "Germany folk music",
         "Germany instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "GH",
-      "countryName": "Ghana",
       "primaryTrack": {
         "artist": "Becca, Patoranking",
         "title": "Na Wash",
@@ -1170,12 +1013,10 @@
         "Ghana traditional music",
         "Ghana folk music",
         "Ghana instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "GI",
-      "countryName": "Gibraltar",
       "primaryTrack": {
         "artist": "Melon Diesel",
         "title": "Grita",
@@ -1185,12 +1026,10 @@
         "Gibraltar traditional music",
         "Gibraltar folk music",
         "Gibraltar instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "GR",
-      "countryName": "Greece",
       "primaryTrack": {
         "artist": "Natasa Theodoridou",
         "title": "Den Me Afora",
@@ -1200,12 +1039,10 @@
         "Greece traditional music",
         "Greece folk music",
         "Greece instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "GL",
-      "countryName": "Greenland",
       "primaryTrack": {
         "artist": "Nanook, Christian K. Elsner, Frederik K. Elsner",
         "title": "Qiimassutissarput Aajuna",
@@ -1215,12 +1052,10 @@
         "Greenland traditional music",
         "Greenland folk music",
         "Greenland instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "GD",
-      "countryName": "Grenada",
       "primaryTrack": {
         "artist": "Tallpree",
         "title": "Jab All Over",
@@ -1230,12 +1065,10 @@
         "Grenada traditional music",
         "Grenada folk music",
         "Grenada instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "GP",
-      "countryName": "Guadeloupe",
       "primaryTrack": {
         "artist": "Kassav'",
         "title": "Zouk-la Sé Sel Médikaman Nou Ni",
@@ -1245,12 +1078,10 @@
         "Guadeloupe traditional music",
         "Guadeloupe folk music",
         "Guadeloupe instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "GU",
-      "countryName": "Guam",
       "primaryTrack": {
         "artist": "A Long Drive Home",
         "title": "Breathe",
@@ -1260,12 +1091,10 @@
         "Guam traditional music",
         "Guam folk music",
         "Guam instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "GT",
-      "countryName": "Guatemala",
       "primaryTrack": {
         "artist": "Ricardo Arjona, Gaby Moreno",
         "title": "Fuiste Tú",
@@ -1275,12 +1104,10 @@
         "Guatemala traditional music",
         "Guatemala folk music",
         "Guatemala instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "GG",
-      "countryName": "Guernsey",
       "primaryTrack": {
         "artist": "Burning At Both Ends",
         "title": "Shut It Down",
@@ -1290,12 +1117,10 @@
         "Guernsey traditional music",
         "Guernsey folk music",
         "Guernsey instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "GN",
-      "countryName": "Guinea",
       "primaryTrack": {
         "artist": "Sékouba Bambino",
         "title": "Mbambou",
@@ -1305,12 +1130,10 @@
         "Guinea traditional music",
         "Guinea folk music",
         "Guinea instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "GW",
-      "countryName": "Guinea-Bissau",
       "primaryTrack": {
         "artist": "Karyna Gomes",
         "title": "Amor Livre",
@@ -1320,12 +1143,10 @@
         "Guinea-Bissau traditional music",
         "Guinea-Bissau folk music",
         "Guinea-Bissau instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "GY",
-      "countryName": "Guyana",
       "primaryTrack": {
         "artist": "Terry Gajraj",
         "title": "Dil Aisa",
@@ -1335,12 +1156,10 @@
         "Guyana traditional music",
         "Guyana folk music",
         "Guyana instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "HT",
-      "countryName": "Haiti",
       "primaryTrack": {
         "artist": "Jbeatz, Wendy",
         "title": "Oh My God",
@@ -1350,12 +1169,10 @@
         "Haiti traditional music",
         "Haiti folk music",
         "Haiti instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "HN",
-      "countryName": "Honduras",
       "primaryTrack": {
         "artist": "Jennifer Salinas",
         "title": "Ante Ti",
@@ -1365,12 +1182,10 @@
         "Honduras traditional music",
         "Honduras folk music",
         "Honduras instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "HU",
-      "countryName": "Hungary",
       "primaryTrack": {
         "artist": "Paddy And The Rats",
         "title": "Ghost From The Barrow",
@@ -1380,12 +1195,10 @@
         "Hungary traditional music",
         "Hungary folk music",
         "Hungary instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "IS",
-      "countryName": "Iceland",
       "primaryTrack": {
         "artist": "KALEO",
         "title": "Vor í Vaglaskógi",
@@ -1395,12 +1208,10 @@
         "Iceland traditional music",
         "Iceland folk music",
         "Iceland instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "IN",
-      "countryName": "India",
       "primaryTrack": {
         "artist": "Shankar-Ehsaan-Loy, Sadhana Sargam, Sujata Bhattacharya, Udit Narayan, Sonu Nigam, Shah Rukh Khan, Preity Zinta, Saif Ali Khan, Jaya Bachchan",
         "title": "Maahi Ve",
@@ -1410,12 +1221,10 @@
         "India traditional music",
         "India folk music",
         "India instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "ID",
-      "countryName": "Indonesia",
       "primaryTrack": {
         "artist": "Rizky Febian",
         "title": "Cukup Tau",
@@ -1425,12 +1234,10 @@
         "Indonesia traditional music",
         "Indonesia folk music",
         "Indonesia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "IR",
-      "countryName": "Iran",
       "primaryTrack": {
         "artist": "Shadmehr Aghili",
         "title": "To Bi Man",
@@ -1440,12 +1247,10 @@
         "Iran traditional music",
         "Iran folk music",
         "Iran instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "IQ",
-      "countryName": "Iraq",
       "primaryTrack": {
         "artist": "Nour Al Zain, Ghazwan Elfahd",
         "title": "Gaynalk Bhaya",
@@ -1455,12 +1260,10 @@
         "Iraq traditional music",
         "Iraq folk music",
         "Iraq instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "IE",
-      "countryName": "Ireland",
       "primaryTrack": {
         "artist": "Dropkick Murphys",
         "title": "Paying My Way",
@@ -1470,12 +1273,10 @@
         "Ireland traditional music",
         "Ireland folk music",
         "Ireland instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "IM",
-      "countryName": "Isle of Man",
       "primaryTrack": {
         "artist": "GRODD",
         "title": "Thru My Eyes",
@@ -1485,12 +1286,10 @@
         "Isle of Man traditional music",
         "Isle of Man folk music",
         "Isle of Man instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "IL",
-      "countryName": "Israel",
       "primaryTrack": {
         "artist": "Full Trunk, Sivan Talmor",
         "title": "As a Stone",
@@ -1500,12 +1299,10 @@
         "Israel traditional music",
         "Israel folk music",
         "Israel instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "IT",
-      "countryName": "Italy",
       "primaryTrack": {
         "artist": "Paola Turci",
         "title": "Un'emozione da poco",
@@ -1515,12 +1312,10 @@
         "Italy traditional music",
         "Italy folk music",
         "Italy instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "CI",
-      "countryName": "Ivory Coast",
       "primaryTrack": {
         "artist": "Magic System, Chawki",
         "title": "Magic in the Air",
@@ -1530,12 +1325,10 @@
         "Ivory Coast traditional music",
         "Ivory Coast folk music",
         "Ivory Coast instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "JM",
-      "countryName": "Jamaica",
       "primaryTrack": {
         "artist": "Tasha T",
         "title": "Fire in Me",
@@ -1545,12 +1338,10 @@
         "Jamaica traditional music",
         "Jamaica folk music",
         "Jamaica instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "JP",
-      "countryName": "Japan",
       "primaryTrack": {
         "artist": "Faky",
         "title": "Someday We'll Know",
@@ -1560,12 +1351,10 @@
         "Japan traditional music",
         "Japan folk music",
         "Japan instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "JE",
-      "countryName": "Jersey",
       "primaryTrack": {
         "artist": "Nerina Pallot",
         "title": "Rousseau",
@@ -1575,12 +1364,10 @@
         "Jersey traditional music",
         "Jersey folk music",
         "Jersey instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "JO",
-      "countryName": "Jordan",
       "primaryTrack": {
         "artist": "Adham Nabulsi",
         "title": "Howeh El Hob",
@@ -1590,12 +1377,10 @@
         "Jordan traditional music",
         "Jordan folk music",
         "Jordan instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "KZ",
-      "countryName": "Kazakhstan",
       "primaryTrack": {
         "artist": "Ерке Есмахан (Erke Esmakhan)",
         "title": "Қайда? (Qaida?)",
@@ -1605,12 +1390,10 @@
         "Kazakhstan traditional music",
         "Kazakhstan folk music",
         "Kazakhstan instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "KE",
-      "countryName": "Kenya",
       "primaryTrack": {
         "artist": "Nyashinski",
         "title": "Malaika",
@@ -1620,12 +1403,10 @@
         "Kenya traditional music",
         "Kenya folk music",
         "Kenya instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "KI",
-      "countryName": "Kiribati",
       "primaryTrack": {
         "artist": "Elijah L, Antoo G",
         "title": "Ngke Arona",
@@ -1635,12 +1416,10 @@
         "Kiribati traditional music",
         "Kiribati folk music",
         "Kiribati instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "XK",
-      "countryName": "Kosovo",
       "primaryTrack": {
         "artist": "Majk",
         "title": "Dashni",
@@ -1650,12 +1429,10 @@
         "Kosovo traditional music",
         "Kosovo folk music",
         "Kosovo instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "KW",
-      "countryName": "Kuwait",
       "primaryTrack": {
         "artist": "Humood Alkhuder",
         "title": "Kun Anta",
@@ -1665,12 +1442,10 @@
         "Kuwait traditional music",
         "Kuwait folk music",
         "Kuwait instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "KG",
-      "countryName": "Kyrgyzstan",
       "primaryTrack": {
         "artist": "Жийдеш (Jiydesh)",
         "title": "Ким билет? (Kim bilet?)",
@@ -1680,12 +1455,10 @@
         "Kyrgyzstan traditional music",
         "Kyrgyzstan folk music",
         "Kyrgyzstan instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "LA",
-      "countryName": "Laos",
       "primaryTrack": {
         "artist": "KAI OVERDANCE",
         "title": "ນາງພະຍາ (Nang Phanya)",
@@ -1695,12 +1468,10 @@
         "Laos traditional music",
         "Laos folk music",
         "Laos instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "LV",
-      "countryName": "Latvia",
       "primaryTrack": {
         "artist": "Nikolajs Puzikovs",
         "title": "Dievs Tevi mīl",
@@ -1710,12 +1481,10 @@
         "Latvia traditional music",
         "Latvia folk music",
         "Latvia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "LB",
-      "countryName": "Lebanon",
       "primaryTrack": {
         "artist": "Mashrou' Leila",
         "title": "Roman",
@@ -1725,12 +1494,10 @@
         "Lebanon traditional music",
         "Lebanon folk music",
         "Lebanon instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "LS",
-      "countryName": "Lesotho",
       "primaryTrack": {
         "artist": "Sankomota",
         "title": "Now or Never",
@@ -1740,12 +1507,10 @@
         "Lesotho traditional music",
         "Lesotho folk music",
         "Lesotho instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "LR",
-      "countryName": "Liberia",
       "primaryTrack": {
         "artist": "Takun J, Byronic, Nasseman",
         "title": "Tu-Ke-Ke-Ya-Tu",
@@ -1755,12 +1520,10 @@
         "Liberia traditional music",
         "Liberia folk music",
         "Liberia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "LY",
-      "countryName": "Libya",
       "primaryTrack": {
         "artist": "Hamid Al Shaeri",
         "title": "Ayonha",
@@ -1770,12 +1533,10 @@
         "Libya traditional music",
         "Libya folk music",
         "Libya instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "LI",
-      "countryName": "Liechtenstein",
       "primaryTrack": {
         "artist": "Elis",
         "title": "Core Of Life",
@@ -1785,12 +1546,10 @@
         "Liechtenstein traditional music",
         "Liechtenstein folk music",
         "Liechtenstein instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "LT",
-      "countryName": "Lithuania",
       "primaryTrack": {
         "artist": "Antis, Leon Somov & Jazzu",
         "title": "Nauji metai",
@@ -1800,12 +1559,10 @@
         "Lithuania traditional music",
         "Lithuania folk music",
         "Lithuania instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "LU",
-      "countryName": "Luxembourg",
       "primaryTrack": {
         "artist": "Rome",
         "title": "Celine in Jerusalem",
@@ -1815,12 +1572,10 @@
         "Luxembourg traditional music",
         "Luxembourg folk music",
         "Luxembourg instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "MG",
-      "countryName": "Madagascar",
       "primaryTrack": {
         "artist": "Wawa Salegy",
         "title": "400 Volts",
@@ -1830,12 +1585,10 @@
         "Madagascar traditional music",
         "Madagascar folk music",
         "Madagascar instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "MW",
-      "countryName": "Malawi",
       "primaryTrack": {
         "artist": "Zani Challe",
         "title": "Chikondi Chako - Your Love",
@@ -1845,12 +1598,10 @@
         "Malawi traditional music",
         "Malawi folk music",
         "Malawi instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "MY",
-      "countryName": "Malaysia",
       "primaryTrack": {
         "artist": "Wany Hasrita",
         "title": "Menahan Rindu",
@@ -1860,12 +1611,10 @@
         "Malaysia traditional music",
         "Malaysia folk music",
         "Malaysia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "MV",
-      "countryName": "Maldives",
       "primaryTrack": {
         "artist": "Habeys Boduberu, Hassan Tholaq",
         "title": "Kanbulo",
@@ -1875,12 +1624,10 @@
         "Maldives traditional music",
         "Maldives folk music",
         "Maldives instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "ML",
-      "countryName": "Mali",
       "primaryTrack": {
         "artist": "Fatoumata Diawara",
         "title": "Nterini",
@@ -1890,12 +1637,10 @@
         "Mali traditional music",
         "Mali folk music",
         "Mali instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "MT",
-      "countryName": "Malta",
       "primaryTrack": {
         "artist": "Airport Impressions",
         "title": "Berlin",
@@ -1905,12 +1650,10 @@
         "Malta traditional music",
         "Malta folk music",
         "Malta instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "MH",
-      "countryName": "Marshall Islands",
       "primaryTrack": {
         "artist": "Lostboyz, I Vibez",
         "title": "Live Another Day",
@@ -1920,12 +1663,10 @@
         "Marshall Islands traditional music",
         "Marshall Islands folk music",
         "Marshall Islands instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "MQ",
-      "countryName": "Martinique",
       "primaryTrack": {
         "artist": "Tyrick, PDUB",
         "title": "Supernova",
@@ -1935,12 +1676,10 @@
         "Martinique traditional music",
         "Martinique folk music",
         "Martinique instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "MR",
-      "countryName": "Mauritania",
       "primaryTrack": {
         "artist": "Noura Mint Seymali",
         "title": "Na Sane",
@@ -1950,12 +1689,10 @@
         "Mauritania traditional music",
         "Mauritania folk music",
         "Mauritania instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "MU",
-      "countryName": "Mauritius",
       "primaryTrack": {
         "artist": "Alain Ramanisum",
         "title": "Souffrance lamour",
@@ -1965,12 +1702,10 @@
         "Mauritius traditional music",
         "Mauritius folk music",
         "Mauritius instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "YT",
-      "countryName": "Mayotte",
       "primaryTrack": {
         "artist": "Mikidache, M'Toro Chamou",
         "title": "Mwaylera",
@@ -1980,12 +1715,10 @@
         "Mayotte traditional music",
         "Mayotte folk music",
         "Mayotte instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "MX",
-      "countryName": "Mexico",
       "primaryTrack": {
         "artist": "Gloria Trevi",
         "title": "Como Yo Te Amo",
@@ -1995,12 +1728,10 @@
         "Mexico traditional music",
         "Mexico folk music",
         "Mexico instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "FM",
-      "countryName": "Micronesia",
       "primaryTrack": {
         "artist": "Ozeky",
         "title": "Ia Pasik",
@@ -2010,12 +1741,10 @@
         "Micronesia traditional music",
         "Micronesia folk music",
         "Micronesia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "MD",
-      "countryName": "Moldova",
       "primaryTrack": {
         "artist": "Dan Balan",
         "title": "Hold on Love",
@@ -2025,12 +1754,10 @@
         "Moldova traditional music",
         "Moldova folk music",
         "Moldova instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "MC",
-      "countryName": "Monaco",
       "primaryTrack": {
         "artist": "TJ Bilham",
         "title": "One More Kiss",
@@ -2040,12 +1767,10 @@
         "Monaco traditional music",
         "Monaco folk music",
         "Monaco instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "MN",
-      "countryName": "Mongolia",
       "primaryTrack": {
         "artist": "The HU",
         "title": "Yuve Yuve Yu",
@@ -2055,12 +1780,10 @@
         "Mongolia traditional music",
         "Mongolia folk music",
         "Mongolia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "ME",
-      "countryName": "Montenegro",
       "primaryTrack": {
         "artist": "Sergej Cetkovic",
         "title": "Zar Je Kraj?",
@@ -2070,12 +1793,10 @@
         "Montenegro traditional music",
         "Montenegro folk music",
         "Montenegro instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "MS",
-      "countryName": "Montserrat",
       "primaryTrack": {
         "artist": "Maizie Williams, Bobby Farrell",
         "title": "Josephine Baker - Eddi Middle-Line Dirty House",
@@ -2085,12 +1806,10 @@
         "Montserrat traditional music",
         "Montserrat folk music",
         "Montserrat instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "MA",
-      "countryName": "Morocco",
       "primaryTrack": {
         "artist": "Hindi Zahra",
         "title": "Imik Si Mik",
@@ -2100,12 +1819,10 @@
         "Morocco traditional music",
         "Morocco folk music",
         "Morocco instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "MZ",
-      "countryName": "Mozambique",
       "primaryTrack": {
         "artist": "Banda Kakana",
         "title": "Xiluva",
@@ -2115,12 +1832,10 @@
         "Mozambique traditional music",
         "Mozambique folk music",
         "Mozambique instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "MM",
-      "countryName": "Myanmar",
       "primaryTrack": {
         "artist": "Ah Moon",
         "title": "Go Par No Par Doe Par",
@@ -2130,12 +1845,10 @@
         "Myanmar traditional music",
         "Myanmar folk music",
         "Myanmar instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "NA",
-      "countryName": "Namibia",
       "primaryTrack": {
         "artist": "Micheal Pulse, Echante, Jermain Casper, Braze, Ori",
         "title": "Lost",
@@ -2145,12 +1858,10 @@
         "Namibia traditional music",
         "Namibia folk music",
         "Namibia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "NR",
-      "countryName": "Nauru",
       "primaryTrack": {
         "artist": "Skylla",
         "title": "Last Dear Diary",
@@ -2160,12 +1871,10 @@
         "Nauru traditional music",
         "Nauru folk music",
         "Nauru instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "NP",
-      "countryName": "Nepal",
       "primaryTrack": {
         "artist": "Astha Tamang-Maskey",
         "title": "Khula Aakash",
@@ -2175,12 +1884,10 @@
         "Nepal traditional music",
         "Nepal folk music",
         "Nepal instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "NL",
-      "countryName": "Netherlands",
       "primaryTrack": {
         "artist": "Within Temptation",
         "title": "Shot in the Dark",
@@ -2190,12 +1897,10 @@
         "Netherlands traditional music",
         "Netherlands folk music",
         "Netherlands instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "NC",
-      "countryName": "New Caledonia",
       "primaryTrack": {
         "artist": "Ok Ryos",
         "title": "Co era so",
@@ -2205,12 +1910,10 @@
         "New Caledonia traditional music",
         "New Caledonia folk music",
         "New Caledonia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "NZ",
-      "countryName": "New Zealand",
       "primaryTrack": {
         "artist": "Te Vaka",
         "title": "Lakalaka",
@@ -2220,12 +1923,10 @@
         "New Zealand traditional music",
         "New Zealand folk music",
         "New Zealand instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "NI",
-      "countryName": "Nicaragua",
       "primaryTrack": {
         "artist": "Nina y Sebastián",
         "title": "Últimamente",
@@ -2235,12 +1936,10 @@
         "Nicaragua traditional music",
         "Nicaragua folk music",
         "Nicaragua instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "NE",
-      "countryName": "Niger",
       "primaryTrack": {
         "artist": "Bombino",
         "title": "Amidinine",
@@ -2250,12 +1949,10 @@
         "Niger traditional music",
         "Niger folk music",
         "Niger instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "NG",
-      "countryName": "Nigeria",
       "primaryTrack": {
         "artist": "Johnny Drille",
         "title": "Romeo and Juliet",
@@ -2265,12 +1962,10 @@
         "Nigeria traditional music",
         "Nigeria folk music",
         "Nigeria instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "NU",
-      "countryName": "Niue",
       "primaryTrack": {
         "artist": "T.A.5 of Niue Island",
         "title": "Haku Ma Tua",
@@ -2280,12 +1975,10 @@
         "Niue traditional music",
         "Niue folk music",
         "Niue instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "NF",
-      "countryName": "Norfolk Island",
       "primaryTrack": {
         "artist": "Matt Zarb",
         "title": "Rose Matilda",
@@ -2295,12 +1988,10 @@
         "Norfolk Island traditional music",
         "Norfolk Island folk music",
         "Norfolk Island instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "KP",
-      "countryName": "North Korea",
       "primaryTrack": {
         "artist": "North Korean Archives (Moranbong Band)",
         "title": "Let's Study",
@@ -2310,12 +2001,10 @@
         "North Korea traditional music",
         "North Korea folk music",
         "North Korea instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "MK",
-      "countryName": "North Macedonia",
       "primaryTrack": {
         "artist": "Toše Proeski",
         "title": "Cija Si",
@@ -2325,12 +2014,10 @@
         "North Macedonia traditional music",
         "North Macedonia folk music",
         "North Macedonia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "MP",
-      "countryName": "Northern Mariana Islands",
       "primaryTrack": {
         "artist": "Walter Manglona, Dean Manglona, John RokJuan Guerrero",
         "title": "Chamorro Superman",
@@ -2340,12 +2027,10 @@
         "Northern Mariana Islands traditional music",
         "Northern Mariana Islands folk music",
         "Northern Mariana Islands instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "NO",
-      "countryName": "Norway",
       "primaryTrack": {
         "artist": "Kristian Kristensen",
         "title": "Kan du lære mæ?",
@@ -2355,12 +2040,10 @@
         "Norway traditional music",
         "Norway folk music",
         "Norway instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "OM",
-      "countryName": "Oman",
       "primaryTrack": {
         "artist": "Salah Al Zadjali",
         "title": "Asa Mayohashik Ghali",
@@ -2370,12 +2053,10 @@
         "Oman traditional music",
         "Oman folk music",
         "Oman instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "PK",
-      "countryName": "Pakistan",
       "primaryTrack": {
         "artist": "Noori",
         "title": "Yeh Zindagi",
@@ -2385,12 +2066,10 @@
         "Pakistan traditional music",
         "Pakistan folk music",
         "Pakistan instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "PW",
-      "countryName": "Palau",
       "primaryTrack": {
         "artist": "Sister Lubei",
         "title": "When Love",
@@ -2400,12 +2079,10 @@
         "Palau traditional music",
         "Palau folk music",
         "Palau instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "PS",
-      "countryName": "Palestine",
       "primaryTrack": {
         "artist": "DAM",
         "title": "EMTA NJAWZAK YAMMA",
@@ -2415,12 +2092,10 @@
         "Palestine traditional music",
         "Palestine folk music",
         "Palestine instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "PA",
-      "countryName": "Panama",
       "primaryTrack": {
         "artist": "Samy y Sandra Sandoval",
         "title": "Como Gozo",
@@ -2430,12 +2105,10 @@
         "Panama traditional music",
         "Panama folk music",
         "Panama instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "PG",
-      "countryName": "Papua New Guinea",
       "primaryTrack": {
         "artist": "George Telek",
         "title": "Lili Ram Kavavar",
@@ -2445,12 +2118,10 @@
         "Papua New Guinea traditional music",
         "Papua New Guinea folk music",
         "Papua New Guinea instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "PY",
-      "countryName": "Paraguay",
       "primaryTrack": {
         "artist": "Ivan Zavala",
         "title": "Universo",
@@ -2460,12 +2131,10 @@
         "Paraguay traditional music",
         "Paraguay folk music",
         "Paraguay instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "PE",
-      "countryName": "Peru",
       "primaryTrack": {
         "artist": "Damaris",
         "title": "Tusuykusun",
@@ -2475,12 +2144,10 @@
         "Peru traditional music",
         "Peru folk music",
         "Peru instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "PH",
-      "countryName": "Philippines",
       "primaryTrack": {
         "artist": "TJ Monterde",
         "title": "Tulad Mo",
@@ -2490,12 +2157,10 @@
         "Philippines traditional music",
         "Philippines folk music",
         "Philippines instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "PL",
-      "countryName": "Poland",
       "primaryTrack": {
         "artist": "Dawid Kwiatkowski",
         "title": "Jesteś",
@@ -2505,12 +2170,10 @@
         "Poland traditional music",
         "Poland folk music",
         "Poland instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "PT",
-      "countryName": "Portugal",
       "primaryTrack": {
         "artist": "Mariza",
         "title": "Paixão",
@@ -2520,12 +2183,10 @@
         "Portugal traditional music",
         "Portugal folk music",
         "Portugal instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "PR",
-      "countryName": "Puerto Rico",
       "primaryTrack": {
         "artist": "Anuel AA + Haze",
         "title": "Amenece",
@@ -2535,12 +2196,10 @@
         "Puerto Rico traditional music",
         "Puerto Rico folk music",
         "Puerto Rico instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "QA",
-      "countryName": "Qatar",
       "primaryTrack": {
         "artist": "Dana Al Fardan, Qatar Philharmonic Orchestra",
         "title": "Paint",
@@ -2550,12 +2209,10 @@
         "Qatar traditional music",
         "Qatar folk music",
         "Qatar instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "CG",
-      "countryName": "Republic of the Congo",
       "primaryTrack": {
         "artist": "Bisso na Bisso",
         "title": "Bisso Na Bisso",
@@ -2565,12 +2222,10 @@
         "Republic of the Congo traditional music",
         "Republic of the Congo folk music",
         "Republic of the Congo instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "RO",
-      "countryName": "Romania",
       "primaryTrack": {
         "artist": "Dorian Popa, Shift, Selly",
         "title": "Hatz",
@@ -2580,12 +2235,10 @@
         "Romania traditional music",
         "Romania folk music",
         "Romania instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "RU",
-      "countryName": "Russia",
       "primaryTrack": {
         "artist": "Egor Kreed",
         "title": "Слеза (Sleza)",
@@ -2595,12 +2248,10 @@
         "Russia traditional music",
         "Russia folk music",
         "Russia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "RW",
-      "countryName": "Rwanda",
       "primaryTrack": {
         "artist": "Butera Knowless",
         "title": "Ko Nashize",
@@ -2610,12 +2261,10 @@
         "Rwanda traditional music",
         "Rwanda folk music",
         "Rwanda instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "RE",
-      "countryName": "Réunion",
       "primaryTrack": {
         "artist": "SAODAJ'",
         "title": "Pokor Lèr",
@@ -2625,12 +2274,10 @@
         "Réunion traditional music",
         "Réunion folk music",
         "Réunion instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "BL",
-      "countryName": "Saint Barthélemy",
       "primaryTrack": {
         "artist": "Robb Tito",
         "title": "St. Barth Song",
@@ -2640,12 +2287,10 @@
         "Saint Barthélemy traditional music",
         "Saint Barthélemy folk music",
         "Saint Barthélemy instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "KN",
-      "countryName": "Saint Kitts and Nevis",
       "primaryTrack": {
         "artist": "Wendy St. Kitts",
         "title": "Woman Empowered",
@@ -2655,12 +2300,10 @@
         "Saint Kitts and Nevis traditional music",
         "Saint Kitts and Nevis folk music",
         "Saint Kitts and Nevis instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "LC",
-      "countryName": "Saint Lucia",
       "primaryTrack": {
         "artist": "Mongstar",
         "title": "Saint Lucia We Love",
@@ -2670,12 +2313,10 @@
         "Saint Lucia traditional music",
         "Saint Lucia folk music",
         "Saint Lucia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "MF",
-      "countryName": "Saint Martin",
       "primaryTrack": {
         "artist": "Red Eye Crew, Joli Rouge Sound",
         "title": "Domino",
@@ -2685,12 +2326,10 @@
         "Saint Martin traditional music",
         "Saint Martin folk music",
         "Saint Martin instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "PM",
-      "countryName": "Saint Pierre and Miquelon",
       "primaryTrack": {
         "artist": "Allan Lafitte",
         "title": "Sometimes",
@@ -2700,12 +2339,10 @@
         "Saint Pierre and Miquelon traditional music",
         "Saint Pierre and Miquelon folk music",
         "Saint Pierre and Miquelon instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "VC",
-      "countryName": "Saint Vincent and the Grenadines",
       "primaryTrack": {
         "artist": "Noise Cans, Skinny Fabulous, Daniella Veira",
         "title": "Do It Like Ah Pro",
@@ -2715,12 +2352,10 @@
         "Saint Vincent and the Grenadines traditional music",
         "Saint Vincent and the Grenadines folk music",
         "Saint Vincent and the Grenadines instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "WS",
-      "countryName": "Samoa",
       "primaryTrack": {
         "artist": "Lole Usoalii",
         "title": "Rise - Tu I Luga",
@@ -2730,12 +2365,10 @@
         "Samoa traditional music",
         "Samoa folk music",
         "Samoa instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "SM",
-      "countryName": "San Marino",
       "primaryTrack": {
         "artist": "Valentina Monetta",
         "title": "Crisalide - Vola",
@@ -2745,12 +2378,10 @@
         "San Marino traditional music",
         "San Marino folk music",
         "San Marino instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "ST",
-      "countryName": "Sao Tome and Principe",
       "primaryTrack": {
         "artist": "Juka",
         "title": "Porquê",
@@ -2760,12 +2391,10 @@
         "Sao Tome and Principe traditional music",
         "Sao Tome and Principe folk music",
         "Sao Tome and Principe instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "CQ",
-      "countryName": "Sark",
       "primaryTrack": {
         "artist": "The Recks",
         "title": "Train Wreck",
@@ -2775,12 +2404,10 @@
         "Sark traditional music",
         "Sark folk music",
         "Sark instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "SA",
-      "countryName": "Saudi Arabia",
       "primaryTrack": {
         "artist": "Majed Al Esa",
         "title": "Hwages",
@@ -2790,12 +2417,10 @@
         "Saudi Arabia traditional music",
         "Saudi Arabia folk music",
         "Saudi Arabia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "SN",
-      "countryName": "Senegal",
       "primaryTrack": {
         "artist": "Baaba Maal",
         "title": "Lampenda",
@@ -2805,12 +2430,10 @@
         "Senegal traditional music",
         "Senegal folk music",
         "Senegal instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "RS",
-      "countryName": "Serbia",
       "primaryTrack": {
         "artist": "Ministarke",
         "title": "Mrtav ili ziv",
@@ -2820,12 +2443,10 @@
         "Serbia traditional music",
         "Serbia folk music",
         "Serbia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "SC",
-      "countryName": "Seychelles",
       "primaryTrack": {
         "artist": "Jean-Marc Volcy",
         "title": "Madame sandappen",
@@ -2835,12 +2456,10 @@
         "Seychelles traditional music",
         "Seychelles folk music",
         "Seychelles instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "SL",
-      "countryName": "Sierra Leone",
       "primaryTrack": {
         "artist": "Janka Nabay, The Bubu Gang",
         "title": "Somebody",
@@ -2850,12 +2469,10 @@
         "Sierra Leone traditional music",
         "Sierra Leone folk music",
         "Sierra Leone instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "SG",
-      "countryName": "Singapore",
       "primaryTrack": {
         "artist": "The Sam Willows",
         "title": "Papa Money",
@@ -2865,12 +2482,10 @@
         "Singapore traditional music",
         "Singapore folk music",
         "Singapore instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "SX",
-      "countryName": "Sint Maarten",
       "primaryTrack": {
         "artist": "Kenyo Baly",
         "title": "Bluff",
@@ -2880,12 +2495,10 @@
         "Sint Maarten traditional music",
         "Sint Maarten folk music",
         "Sint Maarten instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "SK",
-      "countryName": "Slovakia",
       "primaryTrack": {
         "artist": "Janais",
         "title": "Money",
@@ -2895,12 +2508,10 @@
         "Slovakia traditional music",
         "Slovakia folk music",
         "Slovakia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "SI",
-      "countryName": "Slovenia",
       "primaryTrack": {
         "artist": "Siddharta",
         "title": "Medrevesa",
@@ -2910,12 +2521,10 @@
         "Slovenia traditional music",
         "Slovenia folk music",
         "Slovenia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "SB",
-      "countryName": "Solomon Islands",
       "primaryTrack": {
         "artist": "Sharzy",
         "title": "Ta' Umai",
@@ -2925,12 +2534,10 @@
         "Solomon Islands traditional music",
         "Solomon Islands folk music",
         "Solomon Islands instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "SO",
-      "countryName": "Somalia",
       "primaryTrack": {
         "artist": "Maryam Mursal",
         "title": "Lei Lei",
@@ -2940,12 +2547,10 @@
         "Somalia traditional music",
         "Somalia folk music",
         "Somalia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "ZA",
-      "countryName": "South Africa",
       "primaryTrack": {
         "artist": "Sun-El Musician, Mlindo The Vocalist",
         "title": "Bamthathile",
@@ -2955,12 +2560,10 @@
         "South Africa traditional music",
         "South Africa folk music",
         "South Africa instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "KR",
-      "countryName": "South Korea",
       "primaryTrack": {
         "artist": "SEUNGRI",
         "title": "1, 2, 3!",
@@ -2970,12 +2573,10 @@
         "South Korea traditional music",
         "South Korea folk music",
         "South Korea instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "SS",
-      "countryName": "South Sudan",
       "primaryTrack": {
         "artist": "Emmanuel Jal, McKenzie Eddy",
         "title": "We Fall",
@@ -2985,12 +2586,10 @@
         "South Sudan traditional music",
         "South Sudan folk music",
         "South Sudan instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "ES",
-      "countryName": "Spain",
       "primaryTrack": {
         "artist": "Leiva",
         "title": "La Llamada",
@@ -3000,12 +2599,10 @@
         "Spain traditional music",
         "Spain folk music",
         "Spain instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "LK",
-      "countryName": "Sri Lanka",
       "primaryTrack": {
         "artist": "Ridma Weerawardena, Charitha Attalage",
         "title": "Kuweni",
@@ -3015,12 +2612,10 @@
         "Sri Lanka traditional music",
         "Sri Lanka folk music",
         "Sri Lanka instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "SD",
-      "countryName": "Sudan",
       "primaryTrack": {
         "artist": "Alsarah & The Nubatones",
         "title": "Soukura (It's Late)",
@@ -3030,12 +2625,10 @@
         "Sudan traditional music",
         "Sudan folk music",
         "Sudan instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "SR",
-      "countryName": "Suriname",
       "primaryTrack": {
         "artist": "La Rouge",
         "title": "Geen Ander Voor Mij",
@@ -3045,12 +2638,10 @@
         "Suriname traditional music",
         "Suriname folk music",
         "Suriname instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "SJ",
-      "countryName": "Svalbard & Jan Mayen",
       "primaryTrack": {
         "artist": "Liv Mari Schei",
         "title": "Måne",
@@ -3060,12 +2651,10 @@
         "Svalbard & Jan Mayen traditional music",
         "Svalbard & Jan Mayen folk music",
         "Svalbard & Jan Mayen instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "SE",
-      "countryName": "Sweden",
       "primaryTrack": {
         "artist": "Stockholm Noir, Ofelia",
         "title": "Boy Like a Girl",
@@ -3075,12 +2664,10 @@
         "Sweden traditional music",
         "Sweden folk music",
         "Sweden instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "CH",
-      "countryName": "Switzerland",
       "primaryTrack": {
         "artist": "Hecht",
         "title": "Charlotta",
@@ -3090,12 +2677,10 @@
         "Switzerland traditional music",
         "Switzerland folk music",
         "Switzerland instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "SY",
-      "countryName": "Syria",
       "primaryTrack": {
         "artist": "Bu Kolthoum",
         "title": "Zamilou",
@@ -3105,12 +2690,10 @@
         "Syria traditional music",
         "Syria folk music",
         "Syria instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "TW",
-      "countryName": "Taiwan",
       "primaryTrack": {
         "artist": "Rosie Yang, 余枫 (Yú Fēng)",
         "title": "怎麼還不愛 (Zěnme hái bù ài)",
@@ -3120,12 +2703,10 @@
         "Taiwan traditional music",
         "Taiwan folk music",
         "Taiwan instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "TJ",
-      "countryName": "Tajikistan",
       "primaryTrack": {
         "artist": "Tahmina Niyazova",
         "title": "Ты только позови (Ty tol'ko pozovi)",
@@ -3135,12 +2716,10 @@
         "Tajikistan traditional music",
         "Tajikistan folk music",
         "Tajikistan instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "TZ",
-      "countryName": "Tanzania",
       "primaryTrack": {
         "artist": "Vanessa Mdee",
         "title": "Cash Madame",
@@ -3150,12 +2729,10 @@
         "Tanzania traditional music",
         "Tanzania folk music",
         "Tanzania instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "TH",
-      "countryName": "Thailand",
       "primaryTrack": {
         "artist": "Da Endorphine",
         "title": "เธอมีฉัน ฉันมีใคร (Tur Mee Chun Chun Mee Krai)",
@@ -3165,12 +2742,10 @@
         "Thailand traditional music",
         "Thailand folk music",
         "Thailand instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "TL",
-      "countryName": "Timor-Leste",
       "primaryTrack": {
         "artist": "Teo Batiste",
         "title": "Kolele Mai",
@@ -3180,12 +2755,10 @@
         "Timor-Leste traditional music",
         "Timor-Leste folk music",
         "Timor-Leste instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "TG",
-      "countryName": "Togo",
       "primaryTrack": {
         "artist": "Toofan",
         "title": "Gweta",
@@ -3195,12 +2768,10 @@
         "Togo traditional music",
         "Togo folk music",
         "Togo instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "TK",
-      "countryName": "Tokelau",
       "primaryTrack": {
         "artist": "Olivia Foa'i",
         "title": "Aulelei",
@@ -3210,12 +2781,10 @@
         "Tokelau traditional music",
         "Tokelau folk music",
         "Tokelau instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "TO",
-      "countryName": "Tonga",
       "primaryTrack": {
         "artist": "Sonatane Kaufusi",
         "title": "Birdie",
@@ -3225,12 +2794,10 @@
         "Tonga traditional music",
         "Tonga folk music",
         "Tonga instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "TT",
-      "countryName": "Trinidad and Tobago",
       "primaryTrack": {
         "artist": "Fay-Ann Lyons",
         "title": "Hands In The Air",
@@ -3240,12 +2807,10 @@
         "Trinidad and Tobago traditional music",
         "Trinidad and Tobago folk music",
         "Trinidad and Tobago instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "TN",
-      "countryName": "Tunisia",
       "primaryTrack": {
         "artist": "Klay BBJ",
         "title": "Manich Behi",
@@ -3255,12 +2820,10 @@
         "Tunisia traditional music",
         "Tunisia folk music",
         "Tunisia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "TR",
-      "countryName": "Turkey",
       "primaryTrack": {
         "artist": "mor ve ötesi",
         "title": "Cambaz",
@@ -3270,12 +2833,10 @@
         "Turkey traditional music",
         "Turkey folk music",
         "Turkey instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "TM",
-      "countryName": "Turkmenistan",
       "primaryTrack": {
         "artist": "Myahri",
         "title": "Türkmenistanym",
@@ -3285,12 +2846,10 @@
         "Turkmenistan traditional music",
         "Turkmenistan folk music",
         "Turkmenistan instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "TC",
-      "countryName": "Turks and Caicos Islands",
       "primaryTrack": {
         "artist": "The Cooling Waters",
         "title": "Deliver You",
@@ -3300,12 +2859,10 @@
         "Turks and Caicos Islands traditional music",
         "Turks and Caicos Islands folk music",
         "Turks and Caicos Islands instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "TV",
-      "countryName": "Tuvalu",
       "primaryTrack": {
         "artist": "TK Music, Julie",
         "title": "Tuu Mo Aganuu",
@@ -3315,12 +2872,10 @@
         "Tuvalu traditional music",
         "Tuvalu folk music",
         "Tuvalu instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "UG",
-      "countryName": "Uganda",
       "primaryTrack": {
         "artist": "Juliana Kanyomozi",
         "title": "Kibaluma",
@@ -3330,12 +2885,10 @@
         "Uganda traditional music",
         "Uganda folk music",
         "Uganda instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "UA",
-      "countryName": "Ukraine",
       "primaryTrack": {
         "artist": "Monatik",
         "title": "То, от чего без ума (To, ot chego bez uma)",
@@ -3345,12 +2898,10 @@
         "Ukraine traditional music",
         "Ukraine folk music",
         "Ukraine instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "AE",
-      "countryName": "United Arab Emirates",
       "primaryTrack": {
         "artist": "Hussain Al Jassmi",
         "title": "Boushret Kheir",
@@ -3360,12 +2911,10 @@
         "United Arab Emirates traditional music",
         "United Arab Emirates folk music",
         "United Arab Emirates instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
       "primaryTrack": {
         "artist": "Autoheart",
         "title": "Moscow",
@@ -3375,12 +2924,10 @@
         "United Kingdom traditional music",
         "United Kingdom folk music",
         "United Kingdom instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "US",
-      "countryName": "United States",
       "primaryTrack": {
         "artist": "Lord Huron",
         "title": "The Night We Met",
@@ -3390,12 +2937,10 @@
         "United States traditional music",
         "United States folk music",
         "United States instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "UY",
-      "countryName": "Uruguay",
       "primaryTrack": {
         "artist": "No Te Va Gustar",
         "title": "A las Nueve",
@@ -3405,12 +2950,10 @@
         "Uruguay traditional music",
         "Uruguay folk music",
         "Uruguay instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "VI",
-      "countryName": "US Virgin Islands",
       "primaryTrack": {
         "artist": "Vanessa Daou",
         "title": "Near the Black Forest",
@@ -3420,12 +2963,10 @@
         "US Virgin Islands traditional music",
         "US Virgin Islands folk music",
         "US Virgin Islands instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "UZ",
-      "countryName": "Uzbekistan",
       "primaryTrack": {
         "artist": "Sogdiana",
         "title": "Неделимы (Nedelimy)",
@@ -3435,12 +2976,10 @@
         "Uzbekistan traditional music",
         "Uzbekistan folk music",
         "Uzbekistan instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "VU",
-      "countryName": "Vanuatu",
       "primaryTrack": {
         "artist": "Vanessa Quai",
         "title": "True Harmony",
@@ -3450,12 +2989,10 @@
         "Vanuatu traditional music",
         "Vanuatu folk music",
         "Vanuatu instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "VA",
-      "countryName": "Vatican City",
       "primaryTrack": {
         "artist": "Pope Francis, Damiano Affinito",
         "title": "Wake Up! Go! Go! Forward!",
@@ -3465,12 +3002,10 @@
         "Vatican City traditional music",
         "Vatican City folk music",
         "Vatican City instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "VE",
-      "countryName": "Venezuela",
       "primaryTrack": {
         "artist": "Scarlett Linares",
         "title": "Llorando y Tomando",
@@ -3480,12 +3015,10 @@
         "Venezuela traditional music",
         "Venezuela folk music",
         "Venezuela instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "VN",
-      "countryName": "Vietnam",
       "primaryTrack": {
         "artist": "Cá Hồi Hoang",
         "title": "Hết Mực",
@@ -3495,12 +3028,10 @@
         "Vietnam traditional music",
         "Vietnam folk music",
         "Vietnam instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "WF",
-      "countryName": "Wallis and Futuna",
       "primaryTrack": {
         "artist": "Togahau",
         "title": "Soamako finemui mai loto gahi",
@@ -3510,12 +3041,10 @@
         "Wallis and Futuna traditional music",
         "Wallis and Futuna folk music",
         "Wallis and Futuna instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "EH",
-      "countryName": "Western Sahara",
       "primaryTrack": {
         "artist": "Aziza Brahim",
         "title": "Lagi",
@@ -3525,12 +3054,10 @@
         "Western Sahara traditional music",
         "Western Sahara folk music",
         "Western Sahara instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "YE",
-      "countryName": "Yemen",
       "primaryTrack": {
         "artist": "Yemen Blues, Oxmo Puccino",
         "title": "Satisfaction",
@@ -3540,12 +3067,10 @@
         "Yemen traditional music",
         "Yemen folk music",
         "Yemen instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "ZM",
-      "countryName": "Zambia",
       "primaryTrack": {
         "artist": "Dieselle, Kay Figo",
         "title": "Kanyelele",
@@ -3555,12 +3080,10 @@
         "Zambia traditional music",
         "Zambia folk music",
         "Zambia instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "ZW",
-      "countryName": "Zimbabwe",
       "primaryTrack": {
         "artist": "Tinashe Makura, Chashe",
         "title": "Zvekupenga",
@@ -3570,12 +3093,10 @@
         "Zimbabwe traditional music",
         "Zimbabwe folk music",
         "Zimbabwe instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     },
     {
       "countryCode": "AX",
-      "countryName": "Åland Islands",
       "primaryTrack": {
         "artist": "Lamori",
         "title": "Until Death (Do Us Part)",
@@ -3585,8 +3106,7 @@
         "Åland Islands traditional music",
         "Åland Islands folk music",
         "Åland Islands instrumental music"
-      ],
-      "blockedTerms": []
+      ]
     }
   ]
 }

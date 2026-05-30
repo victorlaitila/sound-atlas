@@ -13,16 +13,13 @@ export type CuratedTrack = {
 
 export type CuratedSoundtrackEntry = {
   countryCode: string;
-  countryName: string;
   primaryTrack: CuratedTrack;
   fallbackSearchTerms: string[];
-  blockedTerms: string[];
+  blockedTerms?: string[];
 };
 
 type SoundtrackSeed = {
   version: number;
-  name: string;
-  selectionPolicy: string;
   countries: CuratedSoundtrackEntry[];
 };
 
