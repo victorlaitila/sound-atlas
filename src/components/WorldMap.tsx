@@ -38,8 +38,7 @@ type WorldAtlasTopology = Topology<{
 }>;
 
 const topology = worldAtlas as unknown as WorldAtlasTopology;
-const hiddenPolarFeatureIds = new Set(["010", "260"]);
-const countryFeatureCollection = buildCountryFeatureCollection();
+
 const initialCenter: [number, number] = [18, 18];
 const initialZoom = 2.22;
 const minZoom = 0.75;
@@ -49,8 +48,9 @@ const countryFillColor = "#789291";
 const selectedCountryColor = "#f3c75f";
 const borderColor = "#000000";
 const oceanColor = "#061820";
+
 const zoomControlButtonClass =
-  "flex h-10 w-10 items-center justify-center border-b border-white/10 text-xl font-light text-white/78 transition hover:bg-white/10 hover:text-white active:bg-white/5 focus:outline-none focus-visible:ring-2 focus-visible:ring-atlas-gold/45 sm:h-11 sm:w-11 [-webkit-tap-highlight-color:transparent]";
+  "flex h-10 w-10 items-center justify-center border-b border-atlas-goldDark/25 text-xl font-light text-atlas-goldDark/80 transition hover:bg-white/10 hover:text-atlas-gold active:bg-white/5 focus:outline-none focus-visible:ring-2 focus-visible:ring-atlas-goldDark/45 sm:h-11 sm:w-11 [-webkit-tap-highlight-color:transparent]";
 
 function getCountryName(featureData: Feature<Polygon | MultiPolygon, CountryProperties>) {
   return (
@@ -58,6 +58,40 @@ function getCountryName(featureData: Feature<Polygon | MultiPolygon, CountryProp
     featureData.properties?.NAME ??
     "Unknown country"
   );
+}
+
+function ringSpansAntimeridian(ring: number[][]): boolean {
+  if (ring.length === 0) return false;
+  let minLng = ring[0][0];
+  let maxLng = ring[0][0];
+  for (const [lng] of ring) {
+    if (lng < minLng) minLng = lng;
+    if (lng > maxLng) maxLng = lng;
+  }
+  return maxLng - minLng > 180;
+}
+
+function filterPolygonRings(rings: number[][][]): number[][][] | null {
+  const filtered = rings.filter((ring) => !ringSpansAntimeridian(ring));
+  return filtered.length > 0 ? filtered : null;
+}
+
+function stripAntimeridianRings(
+  geometry: Polygon | MultiPolygon,
+): Polygon | MultiPolygon | null {
+  if (geometry.type === "Polygon") {
+    const filtered = filterPolygonRings(geometry.coordinates);
+    if (!filtered) return null;
+    return { ...geometry, coordinates: filtered };
+  }
+
+  // MultiPolygon: filter each polygon's rings, drop empty polygons
+  const filteredPolygons = geometry.coordinates
+    .map((rings) => filterPolygonRings(rings))
+    .filter((rings): rings is number[][][] => rings !== null);
+
+  if (filteredPolygons.length === 0) return null;
+  return { ...geometry, coordinates: filteredPolygons };
 }
 
 function buildCountryFeatureCollection(): FeatureCollection<
@@ -69,31 +103,36 @@ function buildCountryFeatureCollection(): FeatureCollection<
     topology.objects.countries,
   ) as FeatureCollection<Polygon | MultiPolygon, CountryProperties>;
 
-  return {
-    type: "FeatureCollection",
-    features: countryCollection.features
-      .filter((country) => !hiddenPolarFeatureIds.has(String(country.id)))
-      .map((country) => {
-        const mapCountryName = getCountryName(country);
-        const countryId =
-          getMapCountryId(country.id, mapCountryName) ?? String(country.id);
-        const metadata =
-          countryMetadataByMapId[countryId] ??
-          getCountryMetadataByMapName(mapCountryName);
-        const countryName = metadata?.name ?? mapCountryName;
+  const features: FeatureCollection<Polygon | MultiPolygon, SoundAtlasCountryProperties>["features"] = [];
 
-        return {
-          ...country,
-          id: countryId,
-          properties: {
-            ...country.properties,
-            countryId,
-            countryName,
-          },
-        };
-      }),
-  };
+  for (const country of countryCollection.features) {
+    const cleanedGeometry = stripAntimeridianRings(country.geometry);
+    if (!cleanedGeometry) continue;
+
+    const mapCountryName = getCountryName(country);
+    const countryId =
+      getMapCountryId(country.id, mapCountryName) ?? String(country.id);
+    const metadata =
+      countryMetadataByMapId[countryId] ??
+      getCountryMetadataByMapName(mapCountryName);
+    const countryName = metadata?.name ?? mapCountryName;
+
+    features.push({
+      ...country,
+      id: countryId,
+      geometry: cleanedGeometry,
+      properties: {
+        ...country.properties,
+        countryId,
+        countryName,
+      },
+    });
+  }
+
+  return { type: "FeatureCollection", features };
 }
+
+const countryFeatureCollection = buildCountryFeatureCollection();
 
 function buildSelectedFilter(countryId: string | null): ExpressionSpecification {
   return ["==", ["get", "countryId"], countryId ?? ""];
@@ -112,7 +151,7 @@ function buildCountryFillExpression(
 
 function buildMapStyle(selectedCountryId: string | null): StyleSpecification {
   return {
-    version: 8,
+    version: 8,   
     projection: {
       type: "globe",
     },
@@ -121,6 +160,7 @@ function buildMapStyle(selectedCountryId: string | null): StyleSpecification {
         type: "geojson",
         data: countryFeatureCollection,
         promoteId: "countryId",
+        buffer: 10,
       },
     },
     layers: [
@@ -377,7 +417,7 @@ function WorldMapComponent({ selectedCountryId, onCountrySelect }: WorldMapProps
         />
       </div>
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_42%,transparent_0,transparent_28rem,rgba(2,8,12,0.16)_44rem,rgba(2,8,12,0.38)_100%)]" />
-      <div className="absolute left-4 top-1/2 z-10 flex -translate-y-1/2 flex-col overflow-hidden rounded-2xl border border-white/12 bg-atlas-ink/28 text-white shadow-soft-xl backdrop-blur-2xl sm:left-6">
+      <div className="absolute left-4 top-1/2 z-10 flex -translate-y-1/2 flex-col overflow-hidden rounded-2xl border-2 border-atlas-goldDark/40 bg-atlas-ink/28 text-white shadow-soft-xl backdrop-blur-2xl sm:left-6">
         <button
           className={zoomControlButtonClass}
           type="button"
@@ -395,7 +435,7 @@ function WorldMapComponent({ selectedCountryId, onCountrySelect }: WorldMapProps
           <Minus className="h-4 w-4" />
         </button>
         <button
-          className="flex h-10 w-10 items-center justify-center text-white/72 transition hover:bg-white/10 hover:text-white active:bg-white/5 focus:outline-none focus-visible:ring-2 focus-visible:ring-atlas-gold/45 sm:h-11 sm:w-11 [-webkit-tap-highlight-color:transparent]"
+          className="flex h-10 w-10 items-center justify-center text-atlas-goldDark/80 transition hover:bg-white/10 hover:text-atlas-gold active:bg-white/5 focus:outline-none focus-visible:ring-2 focus-visible:ring-atlas-goldDark/45 sm:h-11 sm:w-11 [-webkit-tap-highlight-color:transparent]"
           type="button"
           onClick={resetGlobePosition}
           aria-label="Reset globe view"

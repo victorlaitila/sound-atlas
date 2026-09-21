@@ -139,7 +139,7 @@ export default function Home() {
       </header>
 
       {selectedMetadata ? (
-        <div className="absolute inset-x-4 bottom-4 z-20 sm:inset-x-6 sm:bottom-6 lg:inset-x-auto lg:right-7 lg:w-[32rem] xl:w-[34rem]">
+        <div className="absolute inset-x-4 bottom-4 z-20 sm:inset-x-6 sm:bottom-6 lg:inset-x-auto lg:right-7 lg:w-[30rem] xl:w-[32rem]">
           <CountryPanel
             metadata={selectedMetadata}
             audioAssets={audioAssets}

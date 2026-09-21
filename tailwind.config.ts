@@ -13,6 +13,8 @@ const config: Config = {
           ocean: "#153b44",
           mist: "#dbe7e4",
           gold: "#f3c75f",
+          goldDark: "#d4af37",
+          slate: "#94a3b8",
           coral: "#df6d5d",
           pine: "#1f6f64",
         },

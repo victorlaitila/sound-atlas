@@ -8,3 +8,4 @@ cdk.out
 infra/cdk.out
 npm-debug.log*
 *.tsbuildinfo
+.DS_Store
