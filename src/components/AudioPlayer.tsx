@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import type { AudioAsset } from "@/types/audio";
 import {
   ChevronDown,
@@ -140,14 +140,17 @@ export function AudioPlayer({
     useState<PreviewLoadState>("loading");
   const [detailsOpen, setDetailsOpen] = useState(false);
 
-  useEffect(() => {
+  // Reset playback state when the track changes
+  const [resetForAssetId, setResetForAssetId] = useState(asset.sourceId);
+  if (resetForAssetId !== asset.sourceId) {
+    setResetForAssetId(asset.sourceId);
     setIsPlaying(false);
     setProgress(0);
     setCurrentTime(0);
     setDuration(asset.duration);
     setPreviewLoadState("loading");
     setDetailsOpen(false);
-  }, [asset]);
+  }
 
   async function togglePlayback() {
     const audio = audioRef.current;
@@ -165,7 +168,8 @@ export function AudioPlayer({
     try {
       await audio.play();
       setIsPlaying(true);
-    } catch {
+    } catch (error) {
+      console.error(`Preview playback failed for ${asset.sourceId}`, error);
       setIsPlaying(false);
       setPreviewLoadState("error");
     }

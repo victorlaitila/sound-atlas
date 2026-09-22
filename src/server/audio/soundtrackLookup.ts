@@ -46,7 +46,9 @@ export async function lookupSoundtracksForCountryCode(
       countryCode,
       results: await itunesMusicProvider(metadata),
     };
-  } catch {
+  } catch (error) {
+    console.error(`Soundtrack lookup failed for ${countryCode}`, error);
+
     return {
       ok: false,
       statusCode: 502,

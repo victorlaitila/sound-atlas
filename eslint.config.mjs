@@ -3,15 +3,10 @@ import nextTypescript from "eslint-config-next/typescript";
 
 const eslintConfig = [
   {
-    ignores: ["infra/cdk.out/**"],
+    ignores: ["infra/cdk.out/**", "public/maplibre/**"],
   },
   ...nextCoreWebVitals,
   ...nextTypescript,
-  {
-    rules: {
-      "react-hooks/set-state-in-effect": "off",
-    },
-  },
 ];
 
 export default eslintConfig;

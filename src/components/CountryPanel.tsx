@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { AudioPlayer, AudioPlayerSkeleton } from "@/components/AudioPlayer";
 import type { CountryMetadata } from "@/data/countryMetadata";
 import type { AudioAsset } from "@/types/audio";
@@ -26,9 +26,12 @@ export function CountryPanel({
   const bestAudioAsset = audioAssets[0] ?? null;
   const [isMinimized, setIsMinimized] = useState(false);
 
-  useEffect(() => {
+  // Reset to expanded whenever a new country is selected
+  const [resetForIsoCode, setResetForIsoCode] = useState(metadata?.isoCode);
+  if (resetForIsoCode !== metadata?.isoCode) {
+    setResetForIsoCode(metadata?.isoCode);
     setIsMinimized(false);
-  }, [metadata?.isoCode]);
+  }
 
   if (!metadata) {
     return null;

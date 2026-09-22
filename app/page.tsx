@@ -78,22 +78,21 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    if (!selectedMetadata?.isoCode) {
-      setAudioAssets([]);
-      setAudioStatus(selectedMetadata ? "empty" : "idle");
-      return;
-    }
-
     const controller = new AbortController();
-    const countryCode = selectedMetadata.isoCode;
 
     async function loadAudioAssets() {
+      if (!selectedMetadata?.isoCode) {
+        setAudioAssets([]);
+        setAudioStatus(selectedMetadata ? "empty" : "idle");
+        return;
+      }
+
       setAudioAssets([]);
       setAudioStatus("loading");
 
       try {
         const results = await loadSoundtrackResults(
-          countryCode,
+          selectedMetadata.isoCode,
           controller.signal,
         );
 

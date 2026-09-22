@@ -87,24 +87,12 @@ function tokenize(value: string) {
     .filter((token) => token.length > 2);
 }
 
-function containsBlockedTerm(
-  result: ItunesSongResult,
-  context: SearchContext,
-  metadata: CountryMetadata,
-) {
+function containsBlockedTerm(result: ItunesSongResult, context: SearchContext) {
   const resultText = getResultText(result);
   const blockedTerms = uniqueTerms([
     ...context.dynamicFallback.blockedTerms,
     ...(context.curatedEntry?.blockedTerms ?? []),
   ]);
-
-  if (
-    metadata.isoCode !== "SE" &&
-    metadata.isoCode !== "NO" &&
-    metadata.isoCode !== "FI"
-  ) {
-    return blockedTerms.some((term) => hasTerm(resultText, term));
-  }
 
   return blockedTerms.some((term) => hasTerm(resultText, term));
 }
@@ -240,7 +228,7 @@ function rankResult(
     !result.trackName ||
     !result.artistName ||
     !result.primaryGenreName ||
-    containsBlockedTerm(result, context, metadata)
+    containsBlockedTerm(result, context)
   ) {
     return null;
   }
@@ -357,19 +345,16 @@ async function findBestForContext(
   metadata: CountryMetadata,
   context: SearchContext,
 ) {
-  const rankedResults: RankedItunesResult[] = [];
+  const resultsByStorefront = await Promise.all(
+    getItunesStorefronts(metadata).map(async (storefrontCode) =>
+      (await searchItunes(storefrontCode, context.query))
+        .map((result) => rankResult(result, metadata, context))
+        .filter((result): result is RankedItunesResult => result !== null),
+    ),
+  );
 
-  for (const storefrontCode of getItunesStorefronts(metadata)) {
-    const storefrontResults = (await searchItunes(storefrontCode, context.query))
-      .map((result) => rankResult(result, metadata, context))
-      .filter((result): result is RankedItunesResult => result !== null);
-
-    rankedResults.push(...storefrontResults);
-
-    if (storefrontResults.length > 0) {
-      break;
-    }
-  }
+  const rankedResults =
+    resultsByStorefront.find((storefrontResults) => storefrontResults.length > 0) ?? [];
 
   return rankedResults.sort((a, b) => b.relationScore - a.relationScore)[0] ?? null;
 }

@@ -2,7 +2,7 @@
 
 import { memo, useCallback, useEffect, useRef, useState } from "react";
 import type { Feature, FeatureCollection, MultiPolygon, Polygon } from "geojson";
-import maplibregl from "maplibre-gl";
+import * as maplibregl from "maplibre-gl";
 import type {
   ExpressionSpecification,
   MapLayerMouseEvent,
@@ -17,6 +17,8 @@ import {
   getMapCountryId,
 } from "@/data/countryMetadata";
 import { Locate, Minus, Plus } from "lucide-react";
+
+maplibregl.setWorkerUrl("/maplibre/maplibre-gl-worker.mjs");
 
 type WorldMapProps = {
   selectedCountryId: string | null;
@@ -285,15 +287,16 @@ function WorldMapComponent({ selectedCountryId, onCountrySelect }: WorldMapProps
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   const selectedCountryIdRef = useRef(selectedCountryId);
+  const [browserSupportsWebGl] = useState(() => mapSupportsWebGl());
   const [mapFailed, setMapFailed] = useState(false);
+  const showFallback = !browserSupportsWebGl || mapFailed;
 
   useEffect(() => {
     selectedCountryIdRef.current = selectedCountryId;
   }, [selectedCountryId]);
 
   useEffect(() => {
-    if (!mapSupportsWebGl()) {
-      setMapFailed(true);
+    if (!browserSupportsWebGl) {
       return undefined;
     }
 
@@ -353,7 +356,7 @@ function WorldMapComponent({ selectedCountryId, onCountrySelect }: WorldMapProps
       mapRef.current = null;
       map.remove();
     };
-  }, [onCountrySelect]);
+  }, [browserSupportsWebGl, onCountrySelect]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -410,10 +413,10 @@ function WorldMapComponent({ selectedCountryId, onCountrySelect }: WorldMapProps
     >
       <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(4,14,20,0.18),rgba(4,14,20,0.04)_42%,rgba(4,14,20,0.48))]" />
       <div className="absolute inset-0">
-        {mapFailed ? <MapFallback /> : null}
+        {showFallback ? <MapFallback /> : null}
         <div
           ref={containerRef}
-          className={mapFailed ? "hidden" : "h-full w-full"}
+          className={showFallback ? "hidden" : "h-full w-full"}
         />
       </div>
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_42%,transparent_0,transparent_28rem,rgba(2,8,12,0.16)_44rem,rgba(2,8,12,0.38)_100%)]" />

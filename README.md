@@ -62,20 +62,6 @@ tries the local Next.js route before showing "Soundtrack not available yet".
 - Confirm weak or unavailable matches show "Soundtrack not available yet" instead of playing irrelevant music.
 - Resize the browser to confirm the map and panel stack cleanly on small screens.
 
-## Current Scope
-
-- Interactive world map
-- Clickable countries
-- Country metadata layer with ISO, region, capital, aliases, and search cues
-- Curated country soundtrack query layer
-- Deterministic curated soundtrack seed at `src/data/soundAtlasCuratedSongs.json`
-- Server-side audio proxy at `/api/audio?countryCode=FI`
-- Optional AWS soundtrack API via `NEXT_PUBLIC_SOUNDATLAS_API_URL`
-- AWS CDK backend definition in `infra/` for API Gateway, Lambda, and DynamoDB
-- Real iTunes music preview playback
-- Relevance filtering with blocked terms and preferred genres
-- Responsive Tailwind layout
-
 ## Audio Provider Notes
 
 - iTunes Search API is the only active audio provider.
