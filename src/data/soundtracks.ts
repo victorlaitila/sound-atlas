@@ -1,8 +1,4 @@
 import soundtrackSeed from "./soundAtlasCuratedSongs.json";
-import {
-  dynamicCountryMusicFallbackByCode,
-  type DynamicCountryMusicCuration,
-} from "./dynamicCountryMusic";
 import type { CountryMetadata } from "./countryMetadata";
 
 export type CuratedTrack = {
@@ -13,9 +9,8 @@ export type CuratedTrack = {
 
 export type CuratedSoundtrackEntry = {
   countryCode: string;
-  primaryTrack: CuratedTrack;
+  candidateTracks: CuratedTrack[];
   fallbackSearchTerms: string[];
-  blockedTerms?: string[];
 };
 
 type SoundtrackSeed = {
@@ -23,23 +18,22 @@ type SoundtrackSeed = {
   countries: CuratedSoundtrackEntry[];
 };
 
-export type SoundtrackSelectionProfile = {
-  curatedEntry: CuratedSoundtrackEntry | null;
-  dynamicFallback: DynamicCountryMusicCuration;
+export type DynamicFallbackQueries = {
+  primaryQuery: string;
+  backupQueries: string[];
 };
 
-function buildDefaultDynamicFallback(
-  metadata: CountryMetadata,
-): DynamicCountryMusicCuration {
+export type SoundtrackSelectionProfile = {
+  curatedEntry: CuratedSoundtrackEntry | null;
+  dynamicFallback: DynamicFallbackQueries;
+};
+
+function buildDynamicFallback(metadata: CountryMetadata): DynamicFallbackQueries {
   const countryName = metadata.name;
 
   return {
-    countryCode: metadata.isoCode ?? metadata.isoAlpha3 ?? metadata.mapId,
     primaryQuery: `${countryName} music`,
     backupQueries: [`${countryName} folk music`, `${countryName} traditional music`],
-    blockedTerms: [],
-    preferredGenres: ["world", "folk", "pop", "traditional"],
-    notes: `Generic dynamic fallback for ${countryName}.`,
   };
 }
 
@@ -61,8 +55,6 @@ export function getSoundtrackSelectionProfile(
 
   return {
     curatedEntry: curatedSoundtracksByCountryCode[countryCode] ?? null,
-    dynamicFallback:
-      dynamicCountryMusicFallbackByCode[countryCode] ??
-      buildDefaultDynamicFallback(metadata),
+    dynamicFallback: buildDynamicFallback(metadata),
   };
 }

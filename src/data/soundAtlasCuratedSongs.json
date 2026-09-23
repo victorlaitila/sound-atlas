@@ -3,11 +3,18 @@
   "countries": [
     {
       "countryCode": "AF",
-      "primaryTrack": {
-        "artist": "Ghazal Sadat",
-        "title": "Jaaneman",
-        "searchTerm": "Ghazal Sadat Jaaneman"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Ahmad Zahir",
+          "title": "Tanha Shudam Tanha",
+          "searchTerm": "Ahmad Zahir Tanha Shudam Tanha"
+        },
+        {
+          "artist": "Ghazal Sadat",
+          "title": "Jaaneman",
+          "searchTerm": "Ghazal Sadat Jaaneman"
+        }
+      ],
       "fallbackSearchTerms": [
         "Afghanistan traditional music",
         "Afghanistan folk music",
@@ -16,11 +23,18 @@
     },
     {
       "countryCode": "AL",
-      "primaryTrack": {
-        "artist": "Elvana Gjata, Capital T, 2po2",
-        "title": "Lejla",
-        "searchTerm": "Elvana Gjata, Capital T, 2po2 Lejla"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Tirana Folk Ensemble",
+          "title": "Moj e Bukura More",
+          "searchTerm": "Moj e Bukura More"
+        },
+        {
+          "artist": "Elvana Gjata, Capital T, 2po2",
+          "title": "Lejla",
+          "searchTerm": "Elvana Gjata, Capital T, 2po2 Lejla"
+        }
+      ],
       "fallbackSearchTerms": [
         "Albania traditional music",
         "Albania folk music",
@@ -29,11 +43,18 @@
     },
     {
       "countryCode": "DZ",
-      "primaryTrack": {
-        "artist": "Khaled",
-        "title": "C'est La Vie",
-        "searchTerm": "Khaled C'est La Vie"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Khaled",
+          "title": "Didi",
+          "searchTerm": "Khaled Didi"
+        },
+        {
+          "artist": "Khaled",
+          "title": "C'est La Vie",
+          "searchTerm": "Khaled C'est La Vie"
+        }
+      ],
       "fallbackSearchTerms": [
         "Algeria traditional music",
         "Algeria folk music",
@@ -42,11 +63,13 @@
     },
     {
       "countryCode": "AS",
-      "primaryTrack": {
-        "artist": "The Katinas",
-        "title": "Carry the Cross",
-        "searchTerm": "The Katinas Carry the Cross"
-      },
+      "candidateTracks": [
+        {
+          "artist": "The Katinas",
+          "title": "Carry the Cross",
+          "searchTerm": "The Katinas Carry the Cross"
+        }
+      ],
       "fallbackSearchTerms": [
         "American Samoa traditional music",
         "American Samoa folk music",
@@ -55,11 +78,13 @@
     },
     {
       "countryCode": "AD",
-      "primaryTrack": {
-        "artist": "Anonymous",
-        "title": "Salvem el Món",
-        "searchTerm": "Anonymous Salvem el Món"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Anonymous",
+          "title": "Salvem el Món",
+          "searchTerm": "Anonymous Salvem el Món"
+        }
+      ],
       "fallbackSearchTerms": [
         "Andorra traditional music",
         "Andorra folk music",
@@ -68,11 +93,18 @@
     },
     {
       "countryCode": "AO",
-      "primaryTrack": {
-        "artist": "Pérola, C4 Pedro",
-        "title": "Fica Parado",
-        "searchTerm": "Pérola, C4 Pedro Fica Parado"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Bonga",
+          "title": "Mona Ki Ngi Xica",
+          "searchTerm": "Bonga Mona Ki Ngi Xica"
+        },
+        {
+          "artist": "Pérola, C4 Pedro",
+          "title": "Fica Parado",
+          "searchTerm": "Pérola, C4 Pedro Fica Parado"
+        }
+      ],
       "fallbackSearchTerms": [
         "Angola traditional music",
         "Angola folk music",
@@ -81,11 +113,18 @@
     },
     {
       "countryCode": "AI",
-      "primaryTrack": {
-        "artist": "Amalia Watty",
-        "title": "Some One To Know Me",
-        "searchTerm": "Amalia Watty Some One To Know Me"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Bankie Banx",
+          "title": "Prince of Darkness",
+          "searchTerm": "Bankie Banx Prince of Darkness"
+        },
+        {
+          "artist": "Amalia Watty",
+          "title": "Some One To Know Me",
+          "searchTerm": "Amalia Watty Some One To Know Me"
+        }
+      ],
       "fallbackSearchTerms": [
         "Anguilla traditional music",
         "Anguilla folk music",
@@ -94,11 +133,13 @@
     },
     {
       "countryCode": "AG",
-      "primaryTrack": {
-        "artist": "Burning Flames",
-        "title": "Workey Workey",
-        "searchTerm": "Burning Flames Workey Workey"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Burning Flames",
+          "title": "Workey Workey",
+          "searchTerm": "Burning Flames Workey Workey"
+        }
+      ],
       "fallbackSearchTerms": [
         "Antigua and Barbuda traditional music",
         "Antigua and Barbuda folk music",
@@ -107,11 +148,18 @@
     },
     {
       "countryCode": "AR",
-      "primaryTrack": {
-        "artist": "Diego Torres",
-        "title": "La Vida Es un Vals",
-        "searchTerm": "Diego Torres La Vida Es un Vals"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Carlos Gardel",
+          "title": "Mi Buenos Aires Querido",
+          "searchTerm": "Carlos Gardel Mi Buenos Aires Querido"
+        },
+        {
+          "artist": "Diego Torres",
+          "title": "La Vida Es un Vals",
+          "searchTerm": "Diego Torres La Vida Es un Vals"
+        }
+      ],
       "fallbackSearchTerms": [
         "Argentina traditional music",
         "Argentina folk music",
@@ -120,11 +168,18 @@
     },
     {
       "countryCode": "AM",
-      "primaryTrack": {
-        "artist": "Lilit Hovhannisyan",
-        "title": "Tu Tu Tu",
-        "searchTerm": "Lilit Hovhannisyan Tu Tu Tu"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Vatche",
+          "title": "Sari Siroun Yar",
+          "searchTerm": "Vatche Sari Siroun Yar"
+        },
+        {
+          "artist": "Lilit Hovhannisyan",
+          "title": "Tu Tu Tu",
+          "searchTerm": "Lilit Hovhannisyan Tu Tu Tu"
+        }
+      ],
       "fallbackSearchTerms": [
         "Armenia traditional music",
         "Armenia folk music",
@@ -133,11 +188,18 @@
     },
     {
       "countryCode": "AW",
-      "primaryTrack": {
-        "artist": "Wally Warning",
-        "title": "No Monkey",
-        "searchTerm": "Wally Warning No Monkey"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Padu del Caribe",
+          "title": "Abo So",
+          "searchTerm": "Padu del Caribe Abo So"
+        },
+        {
+          "artist": "Wally Warning",
+          "title": "No Monkey",
+          "searchTerm": "Wally Warning No Monkey"
+        }
+      ],
       "fallbackSearchTerms": [
         "Aruba traditional music",
         "Aruba folk music",
@@ -146,11 +208,18 @@
     },
     {
       "countryCode": "AU",
-      "primaryTrack": {
-        "artist": "Delta Goodrem",
-        "title": "Wings",
-        "searchTerm": "Delta Goodrem Wings"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Slim Dusty",
+          "title": "Waltzing Matilda",
+          "searchTerm": "Slim Dusty Waltzing Matilda"
+        },
+        {
+          "artist": "Delta Goodrem",
+          "title": "Wings",
+          "searchTerm": "Delta Goodrem Wings"
+        }
+      ],
       "fallbackSearchTerms": [
         "Australia traditional music",
         "Australia folk music",
@@ -159,11 +228,18 @@
     },
     {
       "countryCode": "AT",
-      "primaryTrack": {
-        "artist": "Soap&Skin",
-        "title": "Safe With Me",
-        "searchTerm": "Soap&Skin Safe With Me"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Wiener Philharmoniker",
+          "title": "An der schönen blauen Donau",
+          "searchTerm": "Wiener Philharmoniker An der schonen blauen Donau"
+        },
+        {
+          "artist": "Soap&Skin",
+          "title": "Safe With Me",
+          "searchTerm": "Soap&Skin Safe With Me"
+        }
+      ],
       "fallbackSearchTerms": [
         "Austria traditional music",
         "Austria folk music",
@@ -172,11 +248,18 @@
     },
     {
       "countryCode": "AZ",
-      "primaryTrack": {
-        "artist": "Rauf",
-        "title": "-40",
-        "searchTerm": "Rauf -40"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Sami Yusuf",
+          "title": "Sari Gelin",
+          "searchTerm": "Sami Yusuf Sari Gelin"
+        },
+        {
+          "artist": "Rauf",
+          "title": "-40",
+          "searchTerm": "Rauf -40"
+        }
+      ],
       "fallbackSearchTerms": [
         "Azerbaijan traditional music",
         "Azerbaijan folk music",
@@ -185,11 +268,18 @@
     },
     {
       "countryCode": "BS",
-      "primaryTrack": {
-        "artist": "Bodine",
-        "title": "Rocka My Cherry",
-        "searchTerm": "Bodine Rocka My Cherry"
-      },
+      "candidateTracks": [
+        {
+          "artist": "The Beginning of the End",
+          "title": "Funky Nassau",
+          "searchTerm": "The Beginning of the End Funky Nassau"
+        },
+        {
+          "artist": "Bodine",
+          "title": "Rocka My Cherry",
+          "searchTerm": "Bodine Rocka My Cherry"
+        }
+      ],
       "fallbackSearchTerms": [
         "Bahamas traditional music",
         "Bahamas folk music",
@@ -198,11 +288,13 @@
     },
     {
       "countryCode": "BH",
-      "primaryTrack": {
-        "artist": "Hind",
-        "title": "Hamati",
-        "searchTerm": "Hind Hamati"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Hind",
+          "title": "Hamati",
+          "searchTerm": "Hind Hamati"
+        }
+      ],
       "fallbackSearchTerms": [
         "Bahrain traditional music",
         "Bahrain folk music",
@@ -211,11 +303,18 @@
     },
     {
       "countryCode": "BD",
-      "primaryTrack": {
-        "artist": "Minar Rahman",
-        "title": "Ta Jani Na",
-        "searchTerm": "Minar Rahman Ta Jani Na"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Farida Parveen",
+          "title": "Khachar Bhitor Ochin Pakhi",
+          "searchTerm": "Farida Parveen Khachar Bhitor Ochin Pakhi"
+        },
+        {
+          "artist": "Minar Rahman",
+          "title": "Ta Jani Na",
+          "searchTerm": "Minar Rahman Ta Jani Na"
+        }
+      ],
       "fallbackSearchTerms": [
         "Bangladesh traditional music",
         "Bangladesh folk music",
@@ -224,11 +323,13 @@
     },
     {
       "countryCode": "BB",
-      "primaryTrack": {
-        "artist": "Gabby",
-        "title": "Hit It",
-        "searchTerm": "Gabby Hit It"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Gabby",
+          "title": "Hit It",
+          "searchTerm": "Gabby Hit It"
+        }
+      ],
       "fallbackSearchTerms": [
         "Barbados traditional music",
         "Barbados folk music",
@@ -237,11 +338,18 @@
     },
     {
       "countryCode": "BY",
-      "primaryTrack": {
-        "artist": "Nizkiz",
-        "title": "Небяспечна (Nebyaspechna)",
-        "searchTerm": "Nizkiz Небяспечна (Nebyaspechna)"
-      },
+      "candidateTracks": [
+        {
+          "artist": "NAVIBAND",
+          "title": "Kupalinka",
+          "searchTerm": "NAVIBAND Kupalinka"
+        },
+        {
+          "artist": "Nizkiz",
+          "title": "Небяспечна (Nebyaspechna)",
+          "searchTerm": "Nizkiz Небяспечна (Nebyaspechna)"
+        }
+      ],
       "fallbackSearchTerms": [
         "Belarus traditional music",
         "Belarus folk music",
@@ -250,11 +358,18 @@
     },
     {
       "countryCode": "BE",
-      "primaryTrack": {
-        "artist": "Loïc Nottet",
-        "title": "Mud Blood",
-        "searchTerm": "Loïc Nottet Mud Blood"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Jacques Brel",
+          "title": "Ne me quitte pas",
+          "searchTerm": "Jacques Brel Ne me quitte pas"
+        },
+        {
+          "artist": "Loïc Nottet",
+          "title": "Mud Blood",
+          "searchTerm": "Loïc Nottet Mud Blood"
+        }
+      ],
       "fallbackSearchTerms": [
         "Belgium traditional music",
         "Belgium folk music",
@@ -263,11 +378,13 @@
     },
     {
       "countryCode": "BZ",
-      "primaryTrack": {
-        "artist": "Andy Palacio, the Garifuna Collective",
-        "title": "Wátina",
-        "searchTerm": "Andy Palacio, the Garifuna Collective Wátina"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Andy Palacio, the Garifuna Collective",
+          "title": "Wátina",
+          "searchTerm": "Andy Palacio, the Garifuna Collective Wátina"
+        }
+      ],
       "fallbackSearchTerms": [
         "Belize traditional music",
         "Belize folk music",
@@ -276,11 +393,18 @@
     },
     {
       "countryCode": "BJ",
-      "primaryTrack": {
-        "artist": "Les Amazones d'Afrique, Angelique Kidjo",
-        "title": "Dombolo",
-        "searchTerm": "Les Amazones d'Afrique, Angelique Kidjo Dombolo"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Angélique Kidjo",
+          "title": "Agolo",
+          "searchTerm": "Angelique Kidjo Agolo"
+        },
+        {
+          "artist": "Les Amazones d'Afrique, Angelique Kidjo",
+          "title": "Dombolo",
+          "searchTerm": "Les Amazones d'Afrique, Angelique Kidjo Dombolo"
+        }
+      ],
       "fallbackSearchTerms": [
         "Benin traditional music",
         "Benin folk music",
@@ -289,11 +413,13 @@
     },
     {
       "countryCode": "BM",
-      "primaryTrack": {
-        "artist": "Twanée",
-        "title": "You Killin Me",
-        "searchTerm": "Twanée You Killin Me"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Twanée",
+          "title": "You Killin Me",
+          "searchTerm": "Twanée You Killin Me"
+        }
+      ],
       "fallbackSearchTerms": [
         "Bermuda traditional music",
         "Bermuda folk music",
@@ -302,11 +428,18 @@
     },
     {
       "countryCode": "BT",
-      "primaryTrack": {
-        "artist": "Lama Gyurme, Jean-Philippe Rykiel",
-        "title": "Offering Chant",
-        "searchTerm": "Lama Gyurme, Jean-Philippe Rykiel Offering Chant"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Jigme Drukpa",
+          "title": "Lhodrak Marpai Zhab",
+          "searchTerm": "Jigme Drukpa Lhodrak Marpai Zhab"
+        },
+        {
+          "artist": "Lama Gyurme, Jean-Philippe Rykiel",
+          "title": "Offering Chant",
+          "searchTerm": "Lama Gyurme, Jean-Philippe Rykiel Offering Chant"
+        }
+      ],
       "fallbackSearchTerms": [
         "Bhutan traditional music",
         "Bhutan folk music",
@@ -315,11 +448,18 @@
     },
     {
       "countryCode": "BO",
-      "primaryTrack": {
-        "artist": "Awatiñas",
-        "title": "En los Cocales",
-        "searchTerm": "Awatiñas En los Cocales"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Los Kjarkas",
+          "title": "Llorando Se Fue",
+          "searchTerm": "Los Kjarkas Llorando Se Fue"
+        },
+        {
+          "artist": "Awatiñas",
+          "title": "En los Cocales",
+          "searchTerm": "Awatiñas En los Cocales"
+        }
+      ],
       "fallbackSearchTerms": [
         "Bolivia traditional music",
         "Bolivia folk music",
@@ -328,11 +468,13 @@
     },
     {
       "countryCode": "BQ",
-      "primaryTrack": {
-        "artist": "Rincon Boyz",
-        "title": "Porfin Tin Un Homber",
-        "searchTerm": "Rincon Boyz Porfin Tin Un Homber"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Rincon Boyz",
+          "title": "Porfin Tin Un Homber",
+          "searchTerm": "Rincon Boyz Porfin Tin Un Homber"
+        }
+      ],
       "fallbackSearchTerms": [
         "Bonaire, Sint Eustatius, and Saba traditional music",
         "Bonaire, Sint Eustatius, and Saba folk music",
@@ -341,11 +483,18 @@
     },
     {
       "countryCode": "BA",
-      "primaryTrack": {
-        "artist": "Serif Konjevic",
-        "title": "Put do bola",
-        "searchTerm": "Serif Konjevic Put do bola"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Himzo Polovina",
+          "title": "Emina",
+          "searchTerm": "Himzo Polovina Emina"
+        },
+        {
+          "artist": "Serif Konjevic",
+          "title": "Put do bola",
+          "searchTerm": "Serif Konjevic Put do bola"
+        }
+      ],
       "fallbackSearchTerms": [
         "Bosnia and Herzegovina traditional music",
         "Bosnia and Herzegovina folk music",
@@ -354,11 +503,13 @@
     },
     {
       "countryCode": "BW",
-      "primaryTrack": {
-        "artist": "Lorraine Lionheart",
-        "title": "Qoma",
-        "searchTerm": "Lorraine Lionheart Qoma"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Lorraine Lionheart",
+          "title": "Qoma",
+          "searchTerm": "Lorraine Lionheart Qoma"
+        }
+      ],
       "fallbackSearchTerms": [
         "Botswana traditional music",
         "Botswana folk music",
@@ -367,11 +518,18 @@
     },
     {
       "countryCode": "BR",
-      "primaryTrack": {
-        "artist": "Elaine Martins",
-        "title": "Santificação",
-        "searchTerm": "Elaine Martins Santificação"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Antônio Carlos Jobim",
+          "title": "Garota de Ipanema",
+          "searchTerm": "Antônio Carlos Jobim Garota de Ipanema"
+        },
+        {
+          "artist": "Elaine Martins",
+          "title": "Santificação",
+          "searchTerm": "Elaine Martins Santificação"
+        }
+      ],
       "fallbackSearchTerms": [
         "Brazil traditional music",
         "Brazil folk music",
@@ -380,11 +538,18 @@
     },
     {
       "countryCode": "VG",
-      "primaryTrack": {
-        "artist": "Melanie Amaro",
-        "title": "The One",
-        "searchTerm": "Melanie Amaro The One"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Stanley and the Ten Sleepless Knights",
+          "title": "Cigar Win the Race",
+          "searchTerm": "Stanley and the Ten Sleepless Knights Cigar Win the Race"
+        },
+        {
+          "artist": "Melanie Amaro",
+          "title": "The One",
+          "searchTerm": "Melanie Amaro The One"
+        }
+      ],
       "fallbackSearchTerms": [
         "British Virgin Islands traditional music",
         "British Virgin Islands folk music",
@@ -393,11 +558,13 @@
     },
     {
       "countryCode": "BN",
-      "primaryTrack": {
-        "artist": "Aziz Harun",
-        "title": "Beautiful",
-        "searchTerm": "Aziz Harun Beautiful"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Aziz Harun",
+          "title": "Beautiful",
+          "searchTerm": "Aziz Harun Beautiful"
+        }
+      ],
       "fallbackSearchTerms": [
         "Brunei traditional music",
         "Brunei folk music",
@@ -406,11 +573,18 @@
     },
     {
       "countryCode": "BG",
-      "primaryTrack": {
-        "artist": "Zhana Bergendorff",
-        "title": "Dokrai",
-        "searchTerm": "Zhana Bergendorff Dokrai"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Valya Balkanska",
+          "title": "Izlel e Delyu Haydutin",
+          "searchTerm": "Valya Balkanska Izlel e Delyu Haydutin"
+        },
+        {
+          "artist": "Zhana Bergendorff",
+          "title": "Dokrai",
+          "searchTerm": "Zhana Bergendorff Dokrai"
+        }
+      ],
       "fallbackSearchTerms": [
         "Bulgaria traditional music",
         "Bulgaria folk music",
@@ -419,11 +593,13 @@
     },
     {
       "countryCode": "BF",
-      "primaryTrack": {
-        "artist": "Dicko fils",
-        "title": "Laawol",
-        "searchTerm": "Dicko fils Laawol"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Dicko fils",
+          "title": "Laawol",
+          "searchTerm": "Dicko fils Laawol"
+        }
+      ],
       "fallbackSearchTerms": [
         "Burkina Faso traditional music",
         "Burkina Faso folk music",
@@ -432,11 +608,18 @@
     },
     {
       "countryCode": "BI",
-      "primaryTrack": {
-        "artist": "Khadja Nin",
-        "title": "Kuji Fondeya",
-        "searchTerm": "Khadja Nin Kuji Fondeya"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Khadja Nin",
+          "title": "Samboléra Mayi Son",
+          "searchTerm": "Khadja Nin Sambolera Mayi Son"
+        },
+        {
+          "artist": "Khadja Nin",
+          "title": "Kuji Fondeya",
+          "searchTerm": "Khadja Nin Kuji Fondeya"
+        }
+      ],
       "fallbackSearchTerms": [
         "Burundi traditional music",
         "Burundi folk music",
@@ -445,11 +628,18 @@
     },
     {
       "countryCode": "KH",
-      "primaryTrack": {
-        "artist": "Laura Mam",
-        "title": "Yosop Yulsong",
-        "searchTerm": "Laura Mam Yosop Yulsong"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Sinn Sisamouth",
+          "title": "Champa Battambang",
+          "searchTerm": "Sinn Sisamouth Champa Battambang"
+        },
+        {
+          "artist": "Laura Mam",
+          "title": "Yosop Yulsong",
+          "searchTerm": "Laura Mam Yosop Yulsong"
+        }
+      ],
       "fallbackSearchTerms": [
         "Cambodia traditional music",
         "Cambodia folk music",
@@ -458,11 +648,18 @@
     },
     {
       "countryCode": "CM",
-      "primaryTrack": {
-        "artist": "Charlotte Dipanda",
-        "title": "Elle n'a pas vu",
-        "searchTerm": "Charlotte Dipanda Elle n'a pas vu"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Manu Dibango",
+          "title": "Soul Makossa",
+          "searchTerm": "Manu Dibango Soul Makossa"
+        },
+        {
+          "artist": "Charlotte Dipanda",
+          "title": "Elle n'a pas vu",
+          "searchTerm": "Charlotte Dipanda Elle n'a pas vu"
+        }
+      ],
       "fallbackSearchTerms": [
         "Cameroon traditional music",
         "Cameroon folk music",
@@ -471,11 +668,13 @@
     },
     {
       "countryCode": "CA",
-      "primaryTrack": {
-        "artist": "Buffy Sainte-Marie, Tanya Tagaq",
-        "title": "You Got To Run (Spirit of the Wind)",
-        "searchTerm": "Buffy Sainte-Marie, Tanya Tagaq You Got To Run (Spirit of the Wind)"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Buffy Sainte-Marie, Tanya Tagaq",
+          "title": "You Got To Run (Spirit of the Wind)",
+          "searchTerm": "Buffy Sainte-Marie, Tanya Tagaq You Got To Run (Spirit of the Wind)"
+        }
+      ],
       "fallbackSearchTerms": [
         "Canada traditional music",
         "Canada folk music",
@@ -484,11 +683,18 @@
     },
     {
       "countryCode": "CV",
-      "primaryTrack": {
-        "artist": "Mayra Andrade",
-        "title": "Afeto",
-        "searchTerm": "Mayra Andrade Afeto"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Cesária Évora",
+          "title": "Sodade",
+          "searchTerm": "Cesaria Evora Sodade"
+        },
+        {
+          "artist": "Mayra Andrade",
+          "title": "Afeto",
+          "searchTerm": "Mayra Andrade Afeto"
+        }
+      ],
       "fallbackSearchTerms": [
         "Cape Verde traditional music",
         "Cape Verde folk music",
@@ -497,11 +703,13 @@
     },
     {
       "countryCode": "KY",
-      "primaryTrack": {
-        "artist": "Natasha Kozaily",
-        "title": "A Song About A Tree",
-        "searchTerm": "Natasha Kozaily A Song About A Tree"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Natasha Kozaily",
+          "title": "A Song About A Tree",
+          "searchTerm": "Natasha Kozaily A Song About A Tree"
+        }
+      ],
       "fallbackSearchTerms": [
         "Cayman Islands traditional music",
         "Cayman Islands folk music",
@@ -510,11 +718,13 @@
     },
     {
       "countryCode": "CF",
-      "primaryTrack": {
-        "artist": "Laetitia Zonzambé",
-        "title": "Sanza",
-        "searchTerm": "Laetitia Zonzambé Sanza"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Laetitia Zonzambé",
+          "title": "Sanza",
+          "searchTerm": "Laetitia Zonzambé Sanza"
+        }
+      ],
       "fallbackSearchTerms": [
         "Central African Republic traditional music",
         "Central African Republic folk music",
@@ -523,11 +733,13 @@
     },
     {
       "countryCode": "TD",
-      "primaryTrack": {
-        "artist": "Mounira Mitchala",
-        "title": "Tourapna",
-        "searchTerm": "Mounira Mitchala Tourapna"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Mounira Mitchala",
+          "title": "Tourapna",
+          "searchTerm": "Mounira Mitchala Tourapna"
+        }
+      ],
       "fallbackSearchTerms": [
         "Chad traditional music",
         "Chad folk music",
@@ -536,11 +748,18 @@
     },
     {
       "countryCode": "CL",
-      "primaryTrack": {
-        "artist": "Mon Laferte, Juanes",
-        "title": "Amárrame",
-        "searchTerm": "Mon Laferte, Juanes Amárrame"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Violeta Parra",
+          "title": "Gracias a la Vida",
+          "searchTerm": "Violeta Parra Gracias a la Vida"
+        },
+        {
+          "artist": "Mon Laferte, Juanes",
+          "title": "Amárrame",
+          "searchTerm": "Mon Laferte, Juanes Amárrame"
+        }
+      ],
       "fallbackSearchTerms": [
         "Chile traditional music",
         "Chile folk music",
@@ -549,11 +768,18 @@
     },
     {
       "countryCode": "CN",
-      "primaryTrack": {
-        "artist": "Wang Feng",
-        "title": "存在 (Cúnzài)",
-        "searchTerm": "Wang Feng 存在 (Cúnzài)"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Karen Mok",
+          "title": "Mo Li Hua (茉莉花)",
+          "searchTerm": "Karen Mok Mo Li Hua"
+        },
+        {
+          "artist": "Wang Feng",
+          "title": "存在 (Cúnzài)",
+          "searchTerm": "Wang Feng 存在 (Cúnzài)"
+        }
+      ],
       "fallbackSearchTerms": [
         "China traditional music",
         "China folk music",
@@ -562,11 +788,18 @@
     },
     {
       "countryCode": "CO",
-      "primaryTrack": {
-        "artist": "Bomba Estéreo",
-        "title": "Soy Yo",
-        "searchTerm": "Bomba Estéreo Soy Yo"
-      },
+      "candidateTracks": [
+        {
+          "artist": "José Barros",
+          "title": "La Piragua",
+          "searchTerm": "Jose Barros La Piragua"
+        },
+        {
+          "artist": "Bomba Estéreo",
+          "title": "Soy Yo",
+          "searchTerm": "Bomba Estéreo Soy Yo"
+        }
+      ],
       "fallbackSearchTerms": [
         "Colombia traditional music",
         "Colombia folk music",
@@ -575,11 +808,13 @@
     },
     {
       "countryCode": "KM",
-      "primaryTrack": {
-        "artist": "Nawal",
-        "title": "Hima",
-        "searchTerm": "Nawal Hima"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Nawal",
+          "title": "Hima",
+          "searchTerm": "Nawal Hima"
+        }
+      ],
       "fallbackSearchTerms": [
         "Comoros traditional music",
         "Comoros folk music",
@@ -588,11 +823,13 @@
     },
     {
       "countryCode": "CK",
-      "primaryTrack": {
-        "artist": "Mata Tahiri",
-        "title": "Portofino",
-        "searchTerm": "Mata Tahiri Portofino"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Mata Tahiri",
+          "title": "Portofino",
+          "searchTerm": "Mata Tahiri Portofino"
+        }
+      ],
       "fallbackSearchTerms": [
         "Cook Islands traditional music",
         "Cook Islands folk music",
@@ -601,11 +838,13 @@
     },
     {
       "countryCode": "CR",
-      "primaryTrack": {
-        "artist": "Percance, Los Auténticos Decadentes",
-        "title": "La Banda Mas Fiestera",
-        "searchTerm": "Percance, Los Auténticos Decadentes La Banda Mas Fiestera"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Percance, Los Auténticos Decadentes",
+          "title": "La Banda Mas Fiestera",
+          "searchTerm": "Percance, Los Auténticos Decadentes La Banda Mas Fiestera"
+        }
+      ],
       "fallbackSearchTerms": [
         "Costa Rica traditional music",
         "Costa Rica folk music",
@@ -614,11 +853,18 @@
     },
     {
       "countryCode": "HR",
-      "primaryTrack": {
-        "artist": "Neda Ukraden",
-        "title": "Na Balkanu",
-        "searchTerm": "Neda Ukraden Na Balkanu"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Oliver Dragojević",
+          "title": "Cesarica",
+          "searchTerm": "Oliver Dragojevic Cesarica"
+        },
+        {
+          "artist": "Neda Ukraden",
+          "title": "Na Balkanu",
+          "searchTerm": "Neda Ukraden Na Balkanu"
+        }
+      ],
       "fallbackSearchTerms": [
         "Croatia traditional music",
         "Croatia folk music",
@@ -627,11 +873,18 @@
     },
     {
       "countryCode": "CU",
-      "primaryTrack": {
-        "artist": "Raul Paz",
-        "title": "Carnaval",
-        "searchTerm": "Raul Paz Carnaval"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Compay Segundo",
+          "title": "Chan Chan",
+          "searchTerm": "Compay Segundo Chan Chan"
+        },
+        {
+          "artist": "Raul Paz",
+          "title": "Carnaval",
+          "searchTerm": "Raul Paz Carnaval"
+        }
+      ],
       "fallbackSearchTerms": [
         "Cuba traditional music",
         "Cuba folk music",
@@ -640,11 +893,13 @@
     },
     {
       "countryCode": "CW",
-      "primaryTrack": {
-        "artist": "Los BK-Clan, Kenny B",
-        "title": "Sorry for You",
-        "searchTerm": "Los BK-Clan, Kenny B Sorry for You"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Los BK-Clan, Kenny B",
+          "title": "Sorry for You",
+          "searchTerm": "Los BK-Clan, Kenny B Sorry for You"
+        }
+      ],
       "fallbackSearchTerms": [
         "Curacao traditional music",
         "Curacao folk music",
@@ -653,11 +908,13 @@
     },
     {
       "countryCode": "CY",
-      "primaryTrack": {
-        "artist": "Giorgos Papadopoulos",
-        "title": "Spasta",
-        "searchTerm": "Giorgos Papadopoulos Spasta"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Giorgos Papadopoulos",
+          "title": "Spasta",
+          "searchTerm": "Giorgos Papadopoulos Spasta"
+        }
+      ],
       "fallbackSearchTerms": [
         "Cyprus traditional music",
         "Cyprus folk music",
@@ -666,11 +923,13 @@
     },
     {
       "countryCode": "CZ",
-      "primaryTrack": {
-        "artist": "Lenny",
-        "title": "Lover",
-        "searchTerm": "Lenny Lover"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Lenny",
+          "title": "Lover",
+          "searchTerm": "Lenny Lover"
+        }
+      ],
       "fallbackSearchTerms": [
         "Czech Republic traditional music",
         "Czech Republic folk music",
@@ -679,11 +938,13 @@
     },
     {
       "countryCode": "CD",
-      "primaryTrack": {
-        "artist": "Awilo Longomba, Jocelyne Beroard",
-        "title": "Coupé bibamba",
-        "searchTerm": "Awilo Longomba, Jocelyne Beroard Coupé bibamba"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Awilo Longomba, Jocelyne Beroard",
+          "title": "Coupé bibamba",
+          "searchTerm": "Awilo Longomba, Jocelyne Beroard Coupé bibamba"
+        }
+      ],
       "fallbackSearchTerms": [
         "Democratic Republic of the Congo traditional music",
         "Democratic Republic of the Congo folk music",
@@ -692,11 +953,18 @@
     },
     {
       "countryCode": "DK",
-      "primaryTrack": {
-        "artist": "Nephew",
-        "title": "Amsterdam",
-        "searchTerm": "Nephew Amsterdam"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Kim Larsen",
+          "title": "Papirsklip",
+          "searchTerm": "Kim Larsen Papirsklip"
+        },
+        {
+          "artist": "Nephew",
+          "title": "Amsterdam",
+          "searchTerm": "Nephew Amsterdam"
+        }
+      ],
       "fallbackSearchTerms": [
         "Denmark traditional music",
         "Denmark folk music",
@@ -705,11 +973,13 @@
     },
     {
       "countryCode": "DJ",
-      "primaryTrack": {
-        "artist": "Awale Adan",
-        "title": "OH Yeah",
-        "searchTerm": "Awale Adan OH Yeah"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Awale Adan",
+          "title": "OH Yeah",
+          "searchTerm": "Awale Adan OH Yeah"
+        }
+      ],
       "fallbackSearchTerms": [
         "Djibouti traditional music",
         "Djibouti folk music",
@@ -718,11 +988,13 @@
     },
     {
       "countryCode": "DM",
-      "primaryTrack": {
-        "artist": "Signal Band",
-        "title": "Ani Ba Yo Love",
-        "searchTerm": "Signal Band Ani Ba Yo Love"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Signal Band",
+          "title": "Ani Ba Yo Love",
+          "searchTerm": "Signal Band Ani Ba Yo Love"
+        }
+      ],
       "fallbackSearchTerms": [
         "Dominica traditional music",
         "Dominica folk music",
@@ -731,11 +1003,13 @@
     },
     {
       "countryCode": "DO",
-      "primaryTrack": {
-        "artist": "Juan Luis Guerra 4.40",
-        "title": "Tus Besos",
-        "searchTerm": "Juan Luis Guerra 4.40 Tus Besos"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Juan Luis Guerra 4.40",
+          "title": "Tus Besos",
+          "searchTerm": "Juan Luis Guerra 4.40 Tus Besos"
+        }
+      ],
       "fallbackSearchTerms": [
         "Dominican Republic traditional music",
         "Dominican Republic folk music",
@@ -744,11 +1018,13 @@
     },
     {
       "countryCode": "XX",
-      "primaryTrack": {
-        "artist": "The Dili Allstars",
-        "title": "O Hele Le",
-        "searchTerm": "The Dili Allstars O Hele Le"
-      },
+      "candidateTracks": [
+        {
+          "artist": "The Dili Allstars",
+          "title": "O Hele Le",
+          "searchTerm": "The Dili Allstars O Hele Le"
+        }
+      ],
       "fallbackSearchTerms": [
         "East Timor traditional music",
         "East Timor folk music",
@@ -757,11 +1033,13 @@
     },
     {
       "countryCode": "EC",
-      "primaryTrack": {
-        "artist": "Jorge Luis Del Hierro, Vica",
-        "title": "Te Amo Para Siempre",
-        "searchTerm": "Jorge Luis Del Hierro, Vica Te Amo Para Siempre"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Jorge Luis Del Hierro, Vica",
+          "title": "Te Amo Para Siempre",
+          "searchTerm": "Jorge Luis Del Hierro, Vica Te Amo Para Siempre"
+        }
+      ],
       "fallbackSearchTerms": [
         "Ecuador traditional music",
         "Ecuador folk music",
@@ -770,11 +1048,18 @@
     },
     {
       "countryCode": "EG",
-      "primaryTrack": {
-        "artist": "Cairokee feat. Umm Kulthum",
-        "title": "Kan Lak Ma'aya",
-        "searchTerm": "Cairokee feat. Umm Kulthum Kan Lak Ma'aya"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Umm Kulthum",
+          "title": "Enta Omri",
+          "searchTerm": "Umm Kulthum Anta Oumri"
+        },
+        {
+          "artist": "Cairokee feat. Umm Kulthum",
+          "title": "Kan Lak Ma'aya",
+          "searchTerm": "Cairokee feat. Umm Kulthum Kan Lak Ma'aya"
+        }
+      ],
       "fallbackSearchTerms": [
         "Egypt traditional music",
         "Egypt folk music",
@@ -783,11 +1068,13 @@
     },
     {
       "countryCode": "SV",
-      "primaryTrack": {
-        "artist": "Lucia Parker",
-        "title": "Rey Vencedor",
-        "searchTerm": "Lucia Parker Rey Vencedor"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Lucia Parker",
+          "title": "Rey Vencedor",
+          "searchTerm": "Lucia Parker Rey Vencedor"
+        }
+      ],
       "fallbackSearchTerms": [
         "El Salvador traditional music",
         "El Salvador folk music",
@@ -796,11 +1083,13 @@
     },
     {
       "countryCode": "GQ",
-      "primaryTrack": {
-        "artist": "Ngal Madunga",
-        "title": "Sipopo",
-        "searchTerm": "Ngal Madunga Sipopo"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Ngal Madunga",
+          "title": "Sipopo",
+          "searchTerm": "Ngal Madunga Sipopo"
+        }
+      ],
       "fallbackSearchTerms": [
         "Equatorial Guinea traditional music",
         "Equatorial Guinea folk music",
@@ -809,11 +1098,13 @@
     },
     {
       "countryCode": "ER",
-      "primaryTrack": {
-        "artist": "Temesghen Yared",
-        "title": "Lilo",
-        "searchTerm": "Temesghen Yared Lilo"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Temesghen Yared",
+          "title": "Lilo",
+          "searchTerm": "Temesghen Yared Lilo"
+        }
+      ],
       "fallbackSearchTerms": [
         "Eritrea traditional music",
         "Eritrea folk music",
@@ -822,11 +1113,18 @@
     },
     {
       "countryCode": "EE",
-      "primaryTrack": {
-        "artist": "Karl-Erik Taukar",
-        "title": "Segased lood",
-        "searchTerm": "Karl-Erik Taukar Segased lood"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Kukerpillid",
+          "title": "Mere Pidu",
+          "searchTerm": "Kukerpillid Mere Pidu"
+        },
+        {
+          "artist": "Karl-Erik Taukar",
+          "title": "Segased lood",
+          "searchTerm": "Karl-Erik Taukar Segased lood"
+        }
+      ],
       "fallbackSearchTerms": [
         "Estonia traditional music",
         "Estonia folk music",
@@ -835,11 +1133,18 @@
     },
     {
       "countryCode": "SZ",
-      "primaryTrack": {
-        "artist": "Nothando",
-        "title": "Impilo Yami",
-        "searchTerm": "Nothando Impilo Yami"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Sipho Dube",
+          "title": "Mine Bengidzakiwe",
+          "searchTerm": "Sipho Dube Mine Bengidzakiwe"
+        },
+        {
+          "artist": "Nothando",
+          "title": "Impilo Yami",
+          "searchTerm": "Nothando Impilo Yami"
+        }
+      ],
       "fallbackSearchTerms": [
         "Eswatini traditional music",
         "Eswatini folk music",
@@ -848,11 +1153,18 @@
     },
     {
       "countryCode": "ET",
-      "primaryTrack": {
-        "artist": "Helen Berhe",
-        "title": "Eski Leyew",
-        "searchTerm": "Helen Berhe Eski Leyew"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Mahmoud Ahmed",
+          "title": "Tizita",
+          "searchTerm": "Mahmoud Ahmed Tizita"
+        },
+        {
+          "artist": "Helen Berhe",
+          "title": "Eski Leyew",
+          "searchTerm": "Helen Berhe Eski Leyew"
+        }
+      ],
       "fallbackSearchTerms": [
         "Ethiopia traditional music",
         "Ethiopia folk music",
@@ -861,11 +1173,13 @@
     },
     {
       "countryCode": "FK",
-      "primaryTrack": {
-        "artist": "Ellaline Terris",
-        "title": "Honeysuckle & The Bee",
-        "searchTerm": "Ellaline Terris Honeysuckle & The Bee"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Ellaline Terris",
+          "title": "Honeysuckle & The Bee",
+          "searchTerm": "Ellaline Terris Honeysuckle & The Bee"
+        }
+      ],
       "fallbackSearchTerms": [
         "Falkland Islands traditional music",
         "Falkland Islands folk music",
@@ -874,11 +1188,13 @@
     },
     {
       "countryCode": "FO",
-      "primaryTrack": {
-        "artist": "Eivør",
-        "title": "Í Tokuni",
-        "searchTerm": "Eivør Í Tokuni"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Eivør",
+          "title": "Í Tokuni",
+          "searchTerm": "Eivør Í Tokuni"
+        }
+      ],
       "fallbackSearchTerms": [
         "Faroe Islands traditional music",
         "Faroe Islands folk music",
@@ -887,11 +1203,13 @@
     },
     {
       "countryCode": "FJ",
-      "primaryTrack": {
-        "artist": "Blackrose",
-        "title": "Sa Vura",
-        "searchTerm": "Blackrose Sa Vura"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Blackrose",
+          "title": "Sa Vura",
+          "searchTerm": "Blackrose Sa Vura"
+        }
+      ],
       "fallbackSearchTerms": [
         "Fiji traditional music",
         "Fiji folk music",
@@ -900,11 +1218,18 @@
     },
     {
       "countryCode": "FI",
-      "primaryTrack": {
-        "artist": "Beast In Black",
-        "title": "Blind and Frozen",
-        "searchTerm": "Beast In Black Blind and Frozen"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Loituma",
+          "title": "Ievan Polkka",
+          "searchTerm": "Loituma Ievan Polkka"
+        },
+        {
+          "artist": "Beast In Black",
+          "title": "Blind and Frozen",
+          "searchTerm": "Beast In Black Blind and Frozen"
+        }
+      ],
       "fallbackSearchTerms": [
         "Finland traditional music",
         "Finland folk music",
@@ -913,11 +1238,18 @@
     },
     {
       "countryCode": "FR",
-      "primaryTrack": {
-        "artist": "Zaz",
-        "title": "Je veux",
-        "searchTerm": "Zaz Je veux"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Édith Piaf",
+          "title": "La Vie en Rose",
+          "searchTerm": "Édith Piaf La Vie en Rose"
+        },
+        {
+          "artist": "Zaz",
+          "title": "Je veux",
+          "searchTerm": "Zaz Je veux"
+        }
+      ],
       "fallbackSearchTerms": [
         "France traditional music",
         "France folk music",
@@ -926,11 +1258,13 @@
     },
     {
       "countryCode": "GF",
-      "primaryTrack": {
-        "artist": "Fanny J",
-        "title": "Il était une fois",
-        "searchTerm": "Fanny J Il était une fois"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Fanny J",
+          "title": "Il était une fois",
+          "searchTerm": "Fanny J Il était une fois"
+        }
+      ],
       "fallbackSearchTerms": [
         "French Guiana traditional music",
         "French Guiana folk music",
@@ -939,11 +1273,13 @@
     },
     {
       "countryCode": "PF",
-      "primaryTrack": {
-        "artist": "Vaiteani",
-        "title": "Ua Roa Te Tau",
-        "searchTerm": "Vaiteani Ua Roa Te Tau"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Vaiteani",
+          "title": "Ua Roa Te Tau",
+          "searchTerm": "Vaiteani Ua Roa Te Tau"
+        }
+      ],
       "fallbackSearchTerms": [
         "French Polynesia traditional music",
         "French Polynesia folk music",
@@ -952,11 +1288,18 @@
     },
     {
       "countryCode": "GA",
-      "primaryTrack": {
-        "artist": "Patience Dabany",
-        "title": "On vous connait",
-        "searchTerm": "Patience Dabany On vous connait"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Oliver N'Goma",
+          "title": "Bané",
+          "searchTerm": "Oliver Ngoma Bane"
+        },
+        {
+          "artist": "Patience Dabany",
+          "title": "On vous connait",
+          "searchTerm": "Patience Dabany On vous connait"
+        }
+      ],
       "fallbackSearchTerms": [
         "Gabon traditional music",
         "Gabon folk music",
@@ -965,11 +1308,13 @@
     },
     {
       "countryCode": "GM",
-      "primaryTrack": {
-        "artist": "Sona Jobarteh",
-        "title": "Gambia",
-        "searchTerm": "Sona Jobarteh Gambia"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Sona Jobarteh",
+          "title": "Gambia",
+          "searchTerm": "Sona Jobarteh Gambia"
+        }
+      ],
       "fallbackSearchTerms": [
         "Gambia traditional music",
         "Gambia folk music",
@@ -978,11 +1323,18 @@
     },
     {
       "countryCode": "GE",
-      "primaryTrack": {
-        "artist": "Mgzavrebi",
-        "title": "Damiskhi, Damalevine",
-        "searchTerm": "Mgzavrebi Damiskhi, Damalevine"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Ensemble Urmuli",
+          "title": "Suliko",
+          "searchTerm": "Ensemble Urmuli Suliko"
+        },
+        {
+          "artist": "Mgzavrebi",
+          "title": "Damiskhi, Damalevine",
+          "searchTerm": "Mgzavrebi Damiskhi, Damalevine"
+        }
+      ],
       "fallbackSearchTerms": [
         "Georgia traditional music",
         "Georgia folk music",
@@ -991,11 +1343,18 @@
     },
     {
       "countryCode": "DE",
-      "primaryTrack": {
-        "artist": "Faun",
-        "title": "Federkleid",
-        "searchTerm": "Faun Federkleid"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Nena",
+          "title": "99 Luftballons",
+          "searchTerm": "Nena 99 Luftballons"
+        },
+        {
+          "artist": "Faun",
+          "title": "Federkleid",
+          "searchTerm": "Faun Federkleid"
+        }
+      ],
       "fallbackSearchTerms": [
         "Germany traditional music",
         "Germany folk music",
@@ -1004,11 +1363,18 @@
     },
     {
       "countryCode": "GH",
-      "primaryTrack": {
-        "artist": "Becca, Patoranking",
-        "title": "Na Wash",
-        "searchTerm": "Becca, Patoranking Na Wash"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Nana Kwame Ampadu",
+          "title": "Ebi Te Yie",
+          "searchTerm": "Nana Kwame Ampadu Ebi Te Yie"
+        },
+        {
+          "artist": "Becca, Patoranking",
+          "title": "Na Wash",
+          "searchTerm": "Becca, Patoranking Na Wash"
+        }
+      ],
       "fallbackSearchTerms": [
         "Ghana traditional music",
         "Ghana folk music",
@@ -1017,11 +1383,13 @@
     },
     {
       "countryCode": "GI",
-      "primaryTrack": {
-        "artist": "Melon Diesel",
-        "title": "Grita",
-        "searchTerm": "Melon Diesel Grita"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Melon Diesel",
+          "title": "Grita",
+          "searchTerm": "Melon Diesel Grita"
+        }
+      ],
       "fallbackSearchTerms": [
         "Gibraltar traditional music",
         "Gibraltar folk music",
@@ -1030,11 +1398,18 @@
     },
     {
       "countryCode": "GR",
-      "primaryTrack": {
-        "artist": "Natasa Theodoridou",
-        "title": "Den Me Afora",
-        "searchTerm": "Natasa Theodoridou Den Me Afora"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Mikis Theodorakis",
+          "title": "Zorba's Dance",
+          "searchTerm": "Mikis Theodorakis Zorba Dance"
+        },
+        {
+          "artist": "Natasa Theodoridou",
+          "title": "Den Me Afora",
+          "searchTerm": "Natasa Theodoridou Den Me Afora"
+        }
+      ],
       "fallbackSearchTerms": [
         "Greece traditional music",
         "Greece folk music",
@@ -1043,11 +1418,13 @@
     },
     {
       "countryCode": "GL",
-      "primaryTrack": {
-        "artist": "Nanook, Christian K. Elsner, Frederik K. Elsner",
-        "title": "Qiimassutissarput Aajuna",
-        "searchTerm": "Nanook, Christian K. Elsner, Frederik K. Elsner Qiimassutissarput Aajuna"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Nanook, Christian K. Elsner, Frederik K. Elsner",
+          "title": "Qiimassutissarput Aajuna",
+          "searchTerm": "Nanook, Christian K. Elsner, Frederik K. Elsner Qiimassutissarput Aajuna"
+        }
+      ],
       "fallbackSearchTerms": [
         "Greenland traditional music",
         "Greenland folk music",
@@ -1056,11 +1433,13 @@
     },
     {
       "countryCode": "GD",
-      "primaryTrack": {
-        "artist": "Tallpree",
-        "title": "Jab All Over",
-        "searchTerm": "Tallpree Jab All Over"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Tallpree",
+          "title": "Jab All Over",
+          "searchTerm": "Tallpree Jab All Over"
+        }
+      ],
       "fallbackSearchTerms": [
         "Grenada traditional music",
         "Grenada folk music",
@@ -1069,11 +1448,13 @@
     },
     {
       "countryCode": "GP",
-      "primaryTrack": {
-        "artist": "Kassav'",
-        "title": "Zouk-la Sé Sel Médikaman Nou Ni",
-        "searchTerm": "Kassav' Zouk-la Sé Sel Médikaman Nou Ni"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Kassav'",
+          "title": "Zouk-la Sé Sel Médikaman Nou Ni",
+          "searchTerm": "Kassav' Zouk-la Sé Sel Médikaman Nou Ni"
+        }
+      ],
       "fallbackSearchTerms": [
         "Guadeloupe traditional music",
         "Guadeloupe folk music",
@@ -1082,11 +1463,18 @@
     },
     {
       "countryCode": "GU",
-      "primaryTrack": {
-        "artist": "A Long Drive Home",
-        "title": "Breathe",
-        "searchTerm": "A Long Drive Home Breathe"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Johnny Sablan",
+          "title": "Håfa Adai",
+          "searchTerm": "Johnny Sablan Hafa Adai"
+        },
+        {
+          "artist": "A Long Drive Home",
+          "title": "Breathe",
+          "searchTerm": "A Long Drive Home Breathe"
+        }
+      ],
       "fallbackSearchTerms": [
         "Guam traditional music",
         "Guam folk music",
@@ -1095,11 +1483,13 @@
     },
     {
       "countryCode": "GT",
-      "primaryTrack": {
-        "artist": "Ricardo Arjona, Gaby Moreno",
-        "title": "Fuiste Tú",
-        "searchTerm": "Ricardo Arjona, Gaby Moreno Fuiste Tú"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Ricardo Arjona, Gaby Moreno",
+          "title": "Fuiste Tú",
+          "searchTerm": "Ricardo Arjona, Gaby Moreno Fuiste Tú"
+        }
+      ],
       "fallbackSearchTerms": [
         "Guatemala traditional music",
         "Guatemala folk music",
@@ -1108,11 +1498,13 @@
     },
     {
       "countryCode": "GG",
-      "primaryTrack": {
-        "artist": "Burning At Both Ends",
-        "title": "Shut It Down",
-        "searchTerm": "Burning At Both Ends Shut It Down"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Burning At Both Ends",
+          "title": "Shut It Down",
+          "searchTerm": "Burning At Both Ends Shut It Down"
+        }
+      ],
       "fallbackSearchTerms": [
         "Guernsey traditional music",
         "Guernsey folk music",
@@ -1121,11 +1513,13 @@
     },
     {
       "countryCode": "GN",
-      "primaryTrack": {
-        "artist": "Sékouba Bambino",
-        "title": "Mbambou",
-        "searchTerm": "Sékouba Bambino Mbambou"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Sékouba Bambino",
+          "title": "Mbambou",
+          "searchTerm": "Sékouba Bambino Mbambou"
+        }
+      ],
       "fallbackSearchTerms": [
         "Guinea traditional music",
         "Guinea folk music",
@@ -1134,11 +1528,13 @@
     },
     {
       "countryCode": "GW",
-      "primaryTrack": {
-        "artist": "Karyna Gomes",
-        "title": "Amor Livre",
-        "searchTerm": "Karyna Gomes Amor Livre"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Karyna Gomes",
+          "title": "Amor Livre",
+          "searchTerm": "Karyna Gomes Amor Livre"
+        }
+      ],
       "fallbackSearchTerms": [
         "Guinea-Bissau traditional music",
         "Guinea-Bissau folk music",
@@ -1147,11 +1543,13 @@
     },
     {
       "countryCode": "GY",
-      "primaryTrack": {
-        "artist": "Terry Gajraj",
-        "title": "Dil Aisa",
-        "searchTerm": "Terry Gajraj Dil Aisa"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Terry Gajraj",
+          "title": "Dil Aisa",
+          "searchTerm": "Terry Gajraj Dil Aisa"
+        }
+      ],
       "fallbackSearchTerms": [
         "Guyana traditional music",
         "Guyana folk music",
@@ -1160,11 +1558,18 @@
     },
     {
       "countryCode": "HT",
-      "primaryTrack": {
-        "artist": "Jbeatz, Wendy",
-        "title": "Oh My God",
-        "searchTerm": "Jbeatz, Wendy Oh My God"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Tabou Combo",
+          "title": "New York City",
+          "searchTerm": "Tabou Combo New York City"
+        },
+        {
+          "artist": "Jbeatz, Wendy",
+          "title": "Oh My God",
+          "searchTerm": "Jbeatz, Wendy Oh My God"
+        }
+      ],
       "fallbackSearchTerms": [
         "Haiti traditional music",
         "Haiti folk music",
@@ -1173,11 +1578,18 @@
     },
     {
       "countryCode": "HN",
-      "primaryTrack": {
-        "artist": "Jennifer Salinas",
-        "title": "Ante Ti",
-        "searchTerm": "Jennifer Salinas Ante Ti"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Banda Blanca",
+          "title": "Sopa de Caracol",
+          "searchTerm": "Banda Blanca Sopa de Caracol"
+        },
+        {
+          "artist": "Jennifer Salinas",
+          "title": "Ante Ti",
+          "searchTerm": "Jennifer Salinas Ante Ti"
+        }
+      ],
       "fallbackSearchTerms": [
         "Honduras traditional music",
         "Honduras folk music",
@@ -1186,11 +1598,18 @@
     },
     {
       "countryCode": "HU",
-      "primaryTrack": {
-        "artist": "Paddy And The Rats",
-        "title": "Ghost From The Barrow",
-        "searchTerm": "Paddy And The Rats Ghost From The Barrow"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Sebő Miklós",
+          "title": "Szomorú Vasárnap",
+          "searchTerm": "Sebo Miklos Szomoru Vasarnap"
+        },
+        {
+          "artist": "Paddy And The Rats",
+          "title": "Ghost From The Barrow",
+          "searchTerm": "Paddy And The Rats Ghost From The Barrow"
+        }
+      ],
       "fallbackSearchTerms": [
         "Hungary traditional music",
         "Hungary folk music",
@@ -1199,11 +1618,13 @@
     },
     {
       "countryCode": "IS",
-      "primaryTrack": {
-        "artist": "KALEO",
-        "title": "Vor í Vaglaskógi",
-        "searchTerm": "KALEO Vor í Vaglaskógi"
-      },
+      "candidateTracks": [
+        {
+          "artist": "KALEO",
+          "title": "Vor í Vaglaskógi",
+          "searchTerm": "KALEO Vor í Vaglaskógi"
+        }
+      ],
       "fallbackSearchTerms": [
         "Iceland traditional music",
         "Iceland folk music",
@@ -1212,11 +1633,18 @@
     },
     {
       "countryCode": "IN",
-      "primaryTrack": {
-        "artist": "Shankar-Ehsaan-Loy, Sadhana Sargam, Sujata Bhattacharya, Udit Narayan, Sonu Nigam, Shah Rukh Khan, Preity Zinta, Saif Ali Khan, Jaya Bachchan",
-        "title": "Maahi Ve",
-        "searchTerm": "Shankar-Ehsaan-Loy, Sadhana Sargam, Sujata Bhattacharya, Udit Narayan, Sonu Nigam, Shah Rukh Khan, Preity Zinta, Saif Ali Khan, Jaya Bachchan Maahi Ve"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Kohinoor Langa",
+          "title": "Kesariya Balam",
+          "searchTerm": "Kohinoor Langa Kesariya Balam"
+        },
+        {
+          "artist": "Shankar-Ehsaan-Loy, Sadhana Sargam, Sujata Bhattacharya, Udit Narayan, Sonu Nigam, Shah Rukh Khan, Preity Zinta, Saif Ali Khan, Jaya Bachchan",
+          "title": "Maahi Ve",
+          "searchTerm": "Shankar-Ehsaan-Loy, Sadhana Sargam, Sujata Bhattacharya, Udit Narayan, Sonu Nigam, Shah Rukh Khan, Preity Zinta, Saif Ali Khan, Jaya Bachchan Maahi Ve"
+        }
+      ],
       "fallbackSearchTerms": [
         "India traditional music",
         "India folk music",
@@ -1225,11 +1653,18 @@
     },
     {
       "countryCode": "ID",
-      "primaryTrack": {
-        "artist": "Rizky Febian",
-        "title": "Cukup Tau",
-        "searchTerm": "Rizky Febian Cukup Tau"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Gesang Martohartono",
+          "title": "Bengawan Solo",
+          "searchTerm": "Gesang Martohartono Bengawan Solo"
+        },
+        {
+          "artist": "Rizky Febian",
+          "title": "Cukup Tau",
+          "searchTerm": "Rizky Febian Cukup Tau"
+        }
+      ],
       "fallbackSearchTerms": [
         "Indonesia traditional music",
         "Indonesia folk music",
@@ -1238,11 +1673,18 @@
     },
     {
       "countryCode": "IR",
-      "primaryTrack": {
-        "artist": "Shadmehr Aghili",
-        "title": "To Bi Man",
-        "searchTerm": "Shadmehr Aghili To Bi Man"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Homayoun Shajarian",
+          "title": "Morghe Sahar",
+          "searchTerm": "Homayoun Shajarian Morghe Sahar"
+        },
+        {
+          "artist": "Shadmehr Aghili",
+          "title": "To Bi Man",
+          "searchTerm": "Shadmehr Aghili To Bi Man"
+        }
+      ],
       "fallbackSearchTerms": [
         "Iran traditional music",
         "Iran folk music",
@@ -1251,11 +1693,18 @@
     },
     {
       "countryCode": "IQ",
-      "primaryTrack": {
-        "artist": "Nour Al Zain, Ghazwan Elfahd",
-        "title": "Gaynalk Bhaya",
-        "searchTerm": "Nour Al Zain, Ghazwan Elfahd Gaynalk Bhaya"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Kadim Al Sahir",
+          "title": "Ana Wa Laila",
+          "searchTerm": "Kadim Al Sahir Ana Wa Laila"
+        },
+        {
+          "artist": "Nour Al Zain, Ghazwan Elfahd",
+          "title": "Gaynalk Bhaya",
+          "searchTerm": "Nour Al Zain, Ghazwan Elfahd Gaynalk Bhaya"
+        }
+      ],
       "fallbackSearchTerms": [
         "Iraq traditional music",
         "Iraq folk music",
@@ -1264,11 +1713,18 @@
     },
     {
       "countryCode": "IE",
-      "primaryTrack": {
-        "artist": "Dropkick Murphys",
-        "title": "Paying My Way",
-        "searchTerm": "Dropkick Murphys Paying My Way"
-      },
+      "candidateTracks": [
+        {
+          "artist": "The Dubliners",
+          "title": "Molly Malone",
+          "searchTerm": "The Dubliners Molly Malone"
+        },
+        {
+          "artist": "Dropkick Murphys",
+          "title": "Paying My Way",
+          "searchTerm": "Dropkick Murphys Paying My Way"
+        }
+      ],
       "fallbackSearchTerms": [
         "Ireland traditional music",
         "Ireland folk music",
@@ -1277,11 +1733,18 @@
     },
     {
       "countryCode": "IM",
-      "primaryTrack": {
-        "artist": "GRODD",
-        "title": "Thru My Eyes",
-        "searchTerm": "GRODD Thru My Eyes"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Fool's Gold",
+          "title": "Ellan Vannin",
+          "searchTerm": "Fools Gold Ellan Vannin"
+        },
+        {
+          "artist": "GRODD",
+          "title": "Thru My Eyes",
+          "searchTerm": "GRODD Thru My Eyes"
+        }
+      ],
       "fallbackSearchTerms": [
         "Isle of Man traditional music",
         "Isle of Man folk music",
@@ -1290,11 +1753,18 @@
     },
     {
       "countryCode": "IL",
-      "primaryTrack": {
-        "artist": "Full Trunk, Sivan Talmor",
-        "title": "As a Stone",
-        "searchTerm": "Full Trunk, Sivan Talmor As a Stone"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Dudu Fisher",
+          "title": "Yerushalayim Shel Zahav",
+          "searchTerm": "Dudu Fisher Yerushalayim Shel Zahav"
+        },
+        {
+          "artist": "Full Trunk, Sivan Talmor",
+          "title": "As a Stone",
+          "searchTerm": "Full Trunk, Sivan Talmor As a Stone"
+        }
+      ],
       "fallbackSearchTerms": [
         "Israel traditional music",
         "Israel folk music",
@@ -1303,11 +1773,18 @@
     },
     {
       "countryCode": "IT",
-      "primaryTrack": {
-        "artist": "Paola Turci",
-        "title": "Un'emozione da poco",
-        "searchTerm": "Paola Turci Un'emozione da poco"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Domenico Modugno",
+          "title": "Nel Blu Dipinto Di Blu (Volare)",
+          "searchTerm": "Domenico Modugno Nel Blu Dipinto Di Blu"
+        },
+        {
+          "artist": "Paola Turci",
+          "title": "Un'emozione da poco",
+          "searchTerm": "Paola Turci Un'emozione da poco"
+        }
+      ],
       "fallbackSearchTerms": [
         "Italy traditional music",
         "Italy folk music",
@@ -1316,11 +1793,18 @@
     },
     {
       "countryCode": "CI",
-      "primaryTrack": {
-        "artist": "Magic System, Chawki",
-        "title": "Magic in the Air",
-        "searchTerm": "Magic System, Chawki Magic in the Air"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Magic System",
+          "title": "1er Gaou (Premier Gaou)",
+          "searchTerm": "Magic System Premier Gaou"
+        },
+        {
+          "artist": "Magic System, Chawki",
+          "title": "Magic in the Air",
+          "searchTerm": "Magic System, Chawki Magic in the Air"
+        }
+      ],
       "fallbackSearchTerms": [
         "Ivory Coast traditional music",
         "Ivory Coast folk music",
@@ -1329,11 +1813,18 @@
     },
     {
       "countryCode": "JM",
-      "primaryTrack": {
-        "artist": "Tasha T",
-        "title": "Fire in Me",
-        "searchTerm": "Tasha T Fire in Me"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Bob Marley & The Wailers",
+          "title": "One Love",
+          "searchTerm": "Bob Marley One Love"
+        },
+        {
+          "artist": "Tasha T",
+          "title": "Fire in Me",
+          "searchTerm": "Tasha T Fire in Me"
+        }
+      ],
       "fallbackSearchTerms": [
         "Jamaica traditional music",
         "Jamaica folk music",
@@ -1342,11 +1833,18 @@
     },
     {
       "countryCode": "JP",
-      "primaryTrack": {
-        "artist": "Faky",
-        "title": "Someday We'll Know",
-        "searchTerm": "Faky Someday We'll Know"
-      },
+      "candidateTracks": [
+        {
+          "artist": "日本伝統音楽研究会",
+          "title": "さくらさくら (Sakura Sakura)",
+          "searchTerm": "さくらさくら 日本伝統音楽研究会"
+        },
+        {
+          "artist": "Faky",
+          "title": "Someday We'll Know",
+          "searchTerm": "Faky Someday We'll Know"
+        }
+      ],
       "fallbackSearchTerms": [
         "Japan traditional music",
         "Japan folk music",
@@ -1355,11 +1853,13 @@
     },
     {
       "countryCode": "JE",
-      "primaryTrack": {
-        "artist": "Nerina Pallot",
-        "title": "Rousseau",
-        "searchTerm": "Nerina Pallot Rousseau"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Nerina Pallot",
+          "title": "Rousseau",
+          "searchTerm": "Nerina Pallot Rousseau"
+        }
+      ],
       "fallbackSearchTerms": [
         "Jersey traditional music",
         "Jersey folk music",
@@ -1368,11 +1868,13 @@
     },
     {
       "countryCode": "JO",
-      "primaryTrack": {
-        "artist": "Adham Nabulsi",
-        "title": "Howeh El Hob",
-        "searchTerm": "Adham Nabulsi Howeh El Hob"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Adham Nabulsi",
+          "title": "Howeh El Hob",
+          "searchTerm": "Adham Nabulsi Howeh El Hob"
+        }
+      ],
       "fallbackSearchTerms": [
         "Jordan traditional music",
         "Jordan folk music",
@@ -1381,11 +1883,18 @@
     },
     {
       "countryCode": "KZ",
-      "primaryTrack": {
-        "artist": "Ерке Есмахан (Erke Esmakhan)",
-        "title": "Қайда? (Qaida?)",
-        "searchTerm": "Ерке Есмахан (Erke Esmakhan) Қайда? (Qaida?)"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Madin Sadvakasova, Maral Sakhmetova",
+          "title": "Dudarai",
+          "searchTerm": "Dudarai Kazakh"
+        },
+        {
+          "artist": "Ерке Есмахан (Erke Esmakhan)",
+          "title": "Қайда? (Qaida?)",
+          "searchTerm": "Ерке Есмахан (Erke Esmakhan) Қайда? (Qaida?)"
+        }
+      ],
       "fallbackSearchTerms": [
         "Kazakhstan traditional music",
         "Kazakhstan folk music",
@@ -1394,11 +1903,13 @@
     },
     {
       "countryCode": "KE",
-      "primaryTrack": {
-        "artist": "Nyashinski",
-        "title": "Malaika",
-        "searchTerm": "Nyashinski Malaika"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Nyashinski",
+          "title": "Malaika",
+          "searchTerm": "Nyashinski Malaika"
+        }
+      ],
       "fallbackSearchTerms": [
         "Kenya traditional music",
         "Kenya folk music",
@@ -1407,11 +1918,13 @@
     },
     {
       "countryCode": "KI",
-      "primaryTrack": {
-        "artist": "Elijah L, Antoo G",
-        "title": "Ngke Arona",
-        "searchTerm": "Elijah L, Antoo G Ngke Arona"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Elijah L, Antoo G",
+          "title": "Ngke Arona",
+          "searchTerm": "Elijah L, Antoo G Ngke Arona"
+        }
+      ],
       "fallbackSearchTerms": [
         "Kiribati traditional music",
         "Kiribati folk music",
@@ -1420,11 +1933,13 @@
     },
     {
       "countryCode": "XK",
-      "primaryTrack": {
-        "artist": "Majk",
-        "title": "Dashni",
-        "searchTerm": "Majk Dashni"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Majk",
+          "title": "Dashni",
+          "searchTerm": "Majk Dashni"
+        }
+      ],
       "fallbackSearchTerms": [
         "Kosovo traditional music",
         "Kosovo folk music",
@@ -1433,11 +1948,13 @@
     },
     {
       "countryCode": "KW",
-      "primaryTrack": {
-        "artist": "Humood Alkhuder",
-        "title": "Kun Anta",
-        "searchTerm": "Humood Alkhuder Kun Anta"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Humood Alkhuder",
+          "title": "Kun Anta",
+          "searchTerm": "Humood Alkhuder Kun Anta"
+        }
+      ],
       "fallbackSearchTerms": [
         "Kuwait traditional music",
         "Kuwait folk music",
@@ -1446,11 +1963,13 @@
     },
     {
       "countryCode": "KG",
-      "primaryTrack": {
-        "artist": "Жийдеш (Jiydesh)",
-        "title": "Ким билет? (Kim bilet?)",
-        "searchTerm": "Жийдеш (Jiydesh) Ким билет? (Kim bilet?)"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Жийдеш (Jiydesh)",
+          "title": "Ким билет? (Kim bilet?)",
+          "searchTerm": "Жийдеш (Jiydesh) Ким билет? (Kim bilet?)"
+        }
+      ],
       "fallbackSearchTerms": [
         "Kyrgyzstan traditional music",
         "Kyrgyzstan folk music",
@@ -1459,11 +1978,18 @@
     },
     {
       "countryCode": "LA",
-      "primaryTrack": {
-        "artist": "KAI OVERDANCE",
-        "title": "ນາງພະຍາ (Nang Phanya)",
-        "searchTerm": "KAI OVERDANCE ນາງພະຍາ (Nang Phanya)"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Nang Chansuda",
+          "title": "Champa Muang Lao",
+          "searchTerm": "Champa Muang Lao"
+        },
+        {
+          "artist": "KAI OVERDANCE",
+          "title": "ນາງພະຍາ (Nang Phanya)",
+          "searchTerm": "KAI OVERDANCE ນາງພະຍາ (Nang Phanya)"
+        }
+      ],
       "fallbackSearchTerms": [
         "Laos traditional music",
         "Laos folk music",
@@ -1472,11 +1998,18 @@
     },
     {
       "countryCode": "LV",
-      "primaryTrack": {
-        "artist": "Nikolajs Puzikovs",
-        "title": "Dievs Tevi mīl",
-        "searchTerm": "Nikolajs Puzikovs Dievs Tevi mīl"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Latvian Traditional",
+          "title": "Pūt, Vējiņi",
+          "searchTerm": "Put Vejini Latvian"
+        },
+        {
+          "artist": "Nikolajs Puzikovs",
+          "title": "Dievs Tevi mīl",
+          "searchTerm": "Nikolajs Puzikovs Dievs Tevi mīl"
+        }
+      ],
       "fallbackSearchTerms": [
         "Latvia traditional music",
         "Latvia folk music",
@@ -1485,11 +2018,18 @@
     },
     {
       "countryCode": "LB",
-      "primaryTrack": {
-        "artist": "Mashrou' Leila",
-        "title": "Roman",
-        "searchTerm": "Mashrou' Leila Roman"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Fairouz",
+          "title": "Bahebak Ya Lebnan",
+          "searchTerm": "Fairouz Bahebak Ya Lebnan"
+        },
+        {
+          "artist": "Mashrou' Leila",
+          "title": "Roman",
+          "searchTerm": "Mashrou' Leila Roman"
+        }
+      ],
       "fallbackSearchTerms": [
         "Lebanon traditional music",
         "Lebanon folk music",
@@ -1498,11 +2038,18 @@
     },
     {
       "countryCode": "LS",
-      "primaryTrack": {
-        "artist": "Sankomota",
-        "title": "Now or Never",
-        "searchTerm": "Sankomota Now or Never"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Puseletso Seema",
+          "title": "Lefatshe La Lesotho",
+          "searchTerm": "Puseletso Seema Lefatshe La Lesotho"
+        },
+        {
+          "artist": "Sankomota",
+          "title": "Now or Never",
+          "searchTerm": "Sankomota Now or Never"
+        }
+      ],
       "fallbackSearchTerms": [
         "Lesotho traditional music",
         "Lesotho folk music",
@@ -1511,11 +2058,13 @@
     },
     {
       "countryCode": "LR",
-      "primaryTrack": {
-        "artist": "Takun J, Byronic, Nasseman",
-        "title": "Tu-Ke-Ke-Ya-Tu",
-        "searchTerm": "Takun J, Byronic, Nasseman Tu-Ke-Ke-Ya-Tu"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Takun J, Byronic, Nasseman",
+          "title": "Tu-Ke-Ke-Ya-Tu",
+          "searchTerm": "Takun J, Byronic, Nasseman Tu-Ke-Ke-Ya-Tu"
+        }
+      ],
       "fallbackSearchTerms": [
         "Liberia traditional music",
         "Liberia folk music",
@@ -1524,11 +2073,13 @@
     },
     {
       "countryCode": "LY",
-      "primaryTrack": {
-        "artist": "Hamid Al Shaeri",
-        "title": "Ayonha",
-        "searchTerm": "Hamid Al Shaeri Ayonha"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Hamid Al Shaeri",
+          "title": "Ayonha",
+          "searchTerm": "Hamid Al Shaeri Ayonha"
+        }
+      ],
       "fallbackSearchTerms": [
         "Libya traditional music",
         "Libya folk music",
@@ -1537,11 +2088,13 @@
     },
     {
       "countryCode": "LI",
-      "primaryTrack": {
-        "artist": "Elis",
-        "title": "Core Of Life",
-        "searchTerm": "Elis Core Of Life"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Elis",
+          "title": "Core Of Life",
+          "searchTerm": "Elis Core Of Life"
+        }
+      ],
       "fallbackSearchTerms": [
         "Liechtenstein traditional music",
         "Liechtenstein folk music",
@@ -1550,11 +2103,13 @@
     },
     {
       "countryCode": "LT",
-      "primaryTrack": {
-        "artist": "Antis, Leon Somov & Jazzu",
-        "title": "Nauji metai",
-        "searchTerm": "Antis, Leon Somov & Jazzu Nauji metai"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Antis, Leon Somov & Jazzu",
+          "title": "Nauji metai",
+          "searchTerm": "Antis, Leon Somov & Jazzu Nauji metai"
+        }
+      ],
       "fallbackSearchTerms": [
         "Lithuania traditional music",
         "Lithuania folk music",
@@ -1563,11 +2118,18 @@
     },
     {
       "countryCode": "LU",
-      "primaryTrack": {
-        "artist": "Rome",
-        "title": "Celine in Jerusalem",
-        "searchTerm": "Rome Celine in Jerusalem"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Serge Tonnar & Legotrip",
+          "title": "Ech si Lëtzebuerg",
+          "searchTerm": "Serge Tonnar Ech si Letzebuerg"
+        },
+        {
+          "artist": "Rome",
+          "title": "Celine in Jerusalem",
+          "searchTerm": "Rome Celine in Jerusalem"
+        }
+      ],
       "fallbackSearchTerms": [
         "Luxembourg traditional music",
         "Luxembourg folk music",
@@ -1576,11 +2138,13 @@
     },
     {
       "countryCode": "MG",
-      "primaryTrack": {
-        "artist": "Wawa Salegy",
-        "title": "400 Volts",
-        "searchTerm": "Wawa Salegy 400 Volts"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Wawa Salegy",
+          "title": "400 Volts",
+          "searchTerm": "Wawa Salegy 400 Volts"
+        }
+      ],
       "fallbackSearchTerms": [
         "Madagascar traditional music",
         "Madagascar folk music",
@@ -1589,11 +2153,13 @@
     },
     {
       "countryCode": "MW",
-      "primaryTrack": {
-        "artist": "Zani Challe",
-        "title": "Chikondi Chako - Your Love",
-        "searchTerm": "Zani Challe Chikondi Chako - Your Love"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Zani Challe",
+          "title": "Chikondi Chako - Your Love",
+          "searchTerm": "Zani Challe Chikondi Chako - Your Love"
+        }
+      ],
       "fallbackSearchTerms": [
         "Malawi traditional music",
         "Malawi folk music",
@@ -1602,11 +2168,18 @@
     },
     {
       "countryCode": "MY",
-      "primaryTrack": {
-        "artist": "Wany Hasrita",
-        "title": "Menahan Rindu",
-        "searchTerm": "Wany Hasrita Menahan Rindu"
-      },
+      "candidateTracks": [
+        {
+          "artist": "P. Ramlee",
+          "title": "Getaran Jiwa",
+          "searchTerm": "P Ramlee Getaran Jiwa"
+        },
+        {
+          "artist": "Wany Hasrita",
+          "title": "Menahan Rindu",
+          "searchTerm": "Wany Hasrita Menahan Rindu"
+        }
+      ],
       "fallbackSearchTerms": [
         "Malaysia traditional music",
         "Malaysia folk music",
@@ -1615,11 +2188,13 @@
     },
     {
       "countryCode": "MV",
-      "primaryTrack": {
-        "artist": "Habeys Boduberu, Hassan Tholaq",
-        "title": "Kanbulo",
-        "searchTerm": "Habeys Boduberu, Hassan Tholaq Kanbulo"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Habeys Boduberu, Hassan Tholaq",
+          "title": "Kanbulo",
+          "searchTerm": "Habeys Boduberu, Hassan Tholaq Kanbulo"
+        }
+      ],
       "fallbackSearchTerms": [
         "Maldives traditional music",
         "Maldives folk music",
@@ -1628,11 +2203,13 @@
     },
     {
       "countryCode": "ML",
-      "primaryTrack": {
-        "artist": "Fatoumata Diawara",
-        "title": "Nterini",
-        "searchTerm": "Fatoumata Diawara Nterini"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Fatoumata Diawara",
+          "title": "Nterini",
+          "searchTerm": "Fatoumata Diawara Nterini"
+        }
+      ],
       "fallbackSearchTerms": [
         "Mali traditional music",
         "Mali folk music",
@@ -1641,11 +2218,13 @@
     },
     {
       "countryCode": "MT",
-      "primaryTrack": {
-        "artist": "Airport Impressions",
-        "title": "Berlin",
-        "searchTerm": "Airport Impressions Berlin"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Airport Impressions",
+          "title": "Berlin",
+          "searchTerm": "Airport Impressions Berlin"
+        }
+      ],
       "fallbackSearchTerms": [
         "Malta traditional music",
         "Malta folk music",
@@ -1654,11 +2233,13 @@
     },
     {
       "countryCode": "MH",
-      "primaryTrack": {
-        "artist": "Lostboyz, I Vibez",
-        "title": "Live Another Day",
-        "searchTerm": "Lostboyz, I Vibez Live Another Day"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Lostboyz, I Vibez",
+          "title": "Live Another Day",
+          "searchTerm": "Lostboyz, I Vibez Live Another Day"
+        }
+      ],
       "fallbackSearchTerms": [
         "Marshall Islands traditional music",
         "Marshall Islands folk music",
@@ -1667,11 +2248,13 @@
     },
     {
       "countryCode": "MQ",
-      "primaryTrack": {
-        "artist": "Tyrick, PDUB",
-        "title": "Supernova",
-        "searchTerm": "Tyrick, PDUB Supernova"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Tyrick, PDUB",
+          "title": "Supernova",
+          "searchTerm": "Tyrick, PDUB Supernova"
+        }
+      ],
       "fallbackSearchTerms": [
         "Martinique traditional music",
         "Martinique folk music",
@@ -1680,11 +2263,13 @@
     },
     {
       "countryCode": "MR",
-      "primaryTrack": {
-        "artist": "Noura Mint Seymali",
-        "title": "Na Sane",
-        "searchTerm": "Noura Mint Seymali Na Sane"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Noura Mint Seymali",
+          "title": "Na Sane",
+          "searchTerm": "Noura Mint Seymali Na Sane"
+        }
+      ],
       "fallbackSearchTerms": [
         "Mauritania traditional music",
         "Mauritania folk music",
@@ -1693,11 +2278,13 @@
     },
     {
       "countryCode": "MU",
-      "primaryTrack": {
-        "artist": "Alain Ramanisum",
-        "title": "Souffrance lamour",
-        "searchTerm": "Alain Ramanisum Souffrance lamour"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Alain Ramanisum",
+          "title": "Souffrance lamour",
+          "searchTerm": "Alain Ramanisum Souffrance lamour"
+        }
+      ],
       "fallbackSearchTerms": [
         "Mauritius traditional music",
         "Mauritius folk music",
@@ -1706,11 +2293,13 @@
     },
     {
       "countryCode": "YT",
-      "primaryTrack": {
-        "artist": "Mikidache, M'Toro Chamou",
-        "title": "Mwaylera",
-        "searchTerm": "Mikidache, M'Toro Chamou Mwaylera"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Mikidache, M'Toro Chamou",
+          "title": "Mwaylera",
+          "searchTerm": "Mikidache, M'Toro Chamou Mwaylera"
+        }
+      ],
       "fallbackSearchTerms": [
         "Mayotte traditional music",
         "Mayotte folk music",
@@ -1719,11 +2308,18 @@
     },
     {
       "countryCode": "MX",
-      "primaryTrack": {
-        "artist": "Gloria Trevi",
-        "title": "Como Yo Te Amo",
-        "searchTerm": "Gloria Trevi Como Yo Te Amo"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Vicente Fernández",
+          "title": "Cielito Lindo",
+          "searchTerm": "Vicente Fernández Cielito Lindo"
+        },
+        {
+          "artist": "Gloria Trevi",
+          "title": "Como Yo Te Amo",
+          "searchTerm": "Gloria Trevi Como Yo Te Amo"
+        }
+      ],
       "fallbackSearchTerms": [
         "Mexico traditional music",
         "Mexico folk music",
@@ -1732,11 +2328,13 @@
     },
     {
       "countryCode": "FM",
-      "primaryTrack": {
-        "artist": "Ozeky",
-        "title": "Ia Pasik",
-        "searchTerm": "Ozeky Ia Pasik"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Ozeky",
+          "title": "Ia Pasik",
+          "searchTerm": "Ozeky Ia Pasik"
+        }
+      ],
       "fallbackSearchTerms": [
         "Micronesia traditional music",
         "Micronesia folk music",
@@ -1745,11 +2343,13 @@
     },
     {
       "countryCode": "MD",
-      "primaryTrack": {
-        "artist": "Dan Balan",
-        "title": "Hold on Love",
-        "searchTerm": "Dan Balan Hold on Love"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Dan Balan",
+          "title": "Hold on Love",
+          "searchTerm": "Dan Balan Hold on Love"
+        }
+      ],
       "fallbackSearchTerms": [
         "Moldova traditional music",
         "Moldova folk music",
@@ -1758,11 +2358,13 @@
     },
     {
       "countryCode": "MC",
-      "primaryTrack": {
-        "artist": "TJ Bilham",
-        "title": "One More Kiss",
-        "searchTerm": "TJ Bilham One More Kiss"
-      },
+      "candidateTracks": [
+        {
+          "artist": "TJ Bilham",
+          "title": "One More Kiss",
+          "searchTerm": "TJ Bilham One More Kiss"
+        }
+      ],
       "fallbackSearchTerms": [
         "Monaco traditional music",
         "Monaco folk music",
@@ -1771,11 +2373,13 @@
     },
     {
       "countryCode": "MN",
-      "primaryTrack": {
-        "artist": "The HU",
-        "title": "Yuve Yuve Yu",
-        "searchTerm": "The HU Yuve Yuve Yu"
-      },
+      "candidateTracks": [
+        {
+          "artist": "The HU",
+          "title": "Yuve Yuve Yu",
+          "searchTerm": "The HU Yuve Yuve Yu"
+        }
+      ],
       "fallbackSearchTerms": [
         "Mongolia traditional music",
         "Mongolia folk music",
@@ -1784,11 +2388,13 @@
     },
     {
       "countryCode": "ME",
-      "primaryTrack": {
-        "artist": "Sergej Cetkovic",
-        "title": "Zar Je Kraj?",
-        "searchTerm": "Sergej Cetkovic Zar Je Kraj?"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Sergej Cetkovic",
+          "title": "Zar Je Kraj?",
+          "searchTerm": "Sergej Cetkovic Zar Je Kraj?"
+        }
+      ],
       "fallbackSearchTerms": [
         "Montenegro traditional music",
         "Montenegro folk music",
@@ -1797,11 +2403,18 @@
     },
     {
       "countryCode": "MS",
-      "primaryTrack": {
-        "artist": "Maizie Williams, Bobby Farrell",
-        "title": "Josephine Baker - Eddi Middle-Line Dirty House",
-        "searchTerm": "Maizie Williams, Bobby Farrell Josephine Baker - Eddi Middle-Line Dirty House"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Arrow",
+          "title": "Hot Hot Hot",
+          "searchTerm": "Arrow Hot Hot Hot"
+        },
+        {
+          "artist": "Maizie Williams, Bobby Farrell",
+          "title": "Josephine Baker - Eddi Middle-Line Dirty House",
+          "searchTerm": "Maizie Williams, Bobby Farrell Josephine Baker - Eddi Middle-Line Dirty House"
+        }
+      ],
       "fallbackSearchTerms": [
         "Montserrat traditional music",
         "Montserrat folk music",
@@ -1810,11 +2423,18 @@
     },
     {
       "countryCode": "MA",
-      "primaryTrack": {
-        "artist": "Hindi Zahra",
-        "title": "Imik Si Mik",
-        "searchTerm": "Hindi Zahra Imik Si Mik"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Nass El Ghiwane",
+          "title": "Essiniya",
+          "searchTerm": "Nass El Ghiwane Essiniya"
+        },
+        {
+          "artist": "Hindi Zahra",
+          "title": "Imik Si Mik",
+          "searchTerm": "Hindi Zahra Imik Si Mik"
+        }
+      ],
       "fallbackSearchTerms": [
         "Morocco traditional music",
         "Morocco folk music",
@@ -1823,11 +2443,18 @@
     },
     {
       "countryCode": "MZ",
-      "primaryTrack": {
-        "artist": "Banda Kakana",
-        "title": "Xiluva",
-        "searchTerm": "Banda Kakana Xiluva"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Wazimbo & Orchestra Marrabenta Star de Moçambique",
+          "title": "Nwahulwana",
+          "searchTerm": "Wazimbo Nwahulwana"
+        },
+        {
+          "artist": "Banda Kakana",
+          "title": "Xiluva",
+          "searchTerm": "Banda Kakana Xiluva"
+        }
+      ],
       "fallbackSearchTerms": [
         "Mozambique traditional music",
         "Mozambique folk music",
@@ -1836,11 +2463,13 @@
     },
     {
       "countryCode": "MM",
-      "primaryTrack": {
-        "artist": "Ah Moon",
-        "title": "Go Par No Par Doe Par",
-        "searchTerm": "Ah Moon Go Par No Par Doe Par"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Ah Moon",
+          "title": "Go Par No Par Doe Par",
+          "searchTerm": "Ah Moon Go Par No Par Doe Par"
+        }
+      ],
       "fallbackSearchTerms": [
         "Myanmar traditional music",
         "Myanmar folk music",
@@ -1849,11 +2478,13 @@
     },
     {
       "countryCode": "NA",
-      "primaryTrack": {
-        "artist": "Micheal Pulse, Echante, Jermain Casper, Braze, Ori",
-        "title": "Lost",
-        "searchTerm": "Micheal Pulse, Echante, Jermain Casper, Braze, Ori Lost"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Micheal Pulse, Echante, Jermain Casper, Braze, Ori",
+          "title": "Lost",
+          "searchTerm": "Micheal Pulse, Echante, Jermain Casper, Braze, Ori Lost"
+        }
+      ],
       "fallbackSearchTerms": [
         "Namibia traditional music",
         "Namibia folk music",
@@ -1862,11 +2493,13 @@
     },
     {
       "countryCode": "NR",
-      "primaryTrack": {
-        "artist": "Skylla",
-        "title": "Last Dear Diary",
-        "searchTerm": "Skylla Last Dear Diary"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Skylla",
+          "title": "Last Dear Diary",
+          "searchTerm": "Skylla Last Dear Diary"
+        }
+      ],
       "fallbackSearchTerms": [
         "Nauru traditional music",
         "Nauru folk music",
@@ -1875,11 +2508,13 @@
     },
     {
       "countryCode": "NP",
-      "primaryTrack": {
-        "artist": "Astha Tamang-Maskey",
-        "title": "Khula Aakash",
-        "searchTerm": "Astha Tamang-Maskey Khula Aakash"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Astha Tamang-Maskey",
+          "title": "Khula Aakash",
+          "searchTerm": "Astha Tamang-Maskey Khula Aakash"
+        }
+      ],
       "fallbackSearchTerms": [
         "Nepal traditional music",
         "Nepal folk music",
@@ -1888,11 +2523,18 @@
     },
     {
       "countryCode": "NL",
-      "primaryTrack": {
-        "artist": "Within Temptation",
-        "title": "Shot in the Dark",
-        "searchTerm": "Within Temptation Shot in the Dark"
-      },
+      "candidateTracks": [
+        {
+          "artist": "André Hazes",
+          "title": "Zij Gelooft In Mij",
+          "searchTerm": "Andre Hazes Zij Gelooft In Mij"
+        },
+        {
+          "artist": "Within Temptation",
+          "title": "Shot in the Dark",
+          "searchTerm": "Within Temptation Shot in the Dark"
+        }
+      ],
       "fallbackSearchTerms": [
         "Netherlands traditional music",
         "Netherlands folk music",
@@ -1901,11 +2543,13 @@
     },
     {
       "countryCode": "NC",
-      "primaryTrack": {
-        "artist": "Ok Ryos",
-        "title": "Co era so",
-        "searchTerm": "Ok Ryos Co era so"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Ok Ryos",
+          "title": "Co era so",
+          "searchTerm": "Ok Ryos Co era so"
+        }
+      ],
       "fallbackSearchTerms": [
         "New Caledonia traditional music",
         "New Caledonia folk music",
@@ -1914,11 +2558,13 @@
     },
     {
       "countryCode": "NZ",
-      "primaryTrack": {
-        "artist": "Te Vaka",
-        "title": "Lakalaka",
-        "searchTerm": "Te Vaka Lakalaka"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Te Vaka",
+          "title": "Lakalaka",
+          "searchTerm": "Te Vaka Lakalaka"
+        }
+      ],
       "fallbackSearchTerms": [
         "New Zealand traditional music",
         "New Zealand folk music",
@@ -1927,11 +2573,18 @@
     },
     {
       "countryCode": "NI",
-      "primaryTrack": {
-        "artist": "Nina y Sebastián",
-        "title": "Últimamente",
-        "searchTerm": "Nina y Sebastián Últimamente"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Carlos Mejía Godoy",
+          "title": "Nicaragua, Nicaragüita",
+          "searchTerm": "Carlos Mejia Godoy Nicaragua Nicaraguita"
+        },
+        {
+          "artist": "Nina y Sebastián",
+          "title": "Últimamente",
+          "searchTerm": "Nina y Sebastián Últimamente"
+        }
+      ],
       "fallbackSearchTerms": [
         "Nicaragua traditional music",
         "Nicaragua folk music",
@@ -1940,11 +2593,13 @@
     },
     {
       "countryCode": "NE",
-      "primaryTrack": {
-        "artist": "Bombino",
-        "title": "Amidinine",
-        "searchTerm": "Bombino Amidinine"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Bombino",
+          "title": "Amidinine",
+          "searchTerm": "Bombino Amidinine"
+        }
+      ],
       "fallbackSearchTerms": [
         "Niger traditional music",
         "Niger folk music",
@@ -1953,11 +2608,18 @@
     },
     {
       "countryCode": "NG",
-      "primaryTrack": {
-        "artist": "Johnny Drille",
-        "title": "Romeo and Juliet",
-        "searchTerm": "Johnny Drille Romeo and Juliet"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Prince Nico Mbarga",
+          "title": "Sweet Mother",
+          "searchTerm": "Prince Nico Mbarga Sweet Mother"
+        },
+        {
+          "artist": "Johnny Drille",
+          "title": "Romeo and Juliet",
+          "searchTerm": "Johnny Drille Romeo and Juliet"
+        }
+      ],
       "fallbackSearchTerms": [
         "Nigeria traditional music",
         "Nigeria folk music",
@@ -1966,11 +2628,13 @@
     },
     {
       "countryCode": "NU",
-      "primaryTrack": {
-        "artist": "T.A.5 of Niue Island",
-        "title": "Haku Ma Tua",
-        "searchTerm": "T.A.5 of Niue Island Haku Ma Tua"
-      },
+      "candidateTracks": [
+        {
+          "artist": "T.A.5 of Niue Island",
+          "title": "Haku Ma Tua",
+          "searchTerm": "T.A.5 of Niue Island Haku Ma Tua"
+        }
+      ],
       "fallbackSearchTerms": [
         "Niue traditional music",
         "Niue folk music",
@@ -1979,11 +2643,13 @@
     },
     {
       "countryCode": "NF",
-      "primaryTrack": {
-        "artist": "Matt Zarb",
-        "title": "Rose Matilda",
-        "searchTerm": "Matt Zarb Rose Matilda"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Matt Zarb",
+          "title": "Rose Matilda",
+          "searchTerm": "Matt Zarb Rose Matilda"
+        }
+      ],
       "fallbackSearchTerms": [
         "Norfolk Island traditional music",
         "Norfolk Island folk music",
@@ -1992,11 +2658,18 @@
     },
     {
       "countryCode": "KP",
-      "primaryTrack": {
-        "artist": "North Korean Archives (Moranbong Band)",
-        "title": "Let's Study",
-        "searchTerm": "North Korean Archives (Moranbong Band) Let's Study"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Pochonbo Electronic Ensemble",
+          "title": "Arirang",
+          "searchTerm": "Pochonbo Electronic Ensemble Arirang"
+        },
+        {
+          "artist": "North Korean Archives (Moranbong Band)",
+          "title": "Let's Study",
+          "searchTerm": "North Korean Archives (Moranbong Band) Let's Study"
+        }
+      ],
       "fallbackSearchTerms": [
         "North Korea traditional music",
         "North Korea folk music",
@@ -2005,11 +2678,13 @@
     },
     {
       "countryCode": "MK",
-      "primaryTrack": {
-        "artist": "Toše Proeski",
-        "title": "Cija Si",
-        "searchTerm": "Toše Proeski Cija Si"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Toše Proeski",
+          "title": "Cija Si",
+          "searchTerm": "Toše Proeski Cija Si"
+        }
+      ],
       "fallbackSearchTerms": [
         "North Macedonia traditional music",
         "North Macedonia folk music",
@@ -2018,11 +2693,13 @@
     },
     {
       "countryCode": "MP",
-      "primaryTrack": {
-        "artist": "Walter Manglona, Dean Manglona, John RokJuan Guerrero",
-        "title": "Chamorro Superman",
-        "searchTerm": "Walter Manglona, Dean Manglona, John RokJuan Guerrero Chamorro Superman"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Walter Manglona, Dean Manglona, John RokJuan Guerrero",
+          "title": "Chamorro Superman",
+          "searchTerm": "Walter Manglona, Dean Manglona, John RokJuan Guerrero Chamorro Superman"
+        }
+      ],
       "fallbackSearchTerms": [
         "Northern Mariana Islands traditional music",
         "Northern Mariana Islands folk music",
@@ -2031,11 +2708,13 @@
     },
     {
       "countryCode": "NO",
-      "primaryTrack": {
-        "artist": "Kristian Kristensen",
-        "title": "Kan du lære mæ?",
-        "searchTerm": "Kristian Kristensen Kan du lære mæ?"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Kristian Kristensen",
+          "title": "Kan du lære mæ?",
+          "searchTerm": "Kristian Kristensen Kan du lære mæ?"
+        }
+      ],
       "fallbackSearchTerms": [
         "Norway traditional music",
         "Norway folk music",
@@ -2044,11 +2723,13 @@
     },
     {
       "countryCode": "OM",
-      "primaryTrack": {
-        "artist": "Salah Al Zadjali",
-        "title": "Asa Mayohashik Ghali",
-        "searchTerm": "Salah Al Zadjali Asa Mayohashik Ghali"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Salah Al Zadjali",
+          "title": "Asa Mayohashik Ghali",
+          "searchTerm": "Salah Al Zadjali Asa Mayohashik Ghali"
+        }
+      ],
       "fallbackSearchTerms": [
         "Oman traditional music",
         "Oman folk music",
@@ -2057,11 +2738,18 @@
     },
     {
       "countryCode": "PK",
-      "primaryTrack": {
-        "artist": "Noori",
-        "title": "Yeh Zindagi",
-        "searchTerm": "Noori Yeh Zindagi"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Nusrat Fateh Ali Khan",
+          "title": "Dum Mast Qalander Mast",
+          "searchTerm": "Nusrat Fateh Ali Khan Dum Mast Qalander"
+        },
+        {
+          "artist": "Noori",
+          "title": "Yeh Zindagi",
+          "searchTerm": "Noori Yeh Zindagi"
+        }
+      ],
       "fallbackSearchTerms": [
         "Pakistan traditional music",
         "Pakistan folk music",
@@ -2070,11 +2758,13 @@
     },
     {
       "countryCode": "PW",
-      "primaryTrack": {
-        "artist": "Sister Lubei",
-        "title": "When Love",
-        "searchTerm": "Sister Lubei When Love"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Sister Lubei",
+          "title": "When Love",
+          "searchTerm": "Sister Lubei When Love"
+        }
+      ],
       "fallbackSearchTerms": [
         "Palau traditional music",
         "Palau folk music",
@@ -2083,11 +2773,13 @@
     },
     {
       "countryCode": "PS",
-      "primaryTrack": {
-        "artist": "DAM",
-        "title": "EMTA NJAWZAK YAMMA",
-        "searchTerm": "DAM EMTA NJAWZAK YAMMA"
-      },
+      "candidateTracks": [
+        {
+          "artist": "DAM",
+          "title": "EMTA NJAWZAK YAMMA",
+          "searchTerm": "DAM EMTA NJAWZAK YAMMA"
+        }
+      ],
       "fallbackSearchTerms": [
         "Palestine traditional music",
         "Palestine folk music",
@@ -2096,11 +2788,13 @@
     },
     {
       "countryCode": "PA",
-      "primaryTrack": {
-        "artist": "Samy y Sandra Sandoval",
-        "title": "Como Gozo",
-        "searchTerm": "Samy y Sandra Sandoval Como Gozo"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Samy y Sandra Sandoval",
+          "title": "Como Gozo",
+          "searchTerm": "Samy y Sandra Sandoval Como Gozo"
+        }
+      ],
       "fallbackSearchTerms": [
         "Panama traditional music",
         "Panama folk music",
@@ -2109,11 +2803,13 @@
     },
     {
       "countryCode": "PG",
-      "primaryTrack": {
-        "artist": "George Telek",
-        "title": "Lili Ram Kavavar",
-        "searchTerm": "George Telek Lili Ram Kavavar"
-      },
+      "candidateTracks": [
+        {
+          "artist": "George Telek",
+          "title": "Lili Ram Kavavar",
+          "searchTerm": "George Telek Lili Ram Kavavar"
+        }
+      ],
       "fallbackSearchTerms": [
         "Papua New Guinea traditional music",
         "Papua New Guinea folk music",
@@ -2122,11 +2818,18 @@
     },
     {
       "countryCode": "PY",
-      "primaryTrack": {
-        "artist": "Ivan Zavala",
-        "title": "Universo",
-        "searchTerm": "Ivan Zavala Universo"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Luis Alberto del Paraná & Los Paraguayos",
+          "title": "Recuerdos de Ypacaraí",
+          "searchTerm": "Luis Alberto del Parana Recuerdos de Ypacarai"
+        },
+        {
+          "artist": "Ivan Zavala",
+          "title": "Universo",
+          "searchTerm": "Ivan Zavala Universo"
+        }
+      ],
       "fallbackSearchTerms": [
         "Paraguay traditional music",
         "Paraguay folk music",
@@ -2135,11 +2838,13 @@
     },
     {
       "countryCode": "PE",
-      "primaryTrack": {
-        "artist": "Damaris",
-        "title": "Tusuykusun",
-        "searchTerm": "Damaris Tusuykusun"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Damaris",
+          "title": "Tusuykusun",
+          "searchTerm": "Damaris Tusuykusun"
+        }
+      ],
       "fallbackSearchTerms": [
         "Peru traditional music",
         "Peru folk music",
@@ -2148,11 +2853,18 @@
     },
     {
       "countryCode": "PH",
-      "primaryTrack": {
-        "artist": "TJ Monterde",
-        "title": "Tulad Mo",
-        "searchTerm": "TJ Monterde Tulad Mo"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Freddie Aguilar",
+          "title": "Anak",
+          "searchTerm": "Freddie Aguilar Anak"
+        },
+        {
+          "artist": "TJ Monterde",
+          "title": "Tulad Mo",
+          "searchTerm": "TJ Monterde Tulad Mo"
+        }
+      ],
       "fallbackSearchTerms": [
         "Philippines traditional music",
         "Philippines folk music",
@@ -2161,11 +2873,18 @@
     },
     {
       "countryCode": "PL",
-      "primaryTrack": {
-        "artist": "Dawid Kwiatkowski",
-        "title": "Jesteś",
-        "searchTerm": "Dawid Kwiatkowski Jesteś"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Krzysztof Krawczyk",
+          "title": "Hej, sokoły!",
+          "searchTerm": "Krzysztof Krawczyk Hej sokoly"
+        },
+        {
+          "artist": "Dawid Kwiatkowski",
+          "title": "Jesteś",
+          "searchTerm": "Dawid Kwiatkowski Jesteś"
+        }
+      ],
       "fallbackSearchTerms": [
         "Poland traditional music",
         "Poland folk music",
@@ -2174,11 +2893,18 @@
     },
     {
       "countryCode": "PT",
-      "primaryTrack": {
-        "artist": "Mariza",
-        "title": "Paixão",
-        "searchTerm": "Mariza Paixão"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Amália Rodrigues",
+          "title": "Barco Negro",
+          "searchTerm": "Amália Rodrigues Barco Negro"
+        },
+        {
+          "artist": "Mariza",
+          "title": "Paixão",
+          "searchTerm": "Mariza Paixão"
+        }
+      ],
       "fallbackSearchTerms": [
         "Portugal traditional music",
         "Portugal folk music",
@@ -2187,11 +2913,18 @@
     },
     {
       "countryCode": "PR",
-      "primaryTrack": {
-        "artist": "Anuel AA + Haze",
-        "title": "Amenece",
-        "searchTerm": "Anuel AA + Haze Amenece"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Héctor Lavoe",
+          "title": "El Cantante",
+          "searchTerm": "Hector Lavoe El Cantante"
+        },
+        {
+          "artist": "Anuel AA + Haze",
+          "title": "Amenece",
+          "searchTerm": "Anuel AA + Haze Amenece"
+        }
+      ],
       "fallbackSearchTerms": [
         "Puerto Rico traditional music",
         "Puerto Rico folk music",
@@ -2200,11 +2933,13 @@
     },
     {
       "countryCode": "QA",
-      "primaryTrack": {
-        "artist": "Dana Al Fardan, Qatar Philharmonic Orchestra",
-        "title": "Paint",
-        "searchTerm": "Dana Al Fardan, Qatar Philharmonic Orchestra Paint"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Dana Al Fardan, Qatar Philharmonic Orchestra",
+          "title": "Paint",
+          "searchTerm": "Dana Al Fardan, Qatar Philharmonic Orchestra Paint"
+        }
+      ],
       "fallbackSearchTerms": [
         "Qatar traditional music",
         "Qatar folk music",
@@ -2213,11 +2948,13 @@
     },
     {
       "countryCode": "CG",
-      "primaryTrack": {
-        "artist": "Bisso na Bisso",
-        "title": "Bisso Na Bisso",
-        "searchTerm": "Bisso na Bisso Bisso Na Bisso"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Bisso na Bisso",
+          "title": "Bisso Na Bisso",
+          "searchTerm": "Bisso na Bisso Bisso Na Bisso"
+        }
+      ],
       "fallbackSearchTerms": [
         "Republic of the Congo traditional music",
         "Republic of the Congo folk music",
@@ -2226,11 +2963,18 @@
     },
     {
       "countryCode": "RO",
-      "primaryTrack": {
-        "artist": "Dorian Popa, Shift, Selly",
-        "title": "Hatz",
-        "searchTerm": "Dorian Popa, Shift, Selly Hatz"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Maria Tănase",
+          "title": "Ciuleandra",
+          "searchTerm": "Maria Tanase Ciuleandra"
+        },
+        {
+          "artist": "Dorian Popa, Shift, Selly",
+          "title": "Hatz",
+          "searchTerm": "Dorian Popa, Shift, Selly Hatz"
+        }
+      ],
       "fallbackSearchTerms": [
         "Romania traditional music",
         "Romania folk music",
@@ -2239,11 +2983,18 @@
     },
     {
       "countryCode": "RU",
-      "primaryTrack": {
-        "artist": "Egor Kreed",
-        "title": "Слеза (Sleza)",
-        "searchTerm": "Egor Kreed Слеза (Sleza)"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Alexandrov Ensemble",
+          "title": "Kalinka",
+          "searchTerm": "Alexandrov Ensemble Kalinka"
+        },
+        {
+          "artist": "Egor Kreed",
+          "title": "Слеза (Sleza)",
+          "searchTerm": "Egor Kreed Слеза (Sleza)"
+        }
+      ],
       "fallbackSearchTerms": [
         "Russia traditional music",
         "Russia folk music",
@@ -2252,11 +3003,13 @@
     },
     {
       "countryCode": "RW",
-      "primaryTrack": {
-        "artist": "Butera Knowless",
-        "title": "Ko Nashize",
-        "searchTerm": "Butera Knowless Ko Nashize"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Butera Knowless",
+          "title": "Ko Nashize",
+          "searchTerm": "Butera Knowless Ko Nashize"
+        }
+      ],
       "fallbackSearchTerms": [
         "Rwanda traditional music",
         "Rwanda folk music",
@@ -2265,11 +3018,18 @@
     },
     {
       "countryCode": "RE",
-      "primaryTrack": {
-        "artist": "SAODAJ'",
-        "title": "Pokor Lèr",
-        "searchTerm": "SAODAJ' Pokor Lèr"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Danyèl Waro",
+          "title": "Oté Larényon",
+          "searchTerm": "Danyel Waro Ote Larenyon"
+        },
+        {
+          "artist": "SAODAJ'",
+          "title": "Pokor Lèr",
+          "searchTerm": "SAODAJ' Pokor Lèr"
+        }
+      ],
       "fallbackSearchTerms": [
         "Réunion traditional music",
         "Réunion folk music",
@@ -2278,11 +3038,13 @@
     },
     {
       "countryCode": "BL",
-      "primaryTrack": {
-        "artist": "Robb Tito",
-        "title": "St. Barth Song",
-        "searchTerm": "Robb Tito St. Barth Song"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Robb Tito",
+          "title": "St. Barth Song",
+          "searchTerm": "Robb Tito St. Barth Song"
+        }
+      ],
       "fallbackSearchTerms": [
         "Saint Barthélemy traditional music",
         "Saint Barthélemy folk music",
@@ -2291,11 +3053,13 @@
     },
     {
       "countryCode": "KN",
-      "primaryTrack": {
-        "artist": "Wendy St. Kitts",
-        "title": "Woman Empowered",
-        "searchTerm": "Wendy St. Kitts Woman Empowered"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Wendy St. Kitts",
+          "title": "Woman Empowered",
+          "searchTerm": "Wendy St. Kitts Woman Empowered"
+        }
+      ],
       "fallbackSearchTerms": [
         "Saint Kitts and Nevis traditional music",
         "Saint Kitts and Nevis folk music",
@@ -2304,11 +3068,13 @@
     },
     {
       "countryCode": "LC",
-      "primaryTrack": {
-        "artist": "Mongstar",
-        "title": "Saint Lucia We Love",
-        "searchTerm": "Mongstar Saint Lucia We Love"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Mongstar",
+          "title": "Saint Lucia We Love",
+          "searchTerm": "Mongstar Saint Lucia We Love"
+        }
+      ],
       "fallbackSearchTerms": [
         "Saint Lucia traditional music",
         "Saint Lucia folk music",
@@ -2317,11 +3083,13 @@
     },
     {
       "countryCode": "MF",
-      "primaryTrack": {
-        "artist": "Red Eye Crew, Joli Rouge Sound",
-        "title": "Domino",
-        "searchTerm": "Red Eye Crew, Joli Rouge Sound Domino"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Red Eye Crew, Joli Rouge Sound",
+          "title": "Domino",
+          "searchTerm": "Red Eye Crew, Joli Rouge Sound Domino"
+        }
+      ],
       "fallbackSearchTerms": [
         "Saint Martin traditional music",
         "Saint Martin folk music",
@@ -2330,11 +3098,13 @@
     },
     {
       "countryCode": "PM",
-      "primaryTrack": {
-        "artist": "Allan Lafitte",
-        "title": "Sometimes",
-        "searchTerm": "Allan Lafitte Sometimes"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Allan Lafitte",
+          "title": "Sometimes",
+          "searchTerm": "Allan Lafitte Sometimes"
+        }
+      ],
       "fallbackSearchTerms": [
         "Saint Pierre and Miquelon traditional music",
         "Saint Pierre and Miquelon folk music",
@@ -2343,11 +3113,13 @@
     },
     {
       "countryCode": "VC",
-      "primaryTrack": {
-        "artist": "Noise Cans, Skinny Fabulous, Daniella Veira",
-        "title": "Do It Like Ah Pro",
-        "searchTerm": "Noise Cans, Skinny Fabulous, Daniella Veira Do It Like Ah Pro"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Noise Cans, Skinny Fabulous, Daniella Veira",
+          "title": "Do It Like Ah Pro",
+          "searchTerm": "Noise Cans, Skinny Fabulous, Daniella Veira Do It Like Ah Pro"
+        }
+      ],
       "fallbackSearchTerms": [
         "Saint Vincent and the Grenadines traditional music",
         "Saint Vincent and the Grenadines folk music",
@@ -2356,11 +3128,18 @@
     },
     {
       "countryCode": "WS",
-      "primaryTrack": {
-        "artist": "Lole Usoalii",
-        "title": "Rise - Tu I Luga",
-        "searchTerm": "Lole Usoalii Rise - Tu I Luga"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Punialava'a",
+          "title": "Aganu'u Samoa",
+          "searchTerm": "Punialavaa Aganuu Samoa"
+        },
+        {
+          "artist": "Lole Usoalii",
+          "title": "Rise - Tu I Luga",
+          "searchTerm": "Lole Usoalii Rise - Tu I Luga"
+        }
+      ],
       "fallbackSearchTerms": [
         "Samoa traditional music",
         "Samoa folk music",
@@ -2369,11 +3148,13 @@
     },
     {
       "countryCode": "SM",
-      "primaryTrack": {
-        "artist": "Valentina Monetta",
-        "title": "Crisalide - Vola",
-        "searchTerm": "Valentina Monetta Crisalide - Vola"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Valentina Monetta",
+          "title": "Crisalide - Vola",
+          "searchTerm": "Valentina Monetta Crisalide - Vola"
+        }
+      ],
       "fallbackSearchTerms": [
         "San Marino traditional music",
         "San Marino folk music",
@@ -2382,11 +3163,18 @@
     },
     {
       "countryCode": "ST",
-      "primaryTrack": {
-        "artist": "Juka",
-        "title": "Porquê",
-        "searchTerm": "Juka Porquê"
-      },
+      "candidateTracks": [
+        {
+          "artist": "África Negra",
+          "title": "Africa Negra",
+          "searchTerm": "Africa Negra Sao Tome"
+        },
+        {
+          "artist": "Juka",
+          "title": "Porquê",
+          "searchTerm": "Juka Porquê"
+        }
+      ],
       "fallbackSearchTerms": [
         "Sao Tome and Principe traditional music",
         "Sao Tome and Principe folk music",
@@ -2395,11 +3183,13 @@
     },
     {
       "countryCode": "CQ",
-      "primaryTrack": {
-        "artist": "The Recks",
-        "title": "Train Wreck",
-        "searchTerm": "The Recks Train Wreck"
-      },
+      "candidateTracks": [
+        {
+          "artist": "The Recks",
+          "title": "Train Wreck",
+          "searchTerm": "The Recks Train Wreck"
+        }
+      ],
       "fallbackSearchTerms": [
         "Sark traditional music",
         "Sark folk music",
@@ -2408,11 +3198,18 @@
     },
     {
       "countryCode": "SA",
-      "primaryTrack": {
-        "artist": "Majed Al Esa",
-        "title": "Hwages",
-        "searchTerm": "Majed Al Esa Hwages"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Mohammed Abdu",
+          "title": "Ma Tmaneitak",
+          "searchTerm": "Mohammed Abdu Ma Tmaneitak"
+        },
+        {
+          "artist": "Majed Al Esa",
+          "title": "Hwages",
+          "searchTerm": "Majed Al Esa Hwages"
+        }
+      ],
       "fallbackSearchTerms": [
         "Saudi Arabia traditional music",
         "Saudi Arabia folk music",
@@ -2421,11 +3218,13 @@
     },
     {
       "countryCode": "SN",
-      "primaryTrack": {
-        "artist": "Baaba Maal",
-        "title": "Lampenda",
-        "searchTerm": "Baaba Maal Lampenda"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Baaba Maal",
+          "title": "Lampenda",
+          "searchTerm": "Baaba Maal Lampenda"
+        }
+      ],
       "fallbackSearchTerms": [
         "Senegal traditional music",
         "Senegal folk music",
@@ -2434,11 +3233,18 @@
     },
     {
       "countryCode": "RS",
-      "primaryTrack": {
-        "artist": "Ministarke",
-        "title": "Mrtav ili ziv",
-        "searchTerm": "Ministarke Mrtav ili ziv"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Bijelo Dugme",
+          "title": "Đurđevdan",
+          "searchTerm": "Bijelo Dugme Djurdjevdan"
+        },
+        {
+          "artist": "Ministarke",
+          "title": "Mrtav ili ziv",
+          "searchTerm": "Ministarke Mrtav ili ziv"
+        }
+      ],
       "fallbackSearchTerms": [
         "Serbia traditional music",
         "Serbia folk music",
@@ -2447,11 +3253,13 @@
     },
     {
       "countryCode": "SC",
-      "primaryTrack": {
-        "artist": "Jean-Marc Volcy",
-        "title": "Madame sandappen",
-        "searchTerm": "Jean-Marc Volcy Madame sandappen"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Jean-Marc Volcy",
+          "title": "Madame sandappen",
+          "searchTerm": "Jean-Marc Volcy Madame sandappen"
+        }
+      ],
       "fallbackSearchTerms": [
         "Seychelles traditional music",
         "Seychelles folk music",
@@ -2460,11 +3268,13 @@
     },
     {
       "countryCode": "SL",
-      "primaryTrack": {
-        "artist": "Janka Nabay, The Bubu Gang",
-        "title": "Somebody",
-        "searchTerm": "Janka Nabay, The Bubu Gang Somebody"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Janka Nabay, The Bubu Gang",
+          "title": "Somebody",
+          "searchTerm": "Janka Nabay, The Bubu Gang Somebody"
+        }
+      ],
       "fallbackSearchTerms": [
         "Sierra Leone traditional music",
         "Sierra Leone folk music",
@@ -2473,11 +3283,18 @@
     },
     {
       "countryCode": "SG",
-      "primaryTrack": {
-        "artist": "The Sam Willows",
-        "title": "Papa Money",
-        "searchTerm": "The Sam Willows Papa Money"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Kit Chan",
+          "title": "Home",
+          "searchTerm": "Kit Chan Home"
+        },
+        {
+          "artist": "The Sam Willows",
+          "title": "Papa Money",
+          "searchTerm": "The Sam Willows Papa Money"
+        }
+      ],
       "fallbackSearchTerms": [
         "Singapore traditional music",
         "Singapore folk music",
@@ -2486,11 +3303,13 @@
     },
     {
       "countryCode": "SX",
-      "primaryTrack": {
-        "artist": "Kenyo Baly",
-        "title": "Bluff",
-        "searchTerm": "Kenyo Baly Bluff"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Kenyo Baly",
+          "title": "Bluff",
+          "searchTerm": "Kenyo Baly Bluff"
+        }
+      ],
       "fallbackSearchTerms": [
         "Sint Maarten traditional music",
         "Sint Maarten folk music",
@@ -2499,11 +3318,13 @@
     },
     {
       "countryCode": "SK",
-      "primaryTrack": {
-        "artist": "Janais",
-        "title": "Money",
-        "searchTerm": "Janais Money"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Janais",
+          "title": "Money",
+          "searchTerm": "Janais Money"
+        }
+      ],
       "fallbackSearchTerms": [
         "Slovakia traditional music",
         "Slovakia folk music",
@@ -2512,11 +3333,13 @@
     },
     {
       "countryCode": "SI",
-      "primaryTrack": {
-        "artist": "Siddharta",
-        "title": "Medrevesa",
-        "searchTerm": "Siddharta Medrevesa"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Siddharta",
+          "title": "Medrevesa",
+          "searchTerm": "Siddharta Medrevesa"
+        }
+      ],
       "fallbackSearchTerms": [
         "Slovenia traditional music",
         "Slovenia folk music",
@@ -2525,11 +3348,13 @@
     },
     {
       "countryCode": "SB",
-      "primaryTrack": {
-        "artist": "Sharzy",
-        "title": "Ta' Umai",
-        "searchTerm": "Sharzy Ta' Umai"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Sharzy",
+          "title": "Ta' Umai",
+          "searchTerm": "Sharzy Ta' Umai"
+        }
+      ],
       "fallbackSearchTerms": [
         "Solomon Islands traditional music",
         "Solomon Islands folk music",
@@ -2538,11 +3363,13 @@
     },
     {
       "countryCode": "SO",
-      "primaryTrack": {
-        "artist": "Maryam Mursal",
-        "title": "Lei Lei",
-        "searchTerm": "Maryam Mursal Lei Lei"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Maryam Mursal",
+          "title": "Lei Lei",
+          "searchTerm": "Maryam Mursal Lei Lei"
+        }
+      ],
       "fallbackSearchTerms": [
         "Somalia traditional music",
         "Somalia folk music",
@@ -2551,11 +3378,13 @@
     },
     {
       "countryCode": "ZA",
-      "primaryTrack": {
-        "artist": "Sun-El Musician, Mlindo The Vocalist",
-        "title": "Bamthathile",
-        "searchTerm": "Sun-El Musician, Mlindo The Vocalist Bamthathile"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Sun-El Musician, Mlindo The Vocalist",
+          "title": "Bamthathile",
+          "searchTerm": "Sun-El Musician, Mlindo The Vocalist Bamthathile"
+        }
+      ],
       "fallbackSearchTerms": [
         "South Africa traditional music",
         "South Africa folk music",
@@ -2564,11 +3393,18 @@
     },
     {
       "countryCode": "KR",
-      "primaryTrack": {
-        "artist": "SEUNGRI",
-        "title": "1, 2, 3!",
-        "searchTerm": "SEUNGRI 1, 2, 3!"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Han Pyung Sook, Jea Kyung Whang & Korean Folk Choir",
+          "title": "Arirang",
+          "searchTerm": "Arirang Korean Folk Choir"
+        },
+        {
+          "artist": "SEUNGRI",
+          "title": "1, 2, 3!",
+          "searchTerm": "SEUNGRI 1, 2, 3!"
+        }
+      ],
       "fallbackSearchTerms": [
         "South Korea traditional music",
         "South Korea folk music",
@@ -2577,11 +3413,13 @@
     },
     {
       "countryCode": "SS",
-      "primaryTrack": {
-        "artist": "Emmanuel Jal, McKenzie Eddy",
-        "title": "We Fall",
-        "searchTerm": "Emmanuel Jal, McKenzie Eddy We Fall"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Emmanuel Jal, McKenzie Eddy",
+          "title": "We Fall",
+          "searchTerm": "Emmanuel Jal, McKenzie Eddy We Fall"
+        }
+      ],
       "fallbackSearchTerms": [
         "South Sudan traditional music",
         "South Sudan folk music",
@@ -2590,11 +3428,18 @@
     },
     {
       "countryCode": "ES",
-      "primaryTrack": {
-        "artist": "Leiva",
-        "title": "La Llamada",
-        "searchTerm": "Leiva La Llamada"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Lola Flores",
+          "title": "La Zarzamora",
+          "searchTerm": "Lola Flores La Zarzamora"
+        },
+        {
+          "artist": "Leiva",
+          "title": "La Llamada",
+          "searchTerm": "Leiva La Llamada"
+        }
+      ],
       "fallbackSearchTerms": [
         "Spain traditional music",
         "Spain folk music",
@@ -2603,11 +3448,13 @@
     },
     {
       "countryCode": "LK",
-      "primaryTrack": {
-        "artist": "Ridma Weerawardena, Charitha Attalage",
-        "title": "Kuweni",
-        "searchTerm": "Ridma Weerawardena, Charitha Attalage Kuweni"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Ridma Weerawardena, Charitha Attalage",
+          "title": "Kuweni",
+          "searchTerm": "Ridma Weerawardena, Charitha Attalage Kuweni"
+        }
+      ],
       "fallbackSearchTerms": [
         "Sri Lanka traditional music",
         "Sri Lanka folk music",
@@ -2616,11 +3463,13 @@
     },
     {
       "countryCode": "SD",
-      "primaryTrack": {
-        "artist": "Alsarah & The Nubatones",
-        "title": "Soukura (It's Late)",
-        "searchTerm": "Alsarah & The Nubatones Soukura (It's Late)"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Alsarah & The Nubatones",
+          "title": "Soukura (It's Late)",
+          "searchTerm": "Alsarah & The Nubatones Soukura (It's Late)"
+        }
+      ],
       "fallbackSearchTerms": [
         "Sudan traditional music",
         "Sudan folk music",
@@ -2629,11 +3478,18 @@
     },
     {
       "countryCode": "SR",
-      "primaryTrack": {
-        "artist": "La Rouge",
-        "title": "Geen Ander Voor Mij",
-        "searchTerm": "La Rouge Geen Ander Voor Mij"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Lieve Hugo",
+          "title": "Mi Swieti Booi",
+          "searchTerm": "Lieve Hugo Mi Swieti Booi"
+        },
+        {
+          "artist": "La Rouge",
+          "title": "Geen Ander Voor Mij",
+          "searchTerm": "La Rouge Geen Ander Voor Mij"
+        }
+      ],
       "fallbackSearchTerms": [
         "Suriname traditional music",
         "Suriname folk music",
@@ -2642,11 +3498,13 @@
     },
     {
       "countryCode": "SJ",
-      "primaryTrack": {
-        "artist": "Liv Mari Schei",
-        "title": "Måne",
-        "searchTerm": "Liv Mari Schei Måne"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Liv Mari Schei",
+          "title": "Måne",
+          "searchTerm": "Liv Mari Schei Måne"
+        }
+      ],
       "fallbackSearchTerms": [
         "Svalbard & Jan Mayen traditional music",
         "Svalbard & Jan Mayen folk music",
@@ -2655,11 +3513,18 @@
     },
     {
       "countryCode": "SE",
-      "primaryTrack": {
-        "artist": "Stockholm Noir, Ofelia",
-        "title": "Boy Like a Girl",
-        "searchTerm": "Stockholm Noir, Ofelia Boy Like a Girl"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Evert Taube",
+          "title": "Sjösala Vals",
+          "searchTerm": "Evert Taube Sjosala Vals"
+        },
+        {
+          "artist": "Stockholm Noir, Ofelia",
+          "title": "Boy Like a Girl",
+          "searchTerm": "Stockholm Noir, Ofelia Boy Like a Girl"
+        }
+      ],
       "fallbackSearchTerms": [
         "Sweden traditional music",
         "Sweden folk music",
@@ -2668,11 +3533,13 @@
     },
     {
       "countryCode": "CH",
-      "primaryTrack": {
-        "artist": "Hecht",
-        "title": "Charlotta",
-        "searchTerm": "Hecht Charlotta"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Hecht",
+          "title": "Charlotta",
+          "searchTerm": "Hecht Charlotta"
+        }
+      ],
       "fallbackSearchTerms": [
         "Switzerland traditional music",
         "Switzerland folk music",
@@ -2681,11 +3548,18 @@
     },
     {
       "countryCode": "SY",
-      "primaryTrack": {
-        "artist": "Bu Kolthoum",
-        "title": "Zamilou",
-        "searchTerm": "Bu Kolthoum Zamilou"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Sabah Fakhri",
+          "title": "Qadduka'l-Mayyaas",
+          "searchTerm": "Sabah Fakhri Qadduka"
+        },
+        {
+          "artist": "Bu Kolthoum",
+          "title": "Zamilou",
+          "searchTerm": "Bu Kolthoum Zamilou"
+        }
+      ],
       "fallbackSearchTerms": [
         "Syria traditional music",
         "Syria folk music",
@@ -2694,11 +3568,18 @@
     },
     {
       "countryCode": "TW",
-      "primaryTrack": {
-        "artist": "Rosie Yang, 余枫 (Yú Fēng)",
-        "title": "怎麼還不愛 (Zěnme hái bù ài)",
-        "searchTerm": "Rosie Yang, 余枫 (Yú Fēng) 怎麼還不愛 (Zěnme hái bù ài)"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Hong Rong-Hong (洪榮宏)",
+          "title": "望春風 (Bāng Chhun-hong)",
+          "searchTerm": "Hong Rong Hong Bang Chhun Hong"
+        },
+        {
+          "artist": "Rosie Yang, 余枫 (Yú Fēng)",
+          "title": "怎麼還不愛 (Zěnme hái bù ài)",
+          "searchTerm": "Rosie Yang, 余枫 (Yú Fēng) 怎麼還不愛 (Zěnme hái bù ài)"
+        }
+      ],
       "fallbackSearchTerms": [
         "Taiwan traditional music",
         "Taiwan folk music",
@@ -2707,11 +3588,18 @@
     },
     {
       "countryCode": "TJ",
-      "primaryTrack": {
-        "artist": "Tahmina Niyazova",
-        "title": "Ты только позови (Ty tol'ko pozovi)",
-        "searchTerm": "Tahmina Niyazova Ты только позови (Ty tol'ko pozovi)"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Tahmina Niyazova",
+          "title": "Nozi Ishq",
+          "searchTerm": "Tahmina Niyazova Nozi Ishq"
+        },
+        {
+          "artist": "Tahmina Niyazova",
+          "title": "Ты только позови (Ty tol'ko pozovi)",
+          "searchTerm": "Tahmina Niyazova Ты только позови (Ty tol'ko pozovi)"
+        }
+      ],
       "fallbackSearchTerms": [
         "Tajikistan traditional music",
         "Tajikistan folk music",
@@ -2720,11 +3608,18 @@
     },
     {
       "countryCode": "TZ",
-      "primaryTrack": {
-        "artist": "Vanessa Mdee",
-        "title": "Cash Madame",
-        "searchTerm": "Vanessa Mdee Cash Madame"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Remmy Ongala & Orchestre Super Matimila",
+          "title": "Kipenda Roho",
+          "searchTerm": "Remmy Ongala Kipenda Roho"
+        },
+        {
+          "artist": "Vanessa Mdee",
+          "title": "Cash Madame",
+          "searchTerm": "Vanessa Mdee Cash Madame"
+        }
+      ],
       "fallbackSearchTerms": [
         "Tanzania traditional music",
         "Tanzania folk music",
@@ -2733,11 +3628,18 @@
     },
     {
       "countryCode": "TH",
-      "primaryTrack": {
-        "artist": "Da Endorphine",
-        "title": "เธอมีฉัน ฉันมีใคร (Tur Mee Chun Chun Mee Krai)",
-        "searchTerm": "Da Endorphine เธอมีฉัน ฉันมีใคร (Tur Mee Chun Chun Mee Krai)"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Phumphuang Duangchan",
+          "title": "ผู้ชายในฝัน (Phu Chai Nai Fan)",
+          "searchTerm": "Phumphuang Duangchan Phu Chai Nai Fan"
+        },
+        {
+          "artist": "Da Endorphine",
+          "title": "เธอมีฉัน ฉันมีใคร (Tur Mee Chun Chun Mee Krai)",
+          "searchTerm": "Da Endorphine เธอมีฉัน ฉันมีใคร (Tur Mee Chun Chun Mee Krai)"
+        }
+      ],
       "fallbackSearchTerms": [
         "Thailand traditional music",
         "Thailand folk music",
@@ -2746,11 +3648,13 @@
     },
     {
       "countryCode": "TL",
-      "primaryTrack": {
-        "artist": "Teo Batiste",
-        "title": "Kolele Mai",
-        "searchTerm": "Kolele Mai Timor"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Teo Batiste",
+          "title": "Kolele Mai",
+          "searchTerm": "Kolele Mai Timor"
+        }
+      ],
       "fallbackSearchTerms": [
         "Timor-Leste traditional music",
         "Timor-Leste folk music",
@@ -2759,11 +3663,13 @@
     },
     {
       "countryCode": "TG",
-      "primaryTrack": {
-        "artist": "Toofan",
-        "title": "Gweta",
-        "searchTerm": "Toofan Gweta"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Toofan",
+          "title": "Gweta",
+          "searchTerm": "Toofan Gweta"
+        }
+      ],
       "fallbackSearchTerms": [
         "Togo traditional music",
         "Togo folk music",
@@ -2772,11 +3678,13 @@
     },
     {
       "countryCode": "TK",
-      "primaryTrack": {
-        "artist": "Olivia Foa'i",
-        "title": "Aulelei",
-        "searchTerm": "Olivia Foa'i Aulelei"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Olivia Foa'i",
+          "title": "Aulelei",
+          "searchTerm": "Olivia Foa'i Aulelei"
+        }
+      ],
       "fallbackSearchTerms": [
         "Tokelau traditional music",
         "Tokelau folk music",
@@ -2785,11 +3693,18 @@
     },
     {
       "countryCode": "TO",
-      "primaryTrack": {
-        "artist": "Sonatane Kaufusi",
-        "title": "Birdie",
-        "searchTerm": "Sonatane Kaufusi Birdie"
-      },
+      "candidateTracks": [
+        {
+          "artist": "4am Toukou",
+          "title": "Ofa Atu",
+          "searchTerm": "4am Toukou Ofa Atu"
+        },
+        {
+          "artist": "Sonatane Kaufusi",
+          "title": "Birdie",
+          "searchTerm": "Sonatane Kaufusi Birdie"
+        }
+      ],
       "fallbackSearchTerms": [
         "Tonga traditional music",
         "Tonga folk music",
@@ -2798,11 +3713,18 @@
     },
     {
       "countryCode": "TT",
-      "primaryTrack": {
-        "artist": "Fay-Ann Lyons",
-        "title": "Hands In The Air",
-        "searchTerm": "Fay-Ann Lyons Hands In The Air"
-      },
+      "candidateTracks": [
+        {
+          "artist": "The Mighty Sparrow",
+          "title": "Jean and Dinah",
+          "searchTerm": "Mighty Sparrow Jean and Dinah"
+        },
+        {
+          "artist": "Fay-Ann Lyons",
+          "title": "Hands In The Air",
+          "searchTerm": "Fay-Ann Lyons Hands In The Air"
+        }
+      ],
       "fallbackSearchTerms": [
         "Trinidad and Tobago traditional music",
         "Trinidad and Tobago folk music",
@@ -2811,11 +3733,18 @@
     },
     {
       "countryCode": "TN",
-      "primaryTrack": {
-        "artist": "Klay BBJ",
-        "title": "Manich Behi",
-        "searchTerm": "Klay BBJ Manich Behi"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Saber Rebaï",
+          "title": "Sidi Mansour",
+          "searchTerm": "Saber Rebai Sidi Mansour"
+        },
+        {
+          "artist": "Klay BBJ",
+          "title": "Manich Behi",
+          "searchTerm": "Klay BBJ Manich Behi"
+        }
+      ],
       "fallbackSearchTerms": [
         "Tunisia traditional music",
         "Tunisia folk music",
@@ -2824,11 +3753,18 @@
     },
     {
       "countryCode": "TR",
-      "primaryTrack": {
-        "artist": "mor ve ötesi",
-        "title": "Cambaz",
-        "searchTerm": "mor ve ötesi Cambaz"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Selda Bağcan",
+          "title": "Sarı Gelin",
+          "searchTerm": "Selda Bağcan Sarı Gelin"
+        },
+        {
+          "artist": "mor ve ötesi",
+          "title": "Cambaz",
+          "searchTerm": "mor ve ötesi Cambaz"
+        }
+      ],
       "fallbackSearchTerms": [
         "Turkey traditional music",
         "Turkey folk music",
@@ -2837,11 +3773,18 @@
     },
     {
       "countryCode": "TM",
-      "primaryTrack": {
-        "artist": "Myahri",
-        "title": "Türkmenistanym",
-        "searchTerm": "Myahri Türkmenistanym"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Myahri",
+          "title": "Eziz Watanym",
+          "searchTerm": "Myahri Eziz Watanym"
+        },
+        {
+          "artist": "Myahri",
+          "title": "Türkmenistanym",
+          "searchTerm": "Myahri Türkmenistanym"
+        }
+      ],
       "fallbackSearchTerms": [
         "Turkmenistan traditional music",
         "Turkmenistan folk music",
@@ -2850,11 +3793,13 @@
     },
     {
       "countryCode": "TC",
-      "primaryTrack": {
-        "artist": "The Cooling Waters",
-        "title": "Deliver You",
-        "searchTerm": "The Cooling Waters Deliver You"
-      },
+      "candidateTracks": [
+        {
+          "artist": "The Cooling Waters",
+          "title": "Deliver You",
+          "searchTerm": "The Cooling Waters Deliver You"
+        }
+      ],
       "fallbackSearchTerms": [
         "Turks and Caicos Islands traditional music",
         "Turks and Caicos Islands folk music",
@@ -2863,11 +3808,13 @@
     },
     {
       "countryCode": "TV",
-      "primaryTrack": {
-        "artist": "TK Music, Julie",
-        "title": "Tuu Mo Aganuu",
-        "searchTerm": "TK Music, Julie Tuu Mo Aganuu"
-      },
+      "candidateTracks": [
+        {
+          "artist": "TK Music, Julie",
+          "title": "Tuu Mo Aganuu",
+          "searchTerm": "TK Music, Julie Tuu Mo Aganuu"
+        }
+      ],
       "fallbackSearchTerms": [
         "Tuvalu traditional music",
         "Tuvalu folk music",
@@ -2876,11 +3823,13 @@
     },
     {
       "countryCode": "UG",
-      "primaryTrack": {
-        "artist": "Juliana Kanyomozi",
-        "title": "Kibaluma",
-        "searchTerm": "Juliana Kanyomozi Kibaluma"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Juliana Kanyomozi",
+          "title": "Kibaluma",
+          "searchTerm": "Juliana Kanyomozi Kibaluma"
+        }
+      ],
       "fallbackSearchTerms": [
         "Uganda traditional music",
         "Uganda folk music",
@@ -2889,11 +3838,18 @@
     },
     {
       "countryCode": "UA",
-      "primaryTrack": {
-        "artist": "Monatik",
-        "title": "То, от чего без ума (To, ot chego bez uma)",
-        "searchTerm": "Monatik То, от чего без ума (To, ot chego bez uma)"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Dunai",
+          "title": "Chervona Ruta",
+          "searchTerm": "Chervona Ruta"
+        },
+        {
+          "artist": "Monatik",
+          "title": "То, от чего без ума (To, ot chego bez uma)",
+          "searchTerm": "Monatik То, от чего без ума (To, ot chego bez uma)"
+        }
+      ],
       "fallbackSearchTerms": [
         "Ukraine traditional music",
         "Ukraine folk music",
@@ -2902,11 +3858,13 @@
     },
     {
       "countryCode": "AE",
-      "primaryTrack": {
-        "artist": "Hussain Al Jassmi",
-        "title": "Boushret Kheir",
-        "searchTerm": "Hussain Al Jassmi Boushret Kheir"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Hussain Al Jassmi",
+          "title": "Boushret Kheir",
+          "searchTerm": "Hussain Al Jassmi Boushret Kheir"
+        }
+      ],
       "fallbackSearchTerms": [
         "United Arab Emirates traditional music",
         "United Arab Emirates folk music",
@@ -2915,11 +3873,18 @@
     },
     {
       "countryCode": "GB",
-      "primaryTrack": {
-        "artist": "Autoheart",
-        "title": "Moscow",
-        "searchTerm": "Autoheart Moscow"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Oasis",
+          "title": "Wonderwall",
+          "searchTerm": "Oasis Wonderwall"
+        },
+        {
+          "artist": "Autoheart",
+          "title": "Moscow",
+          "searchTerm": "Autoheart Moscow"
+        }
+      ],
       "fallbackSearchTerms": [
         "United Kingdom traditional music",
         "United Kingdom folk music",
@@ -2928,11 +3893,18 @@
     },
     {
       "countryCode": "US",
-      "primaryTrack": {
-        "artist": "Lord Huron",
-        "title": "The Night We Met",
-        "searchTerm": "Lord Huron The Night We Met"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Woody Guthrie",
+          "title": "This Land Is Your Land",
+          "searchTerm": "Woody Guthrie This Land Is Your Land"
+        },
+        {
+          "artist": "Lord Huron",
+          "title": "The Night We Met",
+          "searchTerm": "Lord Huron The Night We Met"
+        }
+      ],
       "fallbackSearchTerms": [
         "United States traditional music",
         "United States folk music",
@@ -2941,11 +3913,13 @@
     },
     {
       "countryCode": "UY",
-      "primaryTrack": {
-        "artist": "No Te Va Gustar",
-        "title": "A las Nueve",
-        "searchTerm": "No Te Va Gustar A las Nueve"
-      },
+      "candidateTracks": [
+        {
+          "artist": "No Te Va Gustar",
+          "title": "A las Nueve",
+          "searchTerm": "No Te Va Gustar A las Nueve"
+        }
+      ],
       "fallbackSearchTerms": [
         "Uruguay traditional music",
         "Uruguay folk music",
@@ -2954,11 +3928,18 @@
     },
     {
       "countryCode": "VI",
-      "primaryTrack": {
-        "artist": "Vanessa Daou",
-        "title": "Near the Black Forest",
-        "searchTerm": "Vanessa Daou Near the Black Forest"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Stanley and the Ten Sleepless Knights",
+          "title": "Queen Mary",
+          "searchTerm": "Stanley and the Ten Sleepless Knights Queen Mary"
+        },
+        {
+          "artist": "Vanessa Daou",
+          "title": "Near the Black Forest",
+          "searchTerm": "Vanessa Daou Near the Black Forest"
+        }
+      ],
       "fallbackSearchTerms": [
         "US Virgin Islands traditional music",
         "US Virgin Islands folk music",
@@ -2967,11 +3948,18 @@
     },
     {
       "countryCode": "UZ",
-      "primaryTrack": {
-        "artist": "Sogdiana",
-        "title": "Неделимы (Nedelimy)",
-        "searchTerm": "Sogdiana Неделимы (Nedelimy)"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Yulduz Usmonova",
+          "title": "Yor-Yor",
+          "searchTerm": "Yulduz Usmonova Yor Yor"
+        },
+        {
+          "artist": "Sogdiana",
+          "title": "Неделимы (Nedelimy)",
+          "searchTerm": "Sogdiana Неделимы (Nedelimy)"
+        }
+      ],
       "fallbackSearchTerms": [
         "Uzbekistan traditional music",
         "Uzbekistan folk music",
@@ -2980,11 +3968,13 @@
     },
     {
       "countryCode": "VU",
-      "primaryTrack": {
-        "artist": "Vanessa Quai",
-        "title": "True Harmony",
-        "searchTerm": "Vanessa Quai True Harmony"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Vanessa Quai",
+          "title": "True Harmony",
+          "searchTerm": "Vanessa Quai True Harmony"
+        }
+      ],
       "fallbackSearchTerms": [
         "Vanuatu traditional music",
         "Vanuatu folk music",
@@ -2993,11 +3983,18 @@
     },
     {
       "countryCode": "VA",
-      "primaryTrack": {
-        "artist": "Pope Francis, Damiano Affinito",
-        "title": "Wake Up! Go! Go! Forward!",
-        "searchTerm": "Pope Francis, Damiano Affinito Wake Up! Go! Go! Forward!"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Sistine Chapel Choir & Massimo Palombella",
+          "title": "Miserere",
+          "searchTerm": "Sistine Chapel Choir Miserere Allegri"
+        },
+        {
+          "artist": "Pope Francis, Damiano Affinito",
+          "title": "Wake Up! Go! Go! Forward!",
+          "searchTerm": "Pope Francis, Damiano Affinito Wake Up! Go! Go! Forward!"
+        }
+      ],
       "fallbackSearchTerms": [
         "Vatican City traditional music",
         "Vatican City folk music",
@@ -3006,11 +4003,13 @@
     },
     {
       "countryCode": "VE",
-      "primaryTrack": {
-        "artist": "Scarlett Linares",
-        "title": "Llorando y Tomando",
-        "searchTerm": "Scarlett Linares Llorando y Tomando"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Scarlett Linares",
+          "title": "Llorando y Tomando",
+          "searchTerm": "Scarlett Linares Llorando y Tomando"
+        }
+      ],
       "fallbackSearchTerms": [
         "Venezuela traditional music",
         "Venezuela folk music",
@@ -3019,11 +4018,18 @@
     },
     {
       "countryCode": "VN",
-      "primaryTrack": {
-        "artist": "Cá Hồi Hoang",
-        "title": "Hết Mực",
-        "searchTerm": "Cá Hồi Hoang Hết Mực"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Thu Hiền",
+          "title": "Người ơi người ở đừng về",
+          "searchTerm": "Thu Hiền Người ơi người ở đừng về"
+        },
+        {
+          "artist": "Cá Hồi Hoang",
+          "title": "Hết Mực",
+          "searchTerm": "Cá Hồi Hoang Hết Mực"
+        }
+      ],
       "fallbackSearchTerms": [
         "Vietnam traditional music",
         "Vietnam folk music",
@@ -3032,11 +4038,13 @@
     },
     {
       "countryCode": "WF",
-      "primaryTrack": {
-        "artist": "Togahau",
-        "title": "Soamako finemui mai loto gahi",
-        "searchTerm": "Togahau Soamako finemui mai loto gahi"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Togahau",
+          "title": "Soamako finemui mai loto gahi",
+          "searchTerm": "Togahau Soamako finemui mai loto gahi"
+        }
+      ],
       "fallbackSearchTerms": [
         "Wallis and Futuna traditional music",
         "Wallis and Futuna folk music",
@@ -3045,11 +4053,13 @@
     },
     {
       "countryCode": "EH",
-      "primaryTrack": {
-        "artist": "Aziza Brahim",
-        "title": "Lagi",
-        "searchTerm": "Aziza Brahim Lagi"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Aziza Brahim",
+          "title": "Lagi",
+          "searchTerm": "Aziza Brahim Lagi"
+        }
+      ],
       "fallbackSearchTerms": [
         "Western Sahara traditional music",
         "Western Sahara folk music",
@@ -3058,11 +4068,18 @@
     },
     {
       "countryCode": "YE",
-      "primaryTrack": {
-        "artist": "Yemen Blues, Oxmo Puccino",
-        "title": "Satisfaction",
-        "searchTerm": "Yemen Blues, Oxmo Puccino Satisfaction"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Abu Bakr Salem",
+          "title": "Fi El Samah Ghayam",
+          "searchTerm": "Abu Bakr Salem Fi El Samah Ghayam"
+        },
+        {
+          "artist": "Yemen Blues, Oxmo Puccino",
+          "title": "Satisfaction",
+          "searchTerm": "Yemen Blues, Oxmo Puccino Satisfaction"
+        }
+      ],
       "fallbackSearchTerms": [
         "Yemen traditional music",
         "Yemen folk music",
@@ -3071,11 +4088,18 @@
     },
     {
       "countryCode": "ZM",
-      "primaryTrack": {
-        "artist": "Dieselle, Kay Figo",
-        "title": "Kanyelele",
-        "searchTerm": "Dieselle, Kay Figo Kanyelele"
-      },
+      "candidateTracks": [
+        {
+          "artist": "PK Chishala",
+          "title": "Na Musonda",
+          "searchTerm": "PK Chishala Na Musonda"
+        },
+        {
+          "artist": "Dieselle, Kay Figo",
+          "title": "Kanyelele",
+          "searchTerm": "Dieselle, Kay Figo Kanyelele"
+        }
+      ],
       "fallbackSearchTerms": [
         "Zambia traditional music",
         "Zambia folk music",
@@ -3084,11 +4108,18 @@
     },
     {
       "countryCode": "ZW",
-      "primaryTrack": {
-        "artist": "Tinashe Makura, Chashe",
-        "title": "Zvekupenga",
-        "searchTerm": "Tinashe Makura, Chashe Zvekupenga"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Oliver Mtukudzi",
+          "title": "Neria",
+          "searchTerm": "Oliver Mtukudzi Neria"
+        },
+        {
+          "artist": "Tinashe Makura, Chashe",
+          "title": "Zvekupenga",
+          "searchTerm": "Tinashe Makura, Chashe Zvekupenga"
+        }
+      ],
       "fallbackSearchTerms": [
         "Zimbabwe traditional music",
         "Zimbabwe folk music",
@@ -3097,11 +4128,18 @@
     },
     {
       "countryCode": "AX",
-      "primaryTrack": {
-        "artist": "Lamori",
-        "title": "Until Death (Do Us Part)",
-        "searchTerm": "Lamori Until Death (Do Us Part)"
-      },
+      "candidateTracks": [
+        {
+          "artist": "Harry Brandelius",
+          "title": "Ålandsvisan",
+          "searchTerm": "Harry Brandelius Alandsvisan"
+        },
+        {
+          "artist": "Lamori",
+          "title": "Until Death (Do Us Part)",
+          "searchTerm": "Lamori Until Death (Do Us Part)"
+        }
+      ],
       "fallbackSearchTerms": [
         "Åland Islands traditional music",
         "Åland Islands folk music",

@@ -7,6 +7,7 @@ function jsonResponse(body: unknown) {
 }
 
 const finland = countryMetadataByIsoCode.FI;
+const italy = countryMetadataByIsoCode.IT;
 
 const unknownCountry: CountryMetadata = {
   mapId: "999",
@@ -60,32 +61,6 @@ describe("itunesMusicProvider", () => {
       selectionType: "curated",
     });
     expect(results[0].relationScore).toBeGreaterThanOrEqual(92);
-  });
-
-  it("rejects a result that contains a blocked term even if it otherwise matches well", async () => {
-    vi.stubGlobal(
-      "fetch",
-      vi.fn().mockResolvedValue(
-        jsonResponse({
-          resultCount: 1,
-          results: [
-            {
-              trackId: 222,
-              trackName: "Blind and Frozen",
-              artistName: "Beast In Black (Made in Norway compilation)",
-              collectionName: "Nordic Folk Sampler",
-              previewUrl: "https://audio.example/preview222.m4a",
-              artworkUrl100: "https://img.example/art100.jpg",
-              primaryGenreName: "Metal",
-            },
-          ],
-        }),
-      ),
-    );
-
-    const results = await itunesMusicProvider(finland);
-
-    expect(results).toEqual([]);
   });
 
   it("returns no results when iTunes has nothing playable", async () => {
@@ -149,5 +124,45 @@ describe("itunesMusicProvider", () => {
 
     expect(results).toHaveLength(1);
     expect(results[0].creator).toBe("Someone Else Entirely");
+  });
+
+  it("falls through to the next candidate track when the first one isn't found on iTunes", async () => {
+    // Italy's curated entry has two candidate tracks: a newer researched
+    // pick first, and the country's previous pick kept as a fallback. If
+    // the first one has nothing findable, the second should still play
+    // rather than falling all the way through to generic search terms.
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockImplementation(async (url: URL) => {
+        const term = url.searchParams.get("term") ?? "";
+
+        if (term.includes("Paola Turci")) {
+          return jsonResponse({
+            resultCount: 1,
+            results: [
+              {
+                trackId: 555,
+                trackName: "Un'emozione da poco",
+                artistName: "Paola Turci",
+                collectionName: "Un'emozione da poco",
+                previewUrl: "https://audio.example/preview555.m4a",
+                artworkUrl100: "https://img.example/art100.jpg",
+                primaryGenreName: "Pop",
+              },
+            ],
+          });
+        }
+
+        return jsonResponse({ resultCount: 0, results: [] });
+      }),
+    );
+
+    const results = await itunesMusicProvider(italy);
+
+    expect(results).toHaveLength(1);
+    expect(results[0]).toMatchObject({
+      creator: "Paola Turci",
+      title: "Un'emozione da poco",
+    });
   });
 });

@@ -1,12 +1,10 @@
 import type { CountryMetadata } from "../../data/countryMetadata";
-import type {
-  CuratedSoundtrackEntry,
-  CuratedTrack,
+import {
+  getSoundtrackSelectionProfile,
+  type CuratedSoundtrackEntry,
+  type CuratedTrack,
+  type DynamicFallbackQueries,
 } from "../../data/soundtracks";
-import { getSoundtrackSelectionProfile } from "../../data/soundtracks";
-import type {
-  DynamicCountryMusicCuration,
-} from "../../data/dynamicCountryMusic";
 import type { AudioAsset } from "../../types/audio";
 
 const ITUNES_SEARCH_URL = "https://itunes.apple.com/search";
@@ -43,7 +41,7 @@ type SearchContext = {
   mode: SearchMode;
   curatedEntry: CuratedSoundtrackEntry | null;
   targetTrack: CuratedTrack | null;
-  dynamicFallback: DynamicCountryMusicCuration;
+  dynamicFallback: DynamicFallbackQueries;
   minimumScore: number;
 };
 
@@ -85,16 +83,6 @@ function tokenize(value: string) {
   return normalize(value)
     .split(/\s+/)
     .filter((token) => token.length > 2);
-}
-
-function containsBlockedTerm(result: ItunesSongResult, context: SearchContext) {
-  const resultText = getResultText(result);
-  const blockedTerms = uniqueTerms([
-    ...context.dynamicFallback.blockedTerms,
-    ...(context.curatedEntry?.blockedTerms ?? []),
-  ]);
-
-  return blockedTerms.some((term) => hasTerm(resultText, term));
 }
 
 function scoreTargetTrack(result: ItunesSongResult, targetTrack: CuratedTrack | null) {
@@ -147,26 +135,21 @@ function scoreQueryRelevance(result: ItunesSongResult, query: string) {
   );
 }
 
-function scoreGenre(result: ItunesSongResult, context: SearchContext) {
+const PREFERRED_GENRES = ["world", "folk", "traditional", "pop"];
+const ACCEPTABLE_GENRES = ["latin", "jazz", "blues", "classical"];
+
+function scoreGenre(result: ItunesSongResult) {
   const genre = normalize(result.primaryGenreName ?? "");
 
   if (!genre) {
     return 0;
   }
 
-  if (
-    context.dynamicFallback.preferredGenres.some((term) =>
-      genre.includes(normalize(term)),
-    )
-  ) {
+  if (PREFERRED_GENRES.some((term) => genre.includes(term))) {
     return 18;
   }
 
-  if (
-    ["world", "folk", "latin", "jazz", "blues", "pop", "classical"].some(
-      (term) => genre.includes(term),
-    )
-  ) {
+  if (ACCEPTABLE_GENRES.some((term) => genre.includes(term))) {
     return 8;
   }
 
@@ -227,8 +210,7 @@ function rankResult(
     !result.previewUrl ||
     !result.trackName ||
     !result.artistName ||
-    !result.primaryGenreName ||
-    containsBlockedTerm(result, context)
+    !result.primaryGenreName
   ) {
     return null;
   }
@@ -242,7 +224,7 @@ function rankResult(
     (result.primaryGenreName ? 5 : 0);
   const targetScore = scoreTargetTrack(result, context.targetTrack);
   const queryScore = scoreQueryRelevance(result, context.query);
-  const genreScore = scoreGenre(result, context);
+  const genreScore = scoreGenre(result);
   const countryScore = scoreCountrySignals(result, metadata, context);
   const storefrontScore = scoreStorefront(result, metadata);
   const relationScore =
@@ -361,16 +343,24 @@ async function findBestForContext(
 
 function getCuratedContexts(
   curatedEntry: CuratedSoundtrackEntry,
-  dynamicFallback: DynamicCountryMusicCuration,
+  dynamicFallback: DynamicFallbackQueries,
 ) {
-  const primaryContext: SearchContext = {
-    query: curatedEntry.primaryTrack.searchTerm,
-    mode: "curated-primary",
-    curatedEntry,
-    targetTrack: curatedEntry.primaryTrack,
-    dynamicFallback,
-    minimumScore: CURATED_MINIMUM_SCORE,
-  };
+  // Every candidate track is treated the same way the sole primary track
+  // used to be: trusted enough to short-circuit on any passing score, no
+  // need to hit the "strong" bar. They're tried in order, so a re-curated
+  // country's new pick is preferred, but a since-broken match still falls
+  // through to the next candidate (e.g. the track that was curated before
+  // it) rather than to the much more generic fallback search terms.
+  const candidateContexts = curatedEntry.candidateTracks.map(
+    (targetTrack): SearchContext => ({
+      query: targetTrack.searchTerm,
+      mode: "curated-primary",
+      curatedEntry,
+      targetTrack,
+      dynamicFallback,
+      minimumScore: CURATED_MINIMUM_SCORE,
+    }),
+  );
   const fallbackContexts = uniqueTerms(curatedEntry.fallbackSearchTerms).map(
     (query): SearchContext => ({
       query,
@@ -382,10 +372,10 @@ function getCuratedContexts(
     }),
   );
 
-  return [primaryContext, ...fallbackContexts];
+  return [...candidateContexts, ...fallbackContexts];
 }
 
-function getDynamicContexts(dynamicFallback: DynamicCountryMusicCuration) {
+function getDynamicContexts(dynamicFallback: DynamicFallbackQueries) {
   return uniqueTerms([
     dynamicFallback.primaryQuery,
     ...dynamicFallback.backupQueries,
