@@ -4,6 +4,8 @@ Click a country and hear its sound.
 
 SoundAtlas is a Next.js music-preview app powered by a deterministic curated soundtrack dataset and iTunes previews. It has no auth, payments, Wikimedia Commons integration, YouTube embeds, or external players. The frontend can use the deployed AWS soundtrack API when configured, and otherwise falls back to the local Next.js route.
 
+[Watch the demo](https://www.youtube.com/watch?v=YKBDeGWDreQ)
+
 ## Local Setup
 
 Install dependencies:
@@ -24,6 +26,12 @@ Run linting:
 
 ```bash
 npm run lint
+```
+
+Run tests:
+
+```bash
+npm test
 ```
 
 Create a local env file from the example if needed:
@@ -56,11 +64,11 @@ tries the local Next.js route before showing "Soundtrack not available yet".
 
 ## What To Test
 
-- Click a country on the world map.
+- Click a country on the interactive 3D globe.
 - Confirm the side panel loads the curated country soundtrack from iTunes when a playable preview is available.
 - Confirm the player says "Country soundtrack" and keeps the play button disabled until the preview is ready.
 - Confirm weak or unavailable matches show "Soundtrack not available yet" instead of playing irrelevant music.
-- Resize the browser to confirm the map and panel stack cleanly on small screens.
+- Resize the browser to confirm the globe and panel stack cleanly on small screens.
 
 ## Audio Provider Notes
 
